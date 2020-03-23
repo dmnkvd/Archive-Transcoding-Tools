@@ -29,7 +29,7 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 ### Remarks:
 - The colour average is purely based on histogram - could improve with K-clustering for more natural outcomes.
 - I am evenetually creating a server/web interface, as a way to talk about the bigger narrative/story of the richness of classification.
-- Should I continue developing these tools in a different programming?
+- Development has taken place in Bash/Python. Should I continue developing these tools in a different programming environment?
 
 ## Code:
 - [*TOOL 0 - IISG Image Scraper*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_0-scraper)
