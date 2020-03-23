@@ -1,0 +1,5 @@
+for i in {1..20}
+do
+   hex=$(magick convert $i.jpeg -transparent white -scale 50x50! -depth 8 +dither -alpha off -colors 5 -format "%c" histogram:info: | sed -n 's/^[ ]*\(.*\):.*[#]\([0-9a-fA-F]*\) .*$/#\2/p' | sort -r -n -k 1 -t "," | head -n1)
+   convert -size 100x100 xc:"$hex" $i-hex.png
+done
