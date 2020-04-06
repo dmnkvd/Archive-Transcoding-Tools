@@ -18,7 +18,7 @@ The badges were cleaned up, with the scanned background removed..
 ## W12: Tool 0 - IISG Image Scraper
 This first tool scrapes IISG's collection (of photographs) of Badges, and saves the image links, together with the link to the record, in a Python dictionary. 
 
-### Remarks:
+#### Remarks:
 - Add a download function.
 - Add Pagination
 
@@ -27,13 +27,17 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 
 - [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
 
-## W14: Tool 2 - Disclosing meaning gradually
-
-
 #### Remarks:
 - The colour average is purely based on histogram - could improve with K-clustering for more natural outcomes.
 - I am evenetually creating a server/web interface, as a way to talk about the bigger narrative/story of the richness of classification.
 - Development has taken place in Bash/Python. Should I continue developing these tools in a different programming environment?
+
+## W14: Tool 2 - Disclosing meaning gradually
+From diving into a image-based methodology, I shifted back to the wider metanarrative:
+- What does the gradual disclosing of an object imply in terms of didactic value?
+- What does it afford?
+- What are my intentions?
+- Could this be made into a forum, that discusses meaning-formation as an iterative, ungraspable, fuzzy process?
 
 ## Code:
 - [*TOOL 0 - IISG Image Scraper*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_0-scraper)
