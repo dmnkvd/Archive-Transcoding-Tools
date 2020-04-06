@@ -8,6 +8,12 @@ The establishing research framework can be found at https://www.notion.so/700ml/
 
 The master document for the interpretative steps/backbone of transcodings can be found at https://www.notion.so/700ml/BADGES-Master-Document-65955832ffd74de0927b75a91b648047.
 
+Personal learning goals:
+- Improve my JavaScript skills: Intermediate Data Structures, Objects, accessing them...
+- Build up a narrative, dealing with the problems of classification / ordering
+- Discuss the Problem of Classification, my research-framework, through this practical application, through a limited number of artefacts
+- Come up with playful, random transcoding tools along the way
+
 ## Input
 The input is a collection of 20 colour-corrected photographs of badges, selected at random. 
 - [Input](https://drive.google.com/open?id=1k7vdxrWdUg5r0helB_yeT7051W1r1Ttc)
