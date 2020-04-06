@@ -12,7 +12,7 @@ Personal learning goals:
 - Improve my JavaScript skills: Intermediate Data Structures, Objects, accessing them...
 - Build up a narrative, dealing with the problems of classification / ordering
 - Discuss the Problem of Classification, my research-framework, through this practical application, through a limited number of artefacts
-- Come up with playful, random transcoding tools along the way
+- Develop and tinker with playful transcoding tools along the way
 
 ## Input
 The input is a collection of 20 colour-corrected photographs of badges, selected at random. 
@@ -30,7 +30,6 @@ This first tool scrapes IISG's collection (of photographs) of Badges, and saves 
 
 ## W13: Tool 1 - Main Colour HEX
 Disclose the artefact by their predominant colour. Analogous to tagging an artefact with one singular tag. Creates a highly simplistic interpretation of the artefact.
-
 - [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
 
 #### Remarks:
@@ -39,11 +38,12 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 - Development has taken place in Bash/Python. Should I continue developing these tools in a different programming environment?
 
 ## W14: Tool 2 - Disclosing meaning gradually
+
 From diving into a image-based methodology, I shifted back to the wider metanarrative:
-- What does the gradual disclosing of an object imply in terms of didactic value?
-- What does it afford?
+- What does the gradual disclosing of an object imply in terms of didactic value of the project?
+- What does such a process afford -- in terms of visualising, platform-formation, collaborative aspects?
 - What are my intentions?
-- Could this be made into a forum, that discusses meaning-formation as an iterative, ungraspable, fuzzy process?
+- Could the project develop into a participative forum that discusses meaning-formation as an iterative, ungraspable, fuzzy process?
 
 ## Code:
 - [*TOOL 0 - IISG Image Scraper*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_0-scraper)
