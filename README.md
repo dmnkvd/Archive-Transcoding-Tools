@@ -30,7 +30,7 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 ## W14: Tool 2 - Disclosing meaning gradually
 
 
-### Remarks:
+#### Remarks:
 - The colour average is purely based on histogram - could improve with K-clustering for more natural outcomes.
 - I am evenetually creating a server/web interface, as a way to talk about the bigger narrative/story of the richness of classification.
 - Development has taken place in Bash/Python. Should I continue developing these tools in a different programming environment?
