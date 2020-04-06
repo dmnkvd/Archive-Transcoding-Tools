@@ -42,7 +42,6 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 From diving into a image-based methodology, I shifted back to the wider metanarrative:
 - What does the gradual disclosing of an object imply in terms of didactic value of the project?
 - What does such a process afford -- in terms of visualising, platform-formation, collaborative aspects?
-- What are my intentions?
 - Could the project develop into a participative forum that discusses meaning-formation as an iterative, ungraspable, fuzzy process?
 
 ## Code:
