@@ -13,6 +13,20 @@
 </head>
 
 <body>
+  <div class="center-screen">
+    <p id="counter">1.</p>
+    <p id="prompt">Draw <span id="draw-text">a circle</span>.</p>
+    <canvas id="drawingArea" width=300 height=300></canvas>
+    <div id="palette"><button onclick="clearArea()" id="clear">Clear Area</button>
+      Color : <select id="selColor" onchange="drawColor()">
+          <option value="#000000">black</option>
+          <option value="#FF0000">red</option>
+          <option value="#DA9BB0">pink</option>
+      </select>
+    </div>
+    <p id="confirm">Next.</p>
+    <button id="btndownload">Download</button>
+  </div>
   <script src="js/script.js"></script>
 </body>
 </html>
