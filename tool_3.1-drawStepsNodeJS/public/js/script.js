@@ -35,7 +35,7 @@ var canvas,
 
 function init() {
     canvas = document.getElementById("drawingArea");
-    ctx = canvas.getContext("2d");
+    ctx = canvas.getctx("2d");
 
     ctx.globalAlpha = 1;
     ctx.fillStyle = "white";
@@ -109,12 +109,52 @@ onload = init;
 // [QUESTION 3] This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
 var dwn = document.getElementById("btndownload");
 
+function canvasToImage(){
+    canvas = ctx.canvas;
+    
+    //cache height and width        
+    var w = canvas.width;
+    var h = canvas.height;
+    
+    var data;
+    
+    //get the current ImageData for the canvas.
+    data = ctx.getImageData(0, 0, w, h);
+    
+    //store the current globalCompositeOperation
+    var compositeOperation = ctx.globalCompositeOperation;
+    
+    //set to draw behind current content
+    ctx.globalCompositeOperation = "destination-over";
+    
+    //set background color
+    ctx.fillStyle = "white";
+    
+    //draw background / rect on entire canvas
+    ctx.fillRect(0,0,w,h);
+    
+    //get the image data from the canvas
+    var imageData = this.canvas.toDataURL("image/jpeg");
+    
+    //clear the canvas
+    ctx.clearRect (0,0,w,h);
+    
+    //restore it with original / cached ImageData
+    ctx.putImageData(data, 0,0);
+    
+    //reset the globalCompositeOperation to what it was
+    ctx.globalCompositeOperation = compositeOperation;
+    
+    //return the Base64 encoded data url string
+    return imageData;
+    }
+
 // [QUESTION 4] How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename? Cookies?
 dwn.onclick = function() {
-    download(drawingArea, `drawing-${step}.png`);
+    download(`drawing-${step}.png`);
   }
 
- function download(canvas, filename) {
+ function download(filename) {
    /// create an "off-screen" anchor tag
    var lnk = document.createElement('a'), e;
  
@@ -124,7 +164,7 @@ dwn.onclick = function() {
    /// convert canvas content to data-uri for link. When download
    /// attribute is set the content pointed to by link will be
    /// pushed as "download" in HTML5 capable browsers
-   lnk.href = canvas.toDataURL("image/png;base64");
+   lnk.href = canvasToImage();
  
    /// create a "fake" click-event to trigger the download
    if (document.createEvent) {
