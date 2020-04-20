@@ -26,7 +26,7 @@ document.getElementById("confirm").addEventListener("click", function () {
     }
 });
 
-// Canvas Initialise
+// Canvas function
 var canvas,
     ctx,
     bMouseIsDown = false,
@@ -102,13 +102,14 @@ function clearArea() {
 }
 
 // Creates an image with a white background
+let imageData = 0;
 function canvasToImage(){
-    //cache height and width        
-    var w = 300;
-    var h = 300;
-
+    //cache height and width    
     canvas = document.getElementById("drawingArea");
     ctx = canvas.getContext("2d");
+        
+    var w = 300;
+    var h = 300;
 
     var data;
     
@@ -154,7 +155,8 @@ var dwn = document.getElementById("btndownload");
 dwn.onclick = function() {
 
     // download(`drawing-${step}.png`);
-    sendImgToServer();
+    canvasToImage();
+    sendImgToServer(imageData);
   }
 
 //  function download(filename) {
@@ -181,12 +183,12 @@ dwn.onclick = function() {
 //      lnk.fireEvent("onclick");
 //    }
 
- function sendImgToServer(){
+ function sendImgToServer(argument){
     var post = new XMLHttpRequest();
  // Create a POST request to /receive
     post.open("POST", "/receive");
 // Send the image data
-    post.send();
+    post.send(argument);
  }
 
 
