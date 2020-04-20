@@ -11,9 +11,9 @@ const steps = [
     'a pink badge with black text saying "PEACE", "IN THE", "BALKANS"',
 ];
 
-// [QUESTION] This is my current way of looping through the progress. What would be a more foolproof way of implementing progress tracking?
+// [QUESTION 1] The step increments when the user clicks on the "next" button. It seems very break-able... What would be a more foolproof way of implementing progress tracking?
 
-// [QUESTION] I am also using step in the download function to remember the filename -- Is it bad practice to declare a variable gloablly like this?
+// [QUESTION 2] I am also using step in the download function to remember the filename -- Is it bad practice to declare a variable gloablly like this?
 let step = 1;
 document.getElementById("confirm").addEventListener("click", function () {
     clearArea();
@@ -106,10 +106,10 @@ function clearArea() {
 onload = init;
 
 // Download the canvas locally with a button
-// [QUESTION] How to run this app from a server, and save the files to a subfolder there?
+// [QUESTION 3] This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
 var dwn = document.getElementById("btndownload");
 
-// [QUESTION] How to implement a multi-user solution that remembers each users's filename by a unique identifier?
+// [QUESTION 4] How to implement a multi-user solution that saves each unique users's files with a unique ID? Cookies?
 dwn.onclick = function() {
     download(drawingArea, `drawing-${step}.png`);
   }
