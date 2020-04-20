@@ -51,7 +51,9 @@ This week, I have been busy with drafting a little participatory app to describe
 ##### QUESTIONS:
   * **Q1** The step increments when the user clicks on the "next" button. It seems very break-able... What would be a more foolproof way of implementing progress tracking?
   * **Q2** I am also using the 'step' variable in the download function to remember the filename -- Is it bad practice to declare a variable gloablly like this? What would be a better solution?
-  * **Q3** This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
+  * **Q3** This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Express?
+    * **Q3.1** Which part of the JavaScript should run in the browser, which on the server-side? I assume the user would click NEXT (this will send the image dataURL + the counter value to the node.js server, which would save it into the appropriate folder, adding session ID to the filename).
+
   * **Q4** How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename? Cookies?
 
 ## Code:
