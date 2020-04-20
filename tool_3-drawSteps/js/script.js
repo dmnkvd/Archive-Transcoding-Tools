@@ -150,7 +150,8 @@ function canvasToImage(){
     return imageData;
     }
 
-// [QUESTION 4] How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename? Cookies?
+// [QUESTION 4] How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename?
+// [QUESTION 4.1] The above imageData sends a stream of base64 image data to download... How could this stream be sent to a local node.js server and put into a file with a unique user Identifier?
 dwn.onclick = function() {
     download(`drawing-${step}.png`);
   }
@@ -162,9 +163,6 @@ dwn.onclick = function() {
    /// the key here is to set the download attribute of the a tag
    lnk.download = filename;
  
-   /// convert canvas content to data-uri for link. When download
-   /// attribute is set the content pointed to by link will be
-   /// pushed as "download" in HTML5 capable browsers
    lnk.href = canvasToImage();
  
    /// create a "fake" click-event to trigger the download
