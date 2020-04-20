@@ -12,19 +12,19 @@ const steps = [
 ];
 
 // [QUESTION] This is my current way of looping through the progress. What would be a more foolproof way of implementing progress tracking?
-function stepCounter() {
-    let step = 1;
-    document.getElementById("confirm").addEventListener("click", function () {
-        clearArea();
-        if (step < steps.length) {
-            document.getElementById("draw-text").innerHTML = steps[step];
-            document.getElementById("counter").innerHTML = step + 1 + ".";
-            step++;
-        } else if (step == steps.length) {
-            step = 0;
-        }
-    });
-}
+
+// [QUESTION] I am also using step in the download function to remember the filename -- Is it bad practice to declare a variable gloablly like this?
+let step = 1;
+document.getElementById("confirm").addEventListener("click", function () {
+    clearArea();
+    if (step < steps.length) {
+        document.getElementById("draw-text").innerHTML = steps[step];
+        document.getElementById("counter").innerHTML = step + 1 + ".";
+        step++;
+    } else if (step == steps.length) {
+        step = 0;
+    }
+});
 
 // Canvas Initialise
 var canvas,
@@ -109,45 +109,32 @@ onload = init;
 // [QUESTION] How to run this app from a server, and save the files to a subfolder there?
 var dwn = document.getElementById("btndownload");
 
-// [QUESTION] How to implement a multi-user solution that remembers each visitor's filename by a unique identifier?
-dwn.onclick = function () {
+// [QUESTION] How to implement a multi-user solution that remembers each users's filename by a unique identifier?
+dwn.onclick = function() {
     download(drawingArea, `drawing-${step}.png`);
-};
+  }
 
-function download(canvas, filename) {
-    /// create an "off-screen" anchor tag
-    var lnk = document.createElement("a"),
-        e;
-    lnk.download = filename;
-
-    /// convert canvas content to data-uri for link. When download
-    /// attribute is set the content pointed to by link will be
-    /// pushed as "download" in HTML5 capable browsers
-    lnk.href = canvas.toDataURL("image/png;base64");
-
-    /// create a "fake" click-event to trigger the download
-    if (document.createEvent) {
-        e = document.createEvent("MouseEvents");
-        e.initMouseEvent(
-            "click",
-            true,
-            true,
-            window,
-            0,
-            0,
-            0,
-            0,
-            0,
-            false,
-            false,
-            false,
-            false,
-            0,
-            null
-        );
-
-        lnk.dispatchEvent(e);
-    } else if (lnk.fireEvent) {
-        lnk.fireEvent("onclick");
-    }
-}
+ function download(canvas, filename) {
+   /// create an "off-screen" anchor tag
+   var lnk = document.createElement('a'), e;
+ 
+   /// the key here is to set the download attribute of the a tag
+   lnk.download = filename;
+ 
+   /// convert canvas content to data-uri for link. When download
+   /// attribute is set the content pointed to by link will be
+   /// pushed as "download" in HTML5 capable browsers
+   lnk.href = canvas.toDataURL("image/png;base64");
+ 
+   /// create a "fake" click-event to trigger the download
+   if (document.createEvent) {
+     e = document.createEvent("MouseEvents");
+     e.initMouseEvent("click", true, true, window,
+                      0, 0, 0, 0, 0, false, false, false,
+                      false, 0, null);
+ 
+     lnk.dispatchEvent(e);
+   } else if (lnk.fireEvent) {
+     lnk.fireEvent("onclick");
+   }
+ }
