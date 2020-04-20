@@ -35,7 +35,7 @@ var canvas,
 
 function init() {
     canvas = document.getElementById("drawingArea");
-    ctx = canvas.getctx("2d");
+    ctx = canvas.getContext("2d");
 
     ctx.globalAlpha = 1;
     ctx.fillStyle = "white";
@@ -109,9 +109,10 @@ onload = init;
 // [QUESTION 3] This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
 var dwn = document.getElementById("btndownload");
 
+// Creates an image with a white background
 function canvasToImage(){
     canvas = ctx.canvas;
-    
+
     //cache height and width        
     var w = canvas.width;
     var h = canvas.height;
