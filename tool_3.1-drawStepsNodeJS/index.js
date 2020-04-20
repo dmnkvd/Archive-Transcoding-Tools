@@ -31,7 +31,7 @@ app.post('/receive', function (req, res) {
     body += data;
   });
 
-  // When whole ima ge uploaded complete.
+  // When whole image has been uploaded.
   req.on('end', function (){
     // Get rid of the image header as we only need the data parts after it.
     var data = body.replace(/^data:image\/\w+;base64,/, "");

@@ -31,9 +31,7 @@ function init() {
 
     bind();
     drawColor();
-    clearArea();
 }
-
 
 // Canvas: Drawing function
 function bind() {
@@ -137,30 +135,28 @@ function canvasToImage(){
     return imageData;
     }
 
-let canvasDataUrl = canvasToImage();  // this should save the return value from canvastoImage function;
+// let canvasDataUrl = canvasToImage();  // this should save the return value from canvastoImage function;
 // [QUESTION:] Why does this return a TypeError: Cannot read property 'canvas' of undefined (line 116)?
 
 // Initialize things when the page has loaded
 onload = init;
 
-let confirm = document.getElementById('confirm');
-
 //[QUESTION] I declared step in the global scope so it would not re-declare itself on every click.
 // What would be a more proper way to do this?
 let step = 1;
 
-confirm.addEventListener("click", function () {
+document.getElementById('confirm').onclick = () => {
     clearArea();
     sendImgToServer();
 
     if (step < steps.length) {
         document.getElementById("draw-text").innerHTML = steps[step];
         document.getElementById("counter").innerHTML = step + 1 + ".";
-        step++;
+        step++
     } else if (step == steps.length) {
-        step = 0;
+        step = 0
     }
-});
+}
 
 // send the image to the server
 function sendImgToServer(){
