@@ -26,7 +26,8 @@ document.getElementById("confirm").addEventListener("click", function () {
     }
 });
 
-// Canvas function
+
+// Canvas Initialise
 var canvas,
     ctx,
     bMouseIsDown = false,
@@ -40,7 +41,7 @@ function init() {
     ctx.globalAlpha = 1;
     ctx.fillStyle = "white";
     ctx.beginPath();
-    ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     bind();
     drawColor();
@@ -101,16 +102,17 @@ function clearArea() {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 }
 
-// Creates an image with a white background
-let imageData = 0;
-function canvasToImage(){
-    //cache height and width    
-    canvas = document.getElementById("drawingArea");
-    ctx = canvas.getContext("2d");
-        
-    var w = 300;
-    var h = 300;
+// Initialize things when the page has loaded
+onload = init;
 
+// Creates an image with a white background
+function canvasToImage(){
+    canvas = ctx.canvas;
+
+    //cache height and width        
+    var w = canvas.width;
+    var h = canvas.height;
+    
     var data;
     
     //get the current ImageData for the canvas.
@@ -129,7 +131,7 @@ function canvasToImage(){
     ctx.fillRect(0,0,w,h);
     
     //get the image data from the canvas
-    var imageData = canvas.toDataURL("image/jpeg");
+    var imageData = this.canvas.toDataURL("image/jpeg");
     
     //clear the canvas
     ctx.clearRect (0,0,w,h);
@@ -142,7 +144,10 @@ function canvasToImage(){
     
     //return the Base64 encoded data url string
     return imageData;
-}
+    }
+
+
+// let imageData = canvasToImage();  // this will grab the return value from canvastoImage function;
 
 // Initialize things when the page has loaded
 onload = init;
@@ -152,11 +157,12 @@ onload = init;
 var dwn = document.getElementById("btndownload");
 
 // [QUESTION 4] How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename? Cookies?
-dwn.onclick = function() {
 
+// [QUESTION 5] I am trying to save the value of canvasToImage to a variable, but it says: cannot read property 'canvas' of undefined.
+
+dwn.onclick = function() {
     // download(`drawing-${step}.png`);
-    canvasToImage();
-    sendImgToServer(imageData);
+    sendImgToServer();
   }
 
 //  function download(filename) {
@@ -166,9 +172,7 @@ dwn.onclick = function() {
 //    /// the key here is to set the download attribute of the a tag
 //    lnk.download = filename;
  
-//    /// convert canvas content to data-uri for link. When download
-//    /// attribute is set the content pointed to by link will be
-//    /// pushed as "download" in HTML5 capable browsers
+//    /// set the data URL as the Href of the link
 //    lnk.href = canvasToImage();
  
 //    /// create a "fake" click-event to trigger the download
@@ -182,13 +186,14 @@ dwn.onclick = function() {
 //    } else if (lnk.fireEvent) {
 //      lnk.fireEvent("onclick");
 //    }
+// }
 
- function sendImgToServer(argument){
+ function sendImgToServer(){
+    // var msg = JSON.stringify(imageData);
     var post = new XMLHttpRequest();
  // Create a POST request to /receive
     post.open("POST", "/receive");
 // Send the image data
-    post.send(argument);
+    post.send(canvasToImage());
+    console.log('file is saved');
  }
-
-
