@@ -52,10 +52,6 @@ This week, I have been busy with drafting a little participatory app to describe
   * **Q3** This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
   * **Q4** How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename? Cookies?
 
-- The images are currently saved with a function on button click. How to save the canvas images to a server?
-- How to display all the images together in the end?
-
-
 ## Code:
 - [*TOOL 0 - IISG Image Scraper*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_0-scraper)
 - [*TOOL 1 - Main Colour HEX*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_1-HexCode)
