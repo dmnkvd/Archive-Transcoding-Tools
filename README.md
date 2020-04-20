@@ -63,7 +63,7 @@ Lines with questions begin with `// [QUESTION]`.
 ###### index.js
 [LINK to file](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/public/js/script.js)
   * **L19** How to go about implementing a multi-user solution that saves each user's drawings with a unique number in the filename?
-  * **L26** How to save a canvas made on step 3. as canvas-3.jpeg -- To 'connect' the innerHTML changes / looping and file-saving here on the server-side?
+  * **L26** How to save a canvas made on step 3. as canvas-3.jpeg -- To 'connect' the innerHTML changes / looping with file-saving on the server-side?
 
 
 ## Code:
