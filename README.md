@@ -46,6 +46,8 @@ From tinkering with an image-based approach, I shifted back to the wider metanar
 ## W16: Tool 3 - Gradual meaning-making
 This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt. After she has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
 
+- [TOOL 3 - outcomes](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
+
 ##### QUESTIONS:
   * **Q1** The step increments when the user clicks on the "next" button. It seems very break-able... What would be a more foolproof way of implementing progress tracking?
   * **Q2** I am also using the 'step' variable in the download function to remember the filename -- Is it bad practice to declare a variable gloablly like this? What would be a better solution?
