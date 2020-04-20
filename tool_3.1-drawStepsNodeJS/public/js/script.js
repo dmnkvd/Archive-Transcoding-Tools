@@ -1,3 +1,4 @@
+// Array with promopts / steps of the drawing game.
 const steps = [
     "a circle",
     "a circle with a rounded edge",
@@ -144,7 +145,8 @@ onload = init;
 
 let confirm = document.getElementById('confirm');
 
-//[QUESTION] I declared step in the global scope so it would not re-declare itself on every click. Is there a more elegant way to solve this?
+//[QUESTION] I declared step in the global scope so it would not re-declare itself on every click.
+// What would be a more proper way to do this?
 let step = 1;
 
 // [QUESTION] The step/array increments each time the user clicks on the "next" button.
