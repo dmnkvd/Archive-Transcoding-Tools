@@ -49,12 +49,19 @@ This week, I have been busy with drafting a little participatory app to describe
 - [TOOL 3 - outcomes](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
 
 ##### QUESTIONS:
-  * **Q1** The step increments when the user clicks on the "next" button. It seems very break-able... What would be a more foolproof way of implementing progress tracking?
-  * **Q2** I am also using the 'step' variable in the download function to remember the filename -- Is it bad practice to declare a variable gloablly like this? What would be a better solution?
-  * **Q3** This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Express?
-    * **Q3.1** Which part of the JavaScript should run in the browser, which on the server-side? I assume the user would click NEXT (this will send the image dataURL + the counter value to the node.js server, which would save it into the appropriate folder, adding session ID to the filename).
+The current implementation: When a user clicks 'next', the drawing is sent to the server, and saved into a directory there.
+The same file is always overwritten...
 
-  * **Q4** How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename? Cookies?
+Lines with questions begin with `// [QUESTION]`.
+
+###### script.js
+  * **L139** Why does this return a TypeError: Cannot read property 'canvas' of undefined (line 116)?
+  * **L144** I declared step in the global scope so it would not re-declare itself on every click. What would be a more proper way to do this?
+
+###### index.js
+  * **L19** How to go about implementing a multi-user solution that saves each user's drawings with a unique number in the filename?
+  * **L26** How to save a canvas made on step 3. as canvas-3.jpeg -- To 'connect' the innerHTML changes and file-saving here on the server-side?
+
 
 ## Code:
 - [*TOOL 0 - IISG Image Scraper*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_0-scraper)
