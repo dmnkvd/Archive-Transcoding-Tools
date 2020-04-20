@@ -43,12 +43,12 @@ From tinkering with an image-based approach, I shifted back to the wider metanar
 - What are some different, new, interesting ways in which the artefact (badge) can be transcoded?
 - I shifted towards a language-based disclosure, using the convenience of JavaScript Object Notation as an environment for semantic analysis of the badge
 
-## W16: Tool 3 - Gradually making meaning
+## W16: Tool 3 - Gradual meaning-making
 This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. 
 
 QUESTIONS:
-- I am currently looping through an array, that increments every time the user presses "next" -- Is there a more foolproof way of progressing through the steps?
-- How to identify assign each client/user a unique number, so the filenames remember "whose drawings" it is?
+- I am currently looping through an array, that increments every time the user presses "next" -- Is there a more foolproof JavaScript way of progressing through the steps/keeping the progress?
+- How to identify assign each client/user a unique number or identifier, so the filenames can track each persons's drawings?
 - The images are currently saved with a function on button click. How to save the canvas images to a server?
 - How to display all the images together in the end?
 
@@ -56,4 +56,7 @@ QUESTIONS:
 ## Code:
 - [*TOOL 0 - IISG Image Scraper*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_0-scraper)
 - [*TOOL 1 - Main Colour HEX*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_1-HexCode)
+- [*TOOL 2 - Semantic Analysis*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_2-Semantic-analysis)
+- [*TOOL 3 - Gradual meaning-making*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3-drawSteps)
+
 
