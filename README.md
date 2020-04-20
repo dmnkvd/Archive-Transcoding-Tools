@@ -52,13 +52,16 @@ This week, I have been busy with drafting a little participatory app to describe
 The current implementation: When a user clicks 'next', the drawing is sent to the server, and saved into a directory there.
 The same file is always overwritten...
 
+The questions are related to project folder [tool_3.1-drawStepsNodeJS](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3.1-drawStepsNodeJS)
 Lines with questions begin with `// [QUESTION]`.
 
 ###### script.js
+[LINK to file](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/public/js/script.js)
   * **L139** Why does this return a TypeError: Cannot read property 'canvas' of undefined (line 116)?
   * **L144** I declared step in the global scope so it would not re-declare itself on every click. What would be a more proper way to do this?
 
 ###### index.js
+[LINK to file](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/public/js/script.js)
   * **L19** How to go about implementing a multi-user solution that saves each user's drawings with a unique number in the filename?
   * **L26** How to save a canvas made on step 3. as canvas-3.jpeg -- To 'connect' the innerHTML changes and file-saving here on the server-side?
 
