@@ -102,13 +102,6 @@ function clearArea() {
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 }
 
-// Initialize things when the page has loaded
-onload = init;
-
-// Download the canvas locally with a button
-// [QUESTION 3] This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
-var dwn = document.getElementById("btndownload");
-
 // Creates an image with a white background
 function canvasToImage(){
     canvas = ctx.canvas;
@@ -149,6 +142,13 @@ function canvasToImage(){
     //return the Base64 encoded data url string
     return imageData;
     }
+
+// Initialize things when the page has loaded
+onload = init;
+
+// Download the canvas locally with a button
+// [QUESTION 3] This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
+var dwn = document.getElementById("btndownload");
 
 // [QUESTION 4] How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename?
 // [QUESTION 4.1] The above imageData sends a stream of base64 image data to download... How could this stream be sent to a local node.js server and put into a file with a unique user Identifier?
