@@ -149,8 +149,6 @@ let confirm = document.getElementById('confirm');
 // What would be a more proper way to do this?
 let step = 1;
 
-// [QUESTION] The step/array increments each time the user clicks on the "next" button.
-// It seems very break-able... What would be a more foolproof way of implementing progress tracking?
 confirm.addEventListener("click", function () {
     clearArea();
     sendImgToServer();
@@ -164,6 +162,7 @@ confirm.addEventListener("click", function () {
     }
 });
 
+// send the image to the server
 function sendImgToServer(){
     var post = new XMLHttpRequest();
  // Create a POST request to '/receive'

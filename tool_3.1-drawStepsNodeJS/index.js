@@ -16,7 +16,7 @@ app.listen(3000, function(){
   console.log("Listening on port 3000!")
 });
 
-// [QUESTION] How to go about implementing a multi-user solution that saves each users's drawings with a unique ID in the filename?
+// [QUESTION] How to go about implementing a multi-user solution that saves each user's drawings with a unique number in the filename?
 app.post('/receive', function (req, res) {
   // The image data will be stored here
   var body = '';
