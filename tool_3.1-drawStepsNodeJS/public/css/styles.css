@@ -9,14 +9,6 @@
     --highlight-clr: #FF00FF; 
 }
 
-@font-face {
-    font-family: 'sharp_groteskmedium_20';
-    src: url('fonts/sharpgrotesk-medium20_2-webfont.woff2') format('woff2'),
-         url('fonts/sharpgrotesk-medium20_2-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -69,7 +61,7 @@ p {
 #confirm {
     font-size: 40px;
     text-decoration: underline;
-    padding-top: 1em;
+    margin-top: 1em;
     cursor: pointer;
 }
 

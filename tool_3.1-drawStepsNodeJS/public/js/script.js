@@ -1,3 +1,4 @@
+// Array with promopts / steps of the drawing game.
 const steps = [
     "a circle",
     "a circle with a rounded edge",
@@ -11,28 +12,14 @@ const steps = [
     'a pink badge with black text saying "PEACE", "IN THE", "BALKANS"',
 ];
 
-// [QUESTION 1] The step/array increments when the user clicks on the "next" button. It seems very break-able... What would be a more foolproof way of implementing progress tracking?
-
-// [QUESTION 2] I am also using the 'step' variable in the download function to remember the filename -- Is it bad practice to declare a variable globally like this? What would be a better solution?
-let step = 1;
-document.getElementById("confirm").addEventListener("click", function () {
-    clearArea();
-    if (step < steps.length) {
-        document.getElementById("draw-text").innerHTML = steps[step];
-        document.getElementById("counter").innerHTML = step + 1 + ".";
-        step++;
-    } else if (step == steps.length) {
-        step = 0;
-    }
-});
-
-// Canvas Initialise
+// Canvas: Initialise global variables
 var canvas,
     ctx,
     bMouseIsDown = false,
     iLastX,
     iLastY;
 
+// Canvas: Initialise function
 function init() {
     canvas = document.getElementById("drawingArea");
     ctx = canvas.getContext("2d");
@@ -44,10 +31,9 @@ function init() {
 
     bind();
     drawColor();
-    clearArea();
-    stepCounter();
 }
 
+// Canvas: Drawing function
 function bind() {
     canvas.onmousedown = function (e) {
         bMouseIsDown = true;
@@ -93,10 +79,12 @@ function bind() {
     };
 }
 
+// Canvas: Set colour from HTML selection
 function drawColor() {
     ctx.strokeStyle = document.querySelector("#selColor").value;
 }
 
+// Canvas: Clear the area
 function clearArea() {
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
@@ -105,16 +93,13 @@ function clearArea() {
 // Initialize things when the page has loaded
 onload = init;
 
-// Download the canvas locally with a button
-// [QUESTION 3] This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
-var dwn = document.getElementById("btndownload");
-
-// Creates an image with a white background
+// Give Image white background and convert it to URL data stream
 function canvasToImage(){
     canvas = ctx.canvas;
 
     //cache height and width        
     var w = canvas.width;
+    console.log(w)
     var h = canvas.height;
     
     var data;
@@ -150,32 +135,36 @@ function canvasToImage(){
     return imageData;
     }
 
-// [QUESTION 4] How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename? Cookies?
-dwn.onclick = function() {
-    download(`drawing-${step}.png`);
-  }
+// let canvasDataUrl = canvasToImage();  // this should save the return value from canvastoImage function;
+// [QUESTION] Why does this return a TypeError: Cannot read property 'canvas' of undefined (line 116)?
 
- function download(filename) {
-   /// create an "off-screen" anchor tag
-   var lnk = document.createElement('a'), e;
- 
-   /// the key here is to set the download attribute of the a tag
-   lnk.download = filename;
- 
-   /// convert canvas content to data-uri for link. When download
-   /// attribute is set the content pointed to by link will be
-   /// pushed as "download" in HTML5 capable browsers
-   lnk.href = canvasToImage();
- 
-   /// create a "fake" click-event to trigger the download
-   if (document.createEvent) {
-     e = document.createEvent("MouseEvents");
-     e.initMouseEvent("click", true, true, window,
-                      0, 0, 0, 0, 0, false, false, false,
-                      false, 0, null);
- 
-     lnk.dispatchEvent(e);
-   } else if (lnk.fireEvent) {
-     lnk.fireEvent("onclick");
-   }
+// Initialize things when the page has loaded
+onload = init;
+
+//[QUESTION] I declared step in the global scope so it would not re-declare itself on every click.
+// What would be a more proper way to do this?
+let step = 1;
+
+document.getElementById('confirm').onclick = () => {
+    clearArea();
+    sendImgToServer();
+
+    if (step < steps.length) {
+        document.getElementById("draw-text").innerHTML = steps[step];
+        document.getElementById("counter").innerHTML = step + 1 + ".";
+        step++
+    } else if (step == steps.length) {
+        step = 0
+    }
+}
+
+// send the image to the server
+function sendImgToServer(){
+    var post = new XMLHttpRequest();
+ // Create a POST request to '/receive'
+    post.open("POST", "/receive");
+
+// Send the image data to the server
+    post.send(canvasToImage());
+    console.log('file is sent');
  }

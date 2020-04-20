@@ -45,7 +45,6 @@ function init() {
     bind();
     drawColor();
     clearArea();
-    stepCounter();
 }
 
 function bind() {
