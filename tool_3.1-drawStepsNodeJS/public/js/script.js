@@ -136,7 +136,7 @@ function canvasToImage(){
     }
 
 // let canvasDataUrl = canvasToImage();  // this should save the return value from canvastoImage function;
-// [QUESTION:] Why does this return a TypeError: Cannot read property 'canvas' of undefined (line 116)?
+// [QUESTION] Why does this return a TypeError: Cannot read property 'canvas' of undefined (line 116)?
 
 // Initialize things when the page has loaded
 onload = init;
