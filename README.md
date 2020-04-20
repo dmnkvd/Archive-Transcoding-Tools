@@ -37,12 +37,21 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 - I am evenetually creating a server/web interface, as a way to talk about the bigger narrative/story of the richness of classification.
 - Development has taken place in Bash/Python. Should I continue developing these tools in a different programming environment?
 
-## W14: Tool 2 - Disclosing meaning gradually
+## W14, 15: Tool 2 - Research, Semantic Analysis
 
-From diving into a image-based methodology, I shifted back to the wider metanarrative:
-- What does the gradual disclosing of an object imply in terms of didactic value of the project?
-- What does such a process afford -- in terms of visualising, platform-formation, collaborative aspects?
-- Could the project develop into a participative forum that discusses meaning-formation as an iterative, ungraspable, fuzzy process?
+From tinkering with an image-based approach, I shifted back to the wider metanarrative:
+- What are some different, new, interesting ways in which the artefact (badge) can be transcoded?
+- I shifted towards a language-based disclosure, using the convenience of JavaScript Object Notation as an environment for semantic analysis of the badge
+
+## W16: Tool 3 - Gradually making meaning
+This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. 
+
+QUESTIONS:
+- I am currently looping through an array, that increments every time the user presses "next" -- Is there a more foolproof way of progressing through the steps?
+- How to identify assign each client/user a unique number, so the filenames remember "whose drawings" it is?
+- The images are currently saved with a function on button click. How to save the canvas images to a server?
+- How to display all the images together in the end?
+
 
 ## Code:
 - [*TOOL 0 - IISG Image Scraper*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_0-scraper)
