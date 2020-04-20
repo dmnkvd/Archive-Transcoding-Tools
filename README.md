@@ -44,7 +44,7 @@ From tinkering with an image-based approach, I shifted back to the wider metanar
 - I shifted towards a language-based disclosure, using the convenience of JavaScript Object Notation as an environment for semantic analysis of the badge
 
 ## W16: Tool 3 - Gradual meaning-making
-This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. 
+This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt. After she has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
 
 ##### QUESTIONS:
   * **Q1** The step increments when the user clicks on the "next" button. It seems very break-able... What would be a more foolproof way of implementing progress tracking?
