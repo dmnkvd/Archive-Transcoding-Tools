@@ -22,7 +22,8 @@ app.post('/receive', function (req, res) {
   var body = '';
   // Target file path
 
-// [QUESTION] How to save a canvas made on step 3. as canvas-3.jpeg -- To connect the innerHTML changes and file-saving convention on node?
+// The current solution always overwrites the image, rather than creating a different one on every step of the game.
+// [QUESTION] How to save a canvas made on step 3. as canvas-3.jpeg -- To 'connect' the innerHTML changes and file-saving here on the server-side?
 // I thought of sending the value of ${i} as another http request... I didn't manage. I am sure there is a better way!
   var filePath = __dirname + `/testWrite/canvas.jpeg`;
 
