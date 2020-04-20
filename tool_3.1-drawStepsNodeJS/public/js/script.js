@@ -11,29 +11,14 @@ const steps = [
     'a pink badge with black text saying "PEACE", "IN THE", "BALKANS"',
 ];
 
-// [QUESTION 1] The step/array increments when the user clicks on the "next" button. It seems very break-able... What would be a more foolproof way of implementing progress tracking?
-
-// [QUESTION 2] I am also using the 'step' variable in the download function to remember the filename -- Is it bad practice to declare a variable globally like this? What would be a better solution?
-let step = 1;
-document.getElementById("confirm").addEventListener("click", function () {
-    clearArea();
-    if (step < steps.length) {
-        document.getElementById("draw-text").innerHTML = steps[step];
-        document.getElementById("counter").innerHTML = step + 1 + ".";
-        step++;
-    } else if (step == steps.length) {
-        step = 0;
-    }
-});
-
-
-// Canvas Initialise
+// Canvas: Initialise global variables
 var canvas,
     ctx,
     bMouseIsDown = false,
     iLastX,
     iLastY;
 
+// Canvas: Initialise function
 function init() {
     canvas = document.getElementById("drawingArea");
     ctx = canvas.getContext("2d");
@@ -48,6 +33,8 @@ function init() {
     clearArea();
 }
 
+
+// Canvas: Drawing function
 function bind() {
     canvas.onmousedown = function (e) {
         bMouseIsDown = true;
@@ -93,10 +80,12 @@ function bind() {
     };
 }
 
+// Canvas: Set colour from HTML selection
 function drawColor() {
     ctx.strokeStyle = document.querySelector("#selColor").value;
 }
 
+// Canvas: Clear the area
 function clearArea() {
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
@@ -105,7 +94,6 @@ function clearArea() {
 // Initialize things when the page has loaded
 onload = init;
 
-// Creates an image with a white background
 function canvasToImage(){
     canvas = ctx.canvas;
 
@@ -146,54 +134,39 @@ function canvasToImage(){
     return imageData;
     }
 
-
-// let imageData = canvasToImage();  // this will grab the return value from canvastoImage function;
+let canvasDataUrl = canvasToImage();  // this should equal to the return value from canvastoImage function;
+// [QUESTION:] Why does this return a TypeError: Cannot read property 'canvas' of undefined (line 116)?
 
 // Initialize things when the page has loaded
 onload = init;
 
-// Download the canvas locally with a button
-// [QUESTION 3] This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
-var dwn = document.getElementById("btndownload");
+// [QUESTION] I am trying to save the value of canvasToImage to a variable, but it says: cannot read property 'canvas' of undefined.
 
-// [QUESTION 4] How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename? Cookies?
+let confirm = document.getElementById('confirm');
 
-// [QUESTION 5] I am trying to save the value of canvasToImage to a variable, but it says: cannot read property 'canvas' of undefined.
+let step = 1;
 
-dwn.onclick = function() {
-    // download(`drawing-${step}.png`);
+// [QUESTION] The step/array increments each time the user clicks on the "next" button.
+// It seems very break-able... What would be a more foolproof way of implementing progress tracking?
+confirm.addEventListener("click", function () {
+    clearArea();
     sendImgToServer();
-  }
 
-//  function download(filename) {
-//    /// create an "off-screen" anchor tag
-//    var lnk = document.createElement('a'), e;
- 
-//    /// the key here is to set the download attribute of the a tag
-//    lnk.download = filename;
- 
-//    /// set the data URL as the Href of the link
-//    lnk.href = canvasToImage();
- 
-//    /// create a "fake" click-event to trigger the download
-//    if (document.createEvent) {
-//      e = document.createEvent("MouseEvents");
-//      e.initMouseEvent("click", true, true, window,
-//                       0, 0, 0, 0, 0, false, false, false,
-//                       false, 0, null);
- 
-//      lnk.dispatchEvent(e);
-//    } else if (lnk.fireEvent) {
-//      lnk.fireEvent("onclick");
-//    }
-// }
+    if (step < steps.length) {
+        document.getElementById("draw-text").innerHTML = steps[step];
+        document.getElementById("counter").innerHTML = step + 1 + ".";
+        step++;
+    } else if (step == steps.length) {
+        step = 0;
+    }
+});
 
- function sendImgToServer(){
-    // var msg = JSON.stringify(imageData);
+function sendImgToServer(){
     var post = new XMLHttpRequest();
- // Create a POST request to /receive
+ // Create a POST request to '/receive'
     post.open("POST", "/receive");
-// Send the image data
+
+// Send the image data to the server
     post.send(canvasToImage());
-    console.log('file is saved');
+    console.log('file is sent');
  }

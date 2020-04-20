@@ -16,18 +16,19 @@ app.listen(3000, function(){
   console.log("Listening on port 3000!")
 });
 
+// [QUESTION] How to go about implementing a multi-user solution that saves each users's drawings with a unique ID in the filename?
 app.post('/receive', function (req, res) {
-  // The image data will be store here
+  // The image data will be stored here
   var body = '';
   // Target file path
-  var filePath = __dirname + '/testWrite/canvas-2.jpeg';
 
-  // 
+// [QUESTION] How to save a canvas made on step 3. as canvas-3.jpeg -- To connect the innerHTML changes and file-saving convention on node?
+// I thought of sending the value of ${i} as another http request... I didn't manage. I am sure there is a better way!
+  var filePath = __dirname + `/testWrite/canvas.jpeg`;
+
   req.on('data', function(data) {
     body += data;
   });
-
-  console.log(body)
 
   // When whole ima ge uploaded complete.
   req.on('end', function (){
