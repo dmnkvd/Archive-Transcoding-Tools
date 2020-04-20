@@ -94,11 +94,13 @@ function clearArea() {
 // Initialize things when the page has loaded
 onload = init;
 
+// Give Image white background and convert it to URL data stream
 function canvasToImage(){
     canvas = ctx.canvas;
 
     //cache height and width        
     var w = canvas.width;
+    console.log(w)
     var h = canvas.height;
     
     var data;
@@ -134,16 +136,15 @@ function canvasToImage(){
     return imageData;
     }
 
-let canvasDataUrl = canvasToImage();  // this should equal to the return value from canvastoImage function;
+let canvasDataUrl = canvasToImage();  // this should save the return value from canvastoImage function;
 // [QUESTION:] Why does this return a TypeError: Cannot read property 'canvas' of undefined (line 116)?
 
 // Initialize things when the page has loaded
 onload = init;
 
-// [QUESTION] I am trying to save the value of canvasToImage to a variable, but it says: cannot read property 'canvas' of undefined.
-
 let confirm = document.getElementById('confirm');
 
+//[QUESTION] I declared step in the global scope so it would not re-declare itself on every click. Is there a more elegant way to solve this?
 let step = 1;
 
 // [QUESTION] The step/array increments each time the user clicks on the "next" button.
