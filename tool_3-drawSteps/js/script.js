@@ -177,14 +177,3 @@ dwn.onclick = function() {
      lnk.fireEvent("onclick");
    }
  }
-
- function sendToServer(){
-    var post = new XMLHttpRequest();
-    post.open("POST", "/receive");
-    post.send(imageData);
- }
-
- // I assume your web server have a handler to handle any POST request send to 
- // '/receive' in the same domain.
- // Create a POST request to /receive
- // Send the image data

@@ -179,3 +179,13 @@ dwn.onclick = function() {
      lnk.fireEvent("onclick");
    }
  }
+
+ function sendToServer(){
+    var post = new XMLHttpRequest();
+ // Create a POST request to /receive
+    post.open("POST", "/receive");
+// Send the image data
+    post.send(imageData);
+ }
+
+
