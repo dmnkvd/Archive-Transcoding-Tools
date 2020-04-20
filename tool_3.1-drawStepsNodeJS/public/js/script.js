@@ -40,7 +40,7 @@ function init() {
     ctx.globalAlpha = 1;
     ctx.fillStyle = "white";
     ctx.beginPath();
-    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 
     bind();
     drawColor();
@@ -103,12 +103,13 @@ function clearArea() {
 
 // Creates an image with a white background
 function canvasToImage(){
-    canvas = ctx.canvas;
-
     //cache height and width        
-    var w = canvas.width;
-    var h = canvas.height;
-    
+    var w = 300;
+    var h = 300;
+
+    canvas = document.getElementById("drawingArea");
+    ctx = canvas.getContext("2d");
+
     var data;
     
     //get the current ImageData for the canvas.
@@ -127,7 +128,7 @@ function canvasToImage(){
     ctx.fillRect(0,0,w,h);
     
     //get the image data from the canvas
-    var imageData = this.canvas.toDataURL("image/jpeg");
+    var imageData = canvas.toDataURL("image/jpeg");
     
     //clear the canvas
     ctx.clearRect (0,0,w,h);
@@ -140,7 +141,7 @@ function canvasToImage(){
     
     //return the Base64 encoded data url string
     return imageData;
-    }
+}
 
 // Initialize things when the page has loaded
 onload = init;
@@ -151,41 +152,41 @@ var dwn = document.getElementById("btndownload");
 
 // [QUESTION 4] How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename? Cookies?
 dwn.onclick = function() {
+
     // download(`drawing-${step}.png`);
-    sendToServer();
+    sendImgToServer();
   }
 
- function download(filename) {
-   /// create an "off-screen" anchor tag
-   var lnk = document.createElement('a'), e;
+//  function download(filename) {
+//    /// create an "off-screen" anchor tag
+//    var lnk = document.createElement('a'), e;
  
-   /// the key here is to set the download attribute of the a tag
-   lnk.download = filename;
+//    /// the key here is to set the download attribute of the a tag
+//    lnk.download = filename;
  
-   /// convert canvas content to data-uri for link. When download
-   /// attribute is set the content pointed to by link will be
-   /// pushed as "download" in HTML5 capable browsers
-   lnk.href = canvasToImage();
+//    /// convert canvas content to data-uri for link. When download
+//    /// attribute is set the content pointed to by link will be
+//    /// pushed as "download" in HTML5 capable browsers
+//    lnk.href = canvasToImage();
  
-   /// create a "fake" click-event to trigger the download
-   if (document.createEvent) {
-     e = document.createEvent("MouseEvents");
-     e.initMouseEvent("click", true, true, window,
-                      0, 0, 0, 0, 0, false, false, false,
-                      false, 0, null);
+//    /// create a "fake" click-event to trigger the download
+//    if (document.createEvent) {
+//      e = document.createEvent("MouseEvents");
+//      e.initMouseEvent("click", true, true, window,
+//                       0, 0, 0, 0, 0, false, false, false,
+//                       false, 0, null);
  
-     lnk.dispatchEvent(e);
-   } else if (lnk.fireEvent) {
-     lnk.fireEvent("onclick");
-   }
- }
+//      lnk.dispatchEvent(e);
+//    } else if (lnk.fireEvent) {
+//      lnk.fireEvent("onclick");
+//    }
 
- function sendToServer(){
+ function sendImgToServer(){
     var post = new XMLHttpRequest();
  // Create a POST request to /receive
     post.open("POST", "/receive");
 // Send the image data
-    post.send(imageData);
+    post.send();
  }
 
 
