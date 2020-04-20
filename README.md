@@ -46,11 +46,11 @@ From tinkering with an image-based approach, I shifted back to the wider metanar
 ## W16: Tool 3 - Gradual meaning-making
 This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. 
 
-QUESTIONS:
-  * *QUESTION 1* The step increments when the user clicks on the "next" button. It seems very break-able... What would be a more foolproof way of implementing progress tracking?
-  * *QUESTION 2* I am also using the 'step' variable in the download function to remember the filename -- Is it bad practice to declare a variable gloablly like this? What would be a better solution?
-  * *QUESTION 3* This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
-  * *QUESTION 4* How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename? Cookies?
+##### QUESTIONS:
+  * **Q1** The step increments when the user clicks on the "next" button. It seems very break-able... What would be a more foolproof way of implementing progress tracking?
+  * **Q2** I am also using the 'step' variable in the download function to remember the filename -- Is it bad practice to declare a variable gloablly like this? What would be a better solution?
+  * **Q3** This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
+  * **Q4** How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename? Cookies?
 
 - The images are currently saved with a function on button click. How to save the canvas images to a server?
 - How to display all the images together in the end?
