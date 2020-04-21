@@ -1,34 +1,21 @@
-// Array with promopts / steps of the drawing game.
-const steps = [
-    "a circle",
-    "a circle with a rounded edge",
-    "a metallic circular object",
-    "a badge",
-    "a pink badge",
-    "a pink badge with black shapes",
-    "a pink badge with black shapes, of which some are repeated",
-    "a pink badge with black shapes, of which some are repeated. They are grouped into four clusters",
-    "a pink badge with black text of four words. The words are in English",
-    'a pink badge with black text saying "PEACE", "IN THE", "BALKANS"',
-];
-
-// Canvas: Initialise global variables
-var canvas,
+// Canvas Initialise
+let canvas,
     ctx,
     bMouseIsDown = false,
     iLastX,
     iLastY;
 
-// Canvas: Initialise function
 function init() {
     canvas = document.getElementById("drawingArea");
     ctx = canvas.getContext("2d");
-    ctx.alpha = false;
+
+    ctx.globalAlpha = 1;
+
     bind();
     drawColor();
+    clearArea();
 }
 
-// Canvas: Drawing function
 function bind() {
     canvas.onmousedown = function (e) {
         bMouseIsDown = true;
@@ -74,33 +61,28 @@ function bind() {
     };
 }
 
-// Canvas: Set colour from HTML selection
 function drawColor() {
     ctx.strokeStyle = document.querySelector("#selColor").value;
 }
 
-// Canvas: Clear the area
 function clearArea() {
     ctx.setTransform(1, 0, 0, 1, 0, 0);
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
 }
 
-// Initialize things when the page has loaded
-onload = init;
-
-// Give Image white background and convert it to URL data stream
+// Creates an image with a white background
 function canvasToImage(){
     //cache height and width        
-    let w = canvas.width;
-    let h = canvas.height;
+    var w = canvas.width;
+    var h = canvas.height;
     
-    let data;
+    var data;
     
     //get the current ImageData for the canvas.
     data = ctx.getImageData(0, 0, w, h);
     
     //store the current globalCompositeOperation
-    let compositeOperation = ctx.globalCompositeOperation;
+    var compositeOperation = ctx.globalCompositeOperation;
     
     //set to draw behind current content
     ctx.globalCompositeOperation = "destination-over";
@@ -112,7 +94,8 @@ function canvasToImage(){
     ctx.fillRect(0,0,w,h);
     
     //get the image data from the canvas
-    const imageData = canvas.toDataURL("image/jpeg");
+    var imageData = canvas.toDataURL("image/jpeg");
+    
     //clear the canvas
     ctx.clearRect (0,0,w,h);
     
@@ -129,28 +112,34 @@ function canvasToImage(){
 // Initialize things when the page has loaded
 onload = init;
 
-let step = 1;
+// Download the canvas locally with a button
+// [QUESTION 3] This is a draft mockup. How to approach running this app from a server, and save the files to a subfolder there? Node? Requests?
+var dwn = document.getElementById("btndownload");
 
-document.getElementById('confirm').onclick = () => {
-    sendImgToServer();
+// [QUESTION 4] How to implement a multi-user solution that saves each users's drawings with a unique ID in the filename?
+// [QUESTION 4.1] The above imageData sends a stream of base64 image data to download... How could this stream be sent to a local node.js server and put into a file with a unique user Identifier?
+dwn.onclick = function() {
+    download(`drawing-test.png`);
+  }
 
-    if (step < steps.length) {
-        document.getElementById("draw-text").innerHTML = steps[step];
-        document.getElementById("counter").innerHTML = step + 1 + ".";
-        step++
-    } else if (step == steps.length) {
-        step = 0
-    }
-    clearArea();
-}
-
-// send the image to the server
-function sendImgToServer(){
-    var post = new XMLHttpRequest();
- // Create a POST request to '/receive'
-    post.open("POST", "/receive");
-
-// Send the image data to the server
-    post.send(canvasToImage());
-    console.log('file is sent');
+ function download(filename) {
+   /// create an "off-screen" anchor tag
+   var lnk = document.createElement('a'), e;
+ 
+   /// the key here is to set the download attribute of the a tag
+   lnk.download = filename;
+ 
+   lnk.href = canvasToImage();
+ 
+   /// create a "fake" click-event to trigger the download
+   if (document.createEvent) {
+     e = document.createEvent("MouseEvents");
+     e.initMouseEvent("click", true, true, window,
+                      0, 0, 0, 0, 0, false, false, false,
+                      false, 0, null);
+ 
+     lnk.dispatchEvent(e);
+   } else if (lnk.fireEvent) {
+     lnk.fireEvent("onclick");
+   }
  }
