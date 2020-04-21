@@ -2,12 +2,11 @@
 const steps = [
     "a circle",
     "a circle with a rounded edge",
-    "a metallic circular object",
     "a badge",
     "a pink badge",
     "a pink badge with black shapes",
     "a pink badge with black shapes, of which some are repeated",
-    "a pink badge with black shapes, of which some are repeated. They are grouped into four clusters",
+    "a pink badge with black shapes, of which some are repeated. The shapes are grouped into four clusters",
     "a pink badge with black text of four words. The words are in English",
     'a pink badge with black text saying "PEACE", "IN THE", "BALKANS"',
 ];
@@ -77,6 +76,8 @@ function bind() {
 // Canvas: Set colour from HTML selection
 function drawColor() {
     ctx.strokeStyle = document.querySelector("#selColor").value;
+    document.querySelector("#selColor").style.color = document.querySelector("#selColor").value;
+    document.querySelector("#selColor").style.borderColor = document.querySelector("#selColor").value;
 }
 
 // Canvas: Clear the area

@@ -55,7 +55,14 @@ p {
 }
 
 #clear {
+    margin-top: 2em;
     padding: 6px 5px 6px 5px;
+    font-size: var(--font-size-s);
+}
+
+#selColor {
+    font-size: var(--font-size-s);
+    color: var(--main-clr);
 }
 
 #confirm {

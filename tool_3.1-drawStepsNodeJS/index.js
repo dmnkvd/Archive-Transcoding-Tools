@@ -44,7 +44,18 @@ app.post('/receive', (req, res) => {
   fs.writeFile(filePath, buf, (err) => {
     if (err) throw err
     // Respond to client that the canvas image is saved.
-    res.end();
   });
 
 });
+
+// TODO: 
+// When done looping through the steps, take the user to the finish page, and view the gallery.
+
+// GALLERY:
+// Read the file system results
+// identify the string pattern in the filename with the number
+// create a div group based on the filename
+// group the images there
+// For each image in folder, create a div
+
+// 
