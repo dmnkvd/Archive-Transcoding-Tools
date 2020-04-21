@@ -16,6 +16,10 @@
     font-weight: 400;
 }
 
+/* html, body {
+    height: 100%;
+} */
+
 body {
     margin: 2em;
     background-color: var(--bg-clr);
@@ -27,7 +31,8 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 90vh;
+    height: 92vh;
+    box-sizing: border-box;
   }
 
 p {
@@ -40,6 +45,16 @@ p {
     font-size: var(--font-size-s);
 }
 
+#promptArea {
+    /* flex-basis: 50%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 80%;
+}
+
 #prompt {
     margin-bottom: 1em;
 }
@@ -47,26 +62,43 @@ p {
 #drawingArea {
     background-color: white;
     border: 1px solid var(--main-clr);
+    display: block;
+    clear: both;
+    flex: none;
 }
 
 #palette {
     margin-top: 1em;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: none;
+}
+
+#palette p {
+    font-size: var(--font-size-s);
+    width: fit-content;
 }
 
 #clear {
-    margin-top: 2em;
-    padding: 6px 5px 6px 5px;
+    padding: 6px 10px 6px 10px;
     font-size: var(--font-size-s);
+    width: fit-content;
+    height: fit-content;
 }
 
 #selColor {
     font-size: var(--font-size-s);
     color: var(--main-clr);
+    width: fit-content;
 }
 
 #confirm {
     font-size: 40px;
-    text-decoration: underline;
+    text-decoration: none;
     margin-top: 1em;
     cursor: pointer;
 }
