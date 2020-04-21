@@ -140,7 +140,7 @@ document.getElementById('confirm').onclick = () => {
         document.getElementById("counter").innerHTML = step + 1 + ".";
         ++step
     } else if (step == steps.length) {
-        step = 0
+        location.href = "narrative.html";
     }
     clearArea();
 
