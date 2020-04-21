@@ -48,18 +48,13 @@ This week, I have been busy with drafting a little participatory app to describe
 
 - [TOOL 3 - outcomes](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
 
-##### QUESTIONS:
-The current implementation: When a user clicks 'next', the drawing is sent to the server, and saved into a directory there.
-The same file is always overwritten...
 
 The questions are related to project folder [tool_3.1-drawStepsNodeJS](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3.1-drawStepsNodeJS)
+
 Lines with questions begin with `// [QUESTION]`.
 
 ###### index.js
 [LINK to file](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/index.js)
-  * **L25** I’ve tried adding a counter variable on every scope of the index.js functions, to no success... It only increments once.
-  * **L27** How to save a canvas made on step 3. as canvas-3.jpeg -- To reflect the incrementations in client-side and file-saving here on the server-side?
-  * **L31** What are 'data' and 'end' referring to? Are they HTTP events? Is there a list somewhere? Could not find it...
 
 
 ## Code:
