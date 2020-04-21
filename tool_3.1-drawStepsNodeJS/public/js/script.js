@@ -148,7 +148,8 @@ document.getElementById('confirm').onclick = () => {
 function sendImgToServer(){
  // Create a POST request to '/receive'
     const options = {
-        method:'POST'
+        method: 'POST',
+        body: canvasToImage()
     }
     fetch('/receive', options);
 // Send the image data to the server
