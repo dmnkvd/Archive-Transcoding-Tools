@@ -55,15 +55,11 @@ The same file is always overwritten...
 The questions are related to project folder [tool_3.1-drawStepsNodeJS](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3.1-drawStepsNodeJS)
 Lines with questions begin with `// [QUESTION]`.
 
-###### script.js
-[LINK to file](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/public/js/script.js)
-  * **L139** Why does this return a TypeError: Cannot read property 'canvas' of undefined (line 116)?
-  * **L144** I declared step in the global scope so it would not re-declare itself on every click. What would be a more proper way to do this?
-
 ###### index.js
-[LINK to file](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/public/js/script.js)
-  * **L19** How to go about implementing a multi-user solution that saves each user's drawings with a unique number in the filename?
-  * **L26** How to save a canvas made on step 3. as canvas-3.jpeg -- To 'connect' the innerHTML changes / looping with file-saving on the server-side?
+[LINK to file](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/index.js)
+  * **L25** I’ve tried adding a counter variable on every scope of the index.js functions, to no success... It only increments once.
+  * **L27** How to save a canvas made on step 3. as canvas-3.jpeg -- To reflect the incrementations in client-side and file-saving here on the server-side?
+  * **L31** What are 'data' and 'end' referring to? Are they HTTP events? Is there a list somewhere? Could not find it...
 
 
 ## Code:
