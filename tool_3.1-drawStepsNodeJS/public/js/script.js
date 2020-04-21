@@ -146,11 +146,11 @@ document.getElementById('confirm').onclick = () => {
 
 // send the image to the server
 function sendImgToServer(){
-    var post = new XMLHttpRequest();
  // Create a POST request to '/receive'
-    post.open("POST", "/receive");
-
+    const options = {
+        method:'POST'
+    }
+    fetch('/receive', options);
 // Send the image data to the server
-    post.send(canvasToImage());
     console.log('file is sent');
  }
