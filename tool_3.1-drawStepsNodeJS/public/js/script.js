@@ -137,19 +137,28 @@ document.getElementById('confirm').onclick = () => {
     if (step < steps.length) {
         document.getElementById("draw-text").innerHTML = steps[step];
         document.getElementById("counter").innerHTML = step + 1 + ".";
-        step++
+        ++step
     } else if (step == steps.length) {
         step = 0
     }
     clearArea();
+
 }
 
 // send the image to the server
 function sendImgToServer(){
  // Create a POST request to '/receive'
+    const data = {
+        img: canvasToImage(),
+        increment: step
+    }
+
     const options = {
         method: 'POST',
-        body: canvasToImage()
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
     }
     fetch('/receive', options);
 // Send the image data to the server
