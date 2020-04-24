@@ -46,7 +46,7 @@ From tinkering with an image-based approach, I shifted back to the wider metanar
 ## W16 🟩 Tool 3 ◽️ Gradual meaning-making
 This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt. After she has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
 
-![Image of GIF Loop](https://drive.google.com/file/d/1hBCFvbmP-XSNybRABjMDNMqdqeX3VKFG/view?usp=sharing)
+![Image of GIF Loop](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/testWrite/GIF/loop.gif)
 - [TOOL 3 - outcomes](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
 
 The questions are related to project folder [tool_3.1-drawStepsNodeJS](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3.1-drawStepsNodeJS)
