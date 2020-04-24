@@ -9,9 +9,10 @@ The establishing research framework can be found at https://www.notion.so/700ml/
 The master document for the interpretative steps/backbone of transcodings can be found at https://www.notion.so/700ml/BADGES-Master-Document-65955832ffd74de0927b75a91b648047.
 
 ### Personal learning goals:
-* Improve my JavaScript skills: Intermediate Data Structures, Objects, accessing them...
-* Build up a narrative, dealing with the problems of classification / ordering
-* Discuss the Problem of Classification, my research-framework, through this practical application, through a limited number of artefacts
+* Improve my JavaScript (et. al.) skills: Data Structures, File Manipulation, client-server communication...
+* Improve my programming ability for creating web-based experiences... websites as workshops, forums, spaces of participation...
+* Build up a concise, didactic, accessible narrative dealing with the problems of classification / ordering
+* Discuss the (my) Problem of Classification, my research-framework, through this practical application, via a limited number of artefacts
 * Develop and tinker with playful transcoding tools along the way
 
 ## 🏁Input
