@@ -37,7 +37,7 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 - I am evenetually creating a server/web interface, as a way to talk about the bigger narrative/story of the richness of classification.
 - Development has taken place in Bash/Python. Should I continue developing these tools in a different programming environment?
 
-## W14, 15: Tool 2 - Research, Semantic Analysis
+## ◽️W14, 15◽️ Tool 2 - Research, Semantic Analysis
 
 From tinkering with an image-based approach, I shifted back to the wider metanarrative:
 - What are some different, new, interesting ways in which the artefact (badge) can be transcoded?
