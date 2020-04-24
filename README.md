@@ -14,23 +14,23 @@ The master document for the interpretative steps/backbone of transcodings can be
 * Discuss the Problem of Classification, my research-framework, through this practical application, through a limited number of artefacts
 * Develop and tinker with playful transcoding tools along the way
 
-## Input
+## 🏁Input
 The input is a collection of 20 colour-corrected photographs of badges, selected at random. 
-- [Input](https://drive.google.com/open?id=1k7vdxrWdUg5r0helB_yeT7051W1r1Ttc)
+☞ [Input](https://drive.google.com/open?id=1k7vdxrWdUg5r0helB_yeT7051W1r1Ttc)
 
 The badges were cleaned up, with the scanned background removed.. 
-- [Input-cleanup](https://drive.google.com/open?id=16yaqBnfxsEB8Vx6aOMcAG-fH5-W0PCgq)
+☞ [Input-cleanup](https://drive.google.com/open?id=16yaqBnfxsEB8Vx6aOMcAG-fH5-W0PCgq)
 
 ## W12 ◽️ Tool 0 ◽️ IISG Image Scraper
 This first tool scrapes IISG's collection (of photographs) of Badges, and saves the image links, together with the link to the record, in a Python dictionary. 
 
 #### Remarks:
-- Add a download function.
-- Add Pagination
+* Build a download function.
+* Add Pagination support.
 
 ## W13 ◽️ Tool 1 ◽️ Main Colour HEX
 Disclose the artefact by their predominant colour. Analogous to tagging an artefact with one singular tag. Creates a highly simplistic interpretation of the artefact.
-- [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
+* [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
 
 #### Remarks:
 * The colour average is purely based on histogram - could improve with K-clustering for more natural outcomes.
@@ -41,7 +41,8 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 
 From tinkering with an image-based approach, I shifted back to the wider metanarrative:
 * I shifted towards a language-based disclosure, using the convenience of JavaScript Object Notation as an environment for semantic analysis of the badge
-[TOOL 2 - outcome](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_2-Semantic-analysis/semanticBadge.js)
+
+* [TOOL 2 - outcome](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_2-Semantic-analysis/semanticBadge.js)
 
 ## W16 🟩 Tool 3 ◽️ Gradual meaning-making
 This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt. After she has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
