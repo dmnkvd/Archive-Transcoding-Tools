@@ -28,7 +28,7 @@ This first tool scrapes IISG's collection (of photographs) of Badges, and saves 
 - Add a download function.
 - Add Pagination
 
-## W13: Tool 1 - Main Colour HEX
+## W13: ◽️Tool 1 - Main Colour HEX
 Disclose the artefact by their predominant colour. Analogous to tagging an artefact with one singular tag. Creates a highly simplistic interpretation of the artefact.
 - [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
 
@@ -37,13 +37,13 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 - I am evenetually creating a server/web interface, as a way to talk about the bigger narrative/story of the richness of classification.
 - Development has taken place in Bash/Python. Should I continue developing these tools in a different programming environment?
 
-## ◽️W14, 15◽️ Tool 2 - Research, Semantic Analysis
+## W14, 15 ◽️Tool 2 - Research, Semantic Analysis
 
 From tinkering with an image-based approach, I shifted back to the wider metanarrative:
 - What are some different, new, interesting ways in which the artefact (badge) can be transcoded?
 - I shifted towards a language-based disclosure, using the convenience of JavaScript Object Notation as an environment for semantic analysis of the badge
 
-## W16: Tool 3 - Gradual meaning-making
+## W16: ◽️Tool 3 - Gradual meaning-making
 This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt. After she has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
 
 - [TOOL 3 - outcomes](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
