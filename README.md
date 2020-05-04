@@ -54,7 +54,7 @@ This first tool scrapes IISG's collection (of photographs) of Badges, and saves 
 
 #### Remarks:
 * Build a download function.
-* Add Pagination support.
+* Add Pagination support
 
 ## Tool 1 ◽️ Main Colour HEX
 ###### W13
