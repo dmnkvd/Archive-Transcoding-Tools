@@ -1,7 +1,8 @@
-The Subjectivity of Classification
+The Haziness of Classification
 ======
- 
-> Archive Transcoding tools are a set of different algorithmic strategies, seeking to find novel
+__________________________________________
+
+> Haziness of Classification is the collective name for a set of algorithmic experiments, united in the goal to find novel
 > and exciting ways of representing artefacts from the archive of the Institute of Social History
 > in Amsterdam. In doing so, the project touches down on the problems of taxonomy and representation,
 > and wishes to explore visually what constitutes an artefact's "thisness". 
@@ -69,7 +70,7 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 ###### W14, 15
 
 From tinkering with an image-based approach, I shifted back to the wider metanarrative:
-* I shifted towards a language-based disclosure, using the convenience of JavaScript Object Notation as an environment for semantic analysis of the badge
+* Returning to language-based disclosure, I used the convenience of JSON as an environment for semantic analysis of the badge
 
 > [TOOL 2 - outcome](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_2-Semantic-analysis/semanticBadge.js)
 
@@ -104,6 +105,7 @@ Questions are marked with `// [QUESTION]`
 ##### IN-PROGRESS
 - [ ] Finalise the narrative...
 - [ ] Group the narrative images into folders by step ...
+- [ ] Work further on readme...
 
 ## Bibliography
 To be compiled.
