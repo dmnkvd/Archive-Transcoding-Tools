@@ -60,6 +60,7 @@ This first tool scrapes IISG's collection (of photographs) of Badges, and saves 
 ###### W13
 <img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_1/tool-1__1.png" width="400" height="400">
 Disclose the artefact by their predominant colour. Analogous to tagging an artefact with one singular tag. Creates a highly simplistic interpretation of the artefact.
+
 > [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
 
 #### Remarks:
