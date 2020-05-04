@@ -91,18 +91,14 @@ The main points of the narrative concern:
   * Subjectivity of classification, categorisation
   * Reminder that we all hold extremely different interpretations of "Haecceity / Thisness" 
   * Reminder to beware of the reductionist, false objectivty of a given taxonomy
+  
+##### Technical Questions
 
-###### W18
+
+##### IN-PROGRESS
+- [ ] Finalise the narrative: Gradual Meaning-Making, Beauty of Subjectivity, Fuziness of Representation ...
 - [ ] Finalise the narrative: Gradual Meaning-Making, Beauty of Subjectivity, Fuziness of Representation ...
 
-
-## Subdirectories of project:
-* [*TOOL 0 - IISG Image Scraper*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_0-scraper)
-* [*TOOL 1 - Main Colour HEX*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_1-HexCode)
-* [*TOOL 2 - Semantic Analysis*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_2-Semantic-analysis)
-* [*TOOL 3 - Gradual meaning-making*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3-drawSteps)
-* [*TOOL 3.1 - Participatory Gradual meaning-making*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3.1-drawStepsNodeJS)
-* [*TOOL 3.1 - Participatory Gradual meaning-making*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3.1-drawStepsNodeJS)
 
 ## Bibliography
 To be compiled.
