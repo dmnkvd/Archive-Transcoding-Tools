@@ -1,6 +1,6 @@
 The Haziness of Classification
 ======
-__________________________________________
+
 
 > Haziness of Classification is the collective name for a set of algorithmic experiments, united in the goal to find novel
 > and exciting ways of representing artefacts from the archive of the Institute of Social History
@@ -32,7 +32,7 @@ __________________________________________
 
 ## 🏁 Input
 The input is a collection of 20 colour-corrected photographs of badges, selected at random. 
-☞ [Input](https://drive.google.com/open?id=1k7vdxrWdUg5r0helB_yeT7051W1r1Ttc)
+> [Input](https://drive.google.com/open?id=1k7vdxrWdUg5r0helB_yeT7051W1r1Ttc)
 
 In the intermediate steps of the project, I decided to proceeded with a distinctive, exemplary badge. In the final implementation, a selection of 3 - 5 will be implemented in the final narrative.
 
@@ -46,7 +46,7 @@ In the intermediate steps of the project, I decided to proceeded with a distinct
 
 ###### Final Input
 The badges were cleaned up, with the scanned background removed.
-☞ [Input-cleanup](https://drive.google.com/open?id=16yaqBnfxsEB8Vx6aOMcAG-fH5-W0PCgq)
+> [Input-cleanup](https://drive.google.com/open?id=16yaqBnfxsEB8Vx6aOMcAG-fH5-W0PCgq)
 
 ## Tool 0 ◽️ IISG Image Scraper
 ###### W12
