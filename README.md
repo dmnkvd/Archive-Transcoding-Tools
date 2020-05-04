@@ -15,8 +15,7 @@ The master document for the interpretative steps/backbone of transcodings can be
 * https://www.notion.so/700ml/BADGES-Master-Document-65955832ffd74de0927b75a91b648047.
 
 ###### KEYWORDS
-| Haeccity, Relativism, Designed Objectivity, Meaning-Making, Semiotics |
-|-----------------------------------------------------------------------|
+`Haeccity, Relativism, Designed Objectivity, Meaning-Making, Semiotics`
 
 __________________________________________
 
