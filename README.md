@@ -1,6 +1,10 @@
-# Archive-Transcoding-Tools
+The Subjectivity of Classification
+======
  
-Archive Transcoding tools are a set of different algorithmic strategies, seeking to find novel and exciting ways of representing artefacts from the archive of the Institute of Social History in Amsterdam. In doing so, the project touches down on the problems of taxonomy and representation, and wishes to explore visually what constitutes an artefact's "thisness". 
+> Archive Transcoding tools are a set of different algorithmic strategies, seeking to find novel
+> and exciting ways of representing artefacts from the archive of the Institute of Social History
+> in Amsterdam. In doing so, the project touches down on the problems of taxonomy and representation,
+> and wishes to explore visually what constitutes an artefact's "thisness". 
 
 The starting point is a collection of well-classified artefacts, Badges. 
 
@@ -9,6 +13,9 @@ The establishing research framework can be found at:
 
 The master document for the interpretative steps/backbone of transcodings can be found at:
 * https://www.notion.so/700ml/BADGES-Master-Document-65955832ffd74de0927b75a91b648047.
+
+##### KEYWORDS
+Haeccity, Relativism, Designed Objectivity, Meaning-Making, Semiotic Studies
 
 ### Personal learning goals:
 * Improve my JavaScript (et. al.) skills: Data Structures, File Manipulation, client-server communication...
@@ -20,6 +27,19 @@ The master document for the interpretative steps/backbone of transcodings can be
 ## 🏁 Input
 The input is a collection of 20 colour-corrected photographs of badges, selected at random. 
 ☞ [Input](https://drive.google.com/open?id=1k7vdxrWdUg5r0helB_yeT7051W1r1Ttc)
+
+In the continuation of the project, I proceeded with one artefact, namely:
+| Tag | Data |  
+|--|--|
+**IISG Call Number** | [CSD BG V2/410 ](https://search.iisg.amsterdam/Record/1046576)
+| **Physical Description** | VHS. 60 min. 
+| **Type** | Visual Document
+| **Medium** | Video
+| **Materials** | Plastic, magnetic tape, paper.
+| **Date** | 1987
+|![VHS cover](Transcoding%20Industrial%20Music/extremeart6.jpg)| The washed out pink, purple, blue, white and black shaded cover image shows a video still closeup of a man's face. From the camera's perspective, the man is looking down on the viewer with half-closed eyelids. His mouth is relaxed. The strong contrast, half washed out face and pixels that remind one of an 80's television screen make the image of him appear dreamlike, ecstatic and intentionally grunfy and careless. The title "Extreme Art Industrial Compilation" is spread through the top part with a black type, whose serifs are sharp like knives. The number "1" stands isolated in a bigger size on the lower left corner. The dimensions of the VHS tape inside are 18.7 × 10.2 × 2.5 cm. <br>
+
+<img src="Transcoding%20Industrial%20Music/tracklist1.png" width=auto><br>
 
 The badges were cleaned up, with the scanned background removed.
 ☞ [Input-cleanup](https://drive.google.com/open?id=16yaqBnfxsEB8Vx6aOMcAG-fH5-W0PCgq)
@@ -66,9 +86,12 @@ For next week, I wish to proceed with my Node.js web application, and intensivel
   * Reminder to beware of the reductionist, false objectivty of a given taxonomy
 * Could the outcomes be formatted and printed as a short story?
 
-## Subfolders:
+## Subdirectories of project:
 * [*TOOL 0 - IISG Image Scraper*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_0-scraper)
 * [*TOOL 1 - Main Colour HEX*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_1-HexCode)
 * [*TOOL 2 - Semantic Analysis*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_2-Semantic-analysis)
 * [*TOOL 3 - Gradual meaning-making*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3-drawSteps)
 * [*TOOL 3.1 - Participatory Gradual meaning-making*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3.1-drawStepsNodeJS)
+
+## Bibliography
+To be compiled.
