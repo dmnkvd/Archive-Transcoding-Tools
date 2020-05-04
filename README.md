@@ -98,7 +98,11 @@ The main points of the narrative concern:
   
 #####  Questions
 - I am a bit stuck with understanting cookies, Express-Session, and multiple users...
-- The server stops after 2 - 3 images have been written. How to make it work for multiple clients connected at the same time?
+- The session ID works OK when declared once in `get('/'...` - however, it does not seem to work for multiple users.
+- The session ID changes every time when declared in `post('/receive'...` - How to save it accross the whole session?
+- The image saving stops after 2 - 3 images have been written.
+
+- The function for reading the folder is declared in the global scope of the server application –– how to package it into a middleware?
 
 Questions are marked with `// [QUESTION]`
 > [index.js](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
