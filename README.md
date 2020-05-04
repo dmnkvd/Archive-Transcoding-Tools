@@ -105,7 +105,7 @@ The main points of the narrative concern:
 - The function for reading the folder is declared in the global scope of the server application –– how to package it into a middleware?
 
 Questions are marked with `// [QUESTION]`
-> [index.js](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
+> [index.js](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_4-NarrativePage/index.js)
 
 ##### IN-PROGRESS
 - [ ] Finalise the narrative...
