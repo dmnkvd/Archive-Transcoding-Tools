@@ -57,13 +57,13 @@ This first tool scrapes IISG's collection (of photographs) of Badges, and saves 
 
 ## Tool 1 ◽️ Main Colour HEX
 ###### W13
+![Outcomes of Tool 1](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_1/tool-1__1.png)
 Disclose the artefact by their predominant colour. Analogous to tagging an artefact with one singular tag. Creates a highly simplistic interpretation of the artefact.
 > [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
 
 #### Remarks:
 * The colour average is purely based on histogram - could improve with K-clustering for more natural outcomes.
 * I am evenetually creating a server/web interface, as a way to talk about the bigger narrative/story of the richness of classification.
-* Development has taken place in Bash/Python. Should I continue developing these tools in a different programming environment?
 
 ## Tool 2 ◽️ Research, Semantic Analysis
 ###### W14, 15
@@ -76,6 +76,8 @@ From tinkering with an image-based approach, I shifted back to the wider metanar
 ## Tool 3 ◽️ Gradual meaning-making
 ###### W16, 17
 This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt. After she has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
+
+![Screenshot of Tool 3](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_3/tool-3__1.png)
 
 I built a local version with a download button (Tool 3), and a participatory, server-side version (Tool 3.1).
 
@@ -93,17 +95,15 @@ The main points of the narrative concern:
   * Reminder that it is important to have a precise, deterministic classification system
   
 #####  Questions
-- I am a bit confused with the client-server relationship, and how exactly Express handles the requests, and multiple users...
-- Related: How to make it work for multiple clients connected at the same time?
+- I am a bit stuck with understanting cookies, Express-Session, and multiple users...
+- The server stops after 2 - 3 images have been written. How to make it work for multiple clients connected at the same time?
 
 Questions are marked with `// [QUESTION]`
 > [index.js](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
 
-
 ##### IN-PROGRESS
 - [ ] Finalise the narrative...
-- [ ] Group the narrative images by step ...
-- [ ] Serve three different versions of the website...
+- [ ] Group the narrative images into folders by step ...
 
 ## Bibliography
 To be compiled.
