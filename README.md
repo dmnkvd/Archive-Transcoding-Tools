@@ -15,7 +15,9 @@ The master document for the interpretative steps/backbone of transcodings can be
 * https://www.notion.so/700ml/BADGES-Master-Document-65955832ffd74de0927b75a91b648047.
 
 ##### KEYWORDS
+
 | Haeccity, Relativism, Designed Objectivity, Meaning-Making, Semiotics |
+|-----------------------------------------------------------------------|
 
 __________________________________________
 
@@ -81,16 +83,18 @@ I built a local version with a download button (Tool 3), and a participatory, se
 ![Image of GIF Loop](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/testWrite/GIF/loop.gif)
 - [TOOL 3 - outcomes](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
 
-## Tool 4 🟩 /somewhat/ Participatory Story-Making
-###### W18
-- [ ] Write the narrative: Gradual Meaning-Making, Beauty of Subjectivity, Fuziness of Representation ...
-* Revisit relevant sources from bibliography
-* Continue developing web application -- Display outcomes of workshop in a story
-  * Focus:
+## Tool 4 🟩 Participatory Story-Making
+
+The final tool shall function as part of a workshop, held at a specific location. After responding to the ten steps of the prompt, the images will be incorporated a final narrative. 
+
+The main points of the narrative concern:
   * Subjectivity of classification, categorisation
   * Reminder that we all hold extremely different interpretations of "Haecceity / Thisness" 
   * Reminder to beware of the reductionist, false objectivty of a given taxonomy
-* Could the outcomes be formatted and printed as a short story?
+
+###### W18
+- [ ] Write the narrative: Gradual Meaning-Making, Beauty of Subjectivity, Fuziness of Representation ...
+
 
 ## Subdirectories of project:
 * [*TOOL 0 - IISG Image Scraper*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_0-scraper)
