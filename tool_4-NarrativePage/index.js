@@ -10,8 +10,6 @@ const app = express();
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
 
-// app.use('/images', express.static('images'));
-
 app.use(express.json());
 app.use(session({
     secret: 'secret-word',
@@ -24,14 +22,17 @@ app.use(session({
     }
   }));
 
-// Initialise session ID variable. The variable is global...
-// [QUESTION] I tested this with two browsers, and it stops working after 3 or 4 steps.
-// How to implement this for multiple users at the same time?
+// Initialise session ID variable. The variable is global -- I have read against declaring global variables.
+// [QUESTION] How to use variables between two functions, e.g. between `app.get('/'...` and `app.post()...`
 let id = 0
 
+// [QUESTION] I tested this with two browsers, and it stops writing files after 2 or 3 steps.
+// [QUESTION] How to enable the server for multiple users at the same time?
+
+
   app.use("/", (req, res, next) => {
+  // [QUESTION] I also tried to put it inside app.post (L93). It creates a new session after every received request. 
     if (req.url == "/") {
-        console.log("welcome to the homepage")
         id = req.sessionID.substring(0,4);  
     }
     return next()
@@ -40,7 +41,7 @@ let id = 0
 
 app.get('/', (req, res) => {
 // [QUESTION]The message never gets logged to the console -- why is that so?
-// I also tried to set the session ID here, but nothing happened.
+// Apparently it is related to express.static (L42)... 
   console.log("Welcome to the homepage")
   res.sendfile('index.html');
   });
@@ -52,16 +53,17 @@ app.get('/a-story-of-an-object', (req, res) => {
 });
 
 // Adapted from https://arjunphp.com/node-js-auto-generate-photo-gallery-directory/
+
 // dirPath: target image directory
 function getImagesFromDir(dirPath) {
  
-  // All iamges holder, defalut value is empty
+  // All images holder
   let allImages = [];
 
   // Iterator over the directory
   let files = fs.readdirSync(dirPath);
 
-  // Iterator over the files and push jpg and png images to allImages array.
+  // Iterator over the files, push jpeg images to allImages array.
   for (file of files) {
       let fileLocation = path.join(dirPath, file);
       var stat = fs.statSync(fileLocation);
@@ -87,8 +89,13 @@ app.post('/receive', (req, res) => {
   const imgData = incomingJSON.img;
   const num = incomingJSON.increment;
 
+// [QUESTION] This defines a new session at every request received.
+  // let id = 0
+  // id = req.sessionID.substring(0,4);  
+  // console.log(id)
+
   // Target file path
-  let filePath = __dirname + `public/images/${num}-canvas-${id}.jpeg`;
+  let filePath = path.join(__dirname, `/public/images/${num}-canvas-${id}.jpeg`);
 
   let data = imgData.replace(/^data:image\/\w+;base64,/, "");
 
@@ -105,12 +112,3 @@ app.post('/receive', (req, res) => {
 
 // TODO: 
 // When done looping through the steps, take the user to the finish page, and view the gallery.
-
-// GALLERY:
-// Read the file system results
-// identify the string pattern in the filename with the number
-// create a div group based on the filename
-// group the images there
-// For each image in folder, create a div
-
-// 
