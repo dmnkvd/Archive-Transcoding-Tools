@@ -82,7 +82,7 @@ I built a local version with a download button (Tool 3), and a participatory, se
 ![Image of GIF Loop](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/testWrite/GIF/loop.gif)
 > [TOOL 3 - outcomes](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
 
-## Tool 4 🟩 Participatory Story-Making
+## Tool 4 ◽️ Participatory Story-Making
 
 The final tool shall function as part of a workshop, held at a specific location. After responding to the ten steps of the prompt, the images will be incorporated a final narrative. 
 
@@ -90,19 +90,20 @@ The main points of the narrative concern:
   * Subjectivity of classification, categorisation
   * Reminder that we all hold extremely different interpretations of "Haecceity / Thisness" 
   * Reminder to beware of the reductionist, false objectivty of a given taxonomy
+  * Reminder that it is important to have a precise, deterministic classification system
   
 #####  Questions
-- How to redirect the user to the Pug-generated narrative page after clicking the last button
-```location.href = "a-story-of-an-object";
- location.hred = "a-story-of-an-object.html";
-```
-Do not seem to work...
+- I am a bit confused with the client-server relationship, and how exactly Express handles the requests, and multiple users...
+- Related: How to make it work for multiple clients connected at the same time?
+
+Questions are marked with `// [QUESTION]`
+> [index.js](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
 
 
 ##### IN-PROGRESS
-- [ ] Finalise the narrative: Gradual Meaning-Making, Beauty of Subjectivity, Fuziness of Representation ...
-- [ ] Finalise the narrative: Gradual Meaning-Making, Beauty of Subjectivity, Fuziness of Representation ...
-
+- [ ] Finalise the narrative...
+- [ ] Group the narrative images by step ...
+- [ ] Serve three different versions of the website...
 
 ## Bibliography
 To be compiled.
