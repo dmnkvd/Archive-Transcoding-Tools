@@ -91,7 +91,12 @@ The main points of the narrative concern:
   * Reminder that we all hold extremely different interpretations of "Haecceity / Thisness" 
   * Reminder to beware of the reductionist, false objectivty of a given taxonomy
   
-##### Technical Questions
+#####  Questions
+- How to redirect the user to the Pug-generated narrative page after clicking the last button
+```location.href = "a-story-of-an-object";
+ location.hred = "a-story-of-an-object.html";
+```
+Do not seem to work...
 
 
 ##### IN-PROGRESS
