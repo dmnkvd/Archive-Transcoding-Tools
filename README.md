@@ -15,7 +15,7 @@ The master document for the interpretative steps/backbone of transcodings can be
 * https://www.notion.so/700ml/BADGES-Master-Document-65955832ffd74de0927b75a91b648047.
 
 ##### KEYWORDS
-| Haeccity, Relativism, Designed Objectivity, Meaning-Making, Semiotic Studies |
+| Haeccity, Relativism, Designed Objectivity, Meaning-Making, Semiotics |
 
 __________________________________________
 
@@ -46,7 +46,7 @@ In the intermediate steps of the project, I decided to proceeded with a distinct
 The badges were cleaned up, with the scanned background removed.
 ☞ [Input-cleanup](https://drive.google.com/open?id=16yaqBnfxsEB8Vx6aOMcAG-fH5-W0PCgq)
 
-## ▶︎ Tool 0 ◽️ IISG Image Scraper
+## Tool 0 ◽️ IISG Image Scraper
 ###### W12
 This first tool scrapes IISG's collection (of photographs) of Badges, and saves the image links, together with the link to the record, in a Python dictionary. 
 
@@ -54,7 +54,8 @@ This first tool scrapes IISG's collection (of photographs) of Badges, and saves 
 * Build a download function.
 * Add Pagination support.
 
-## W13 ▶︎ Tool 1 ◽️ Main Colour HEX
+## Tool 1 ◽️ Main Colour HEX
+###### W13
 Disclose the artefact by their predominant colour. Analogous to tagging an artefact with one singular tag. Creates a highly simplistic interpretation of the artefact.
 * [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
 
@@ -63,14 +64,16 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 * I am evenetually creating a server/web interface, as a way to talk about the bigger narrative/story of the richness of classification.
 * Development has taken place in Bash/Python. Should I continue developing these tools in a different programming environment?
 
-## W14, 15 ▶︎ Tool 2 ◽️ Research, Semantic Analysis
+## Tool 2 ◽️ Research, Semantic Analysis
+###### W14, 15
 
 From tinkering with an image-based approach, I shifted back to the wider metanarrative:
 * I shifted towards a language-based disclosure, using the convenience of JavaScript Object Notation as an environment for semantic analysis of the badge
 
 * [TOOL 2 - outcome](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_2-Semantic-analysis/semanticBadge.js)
 
-## W16, W17 ▶︎ Tool 3 🟩 Gradual meaning-making
+## Tool 3 ◽️ Gradual meaning-making
+###### W16, 17
 This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt. After she has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
 
 I built a local version with a download button (Tool 3), and a participatory, server-side version (Tool 3.1).
@@ -78,9 +81,9 @@ I built a local version with a download button (Tool 3), and a participatory, se
 ![Image of GIF Loop](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/testWrite/GIF/loop.gif)
 - [TOOL 3 - outcomes](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
 
-## W18 ▶︎ Tool 4 ◽️ /somewhat/ Participatory Story-Making
-For next week, I wish to proceed with my Node.js web application, and intensively think of the framing of the outcomes...
-* Write the narrative: Gradual Meaning-Making, Beauty of Subjectivity, Fuziness of Representation ...
+## Tool 4 🟩 /somewhat/ Participatory Story-Making
+###### W18
+- [ ] Write the narrative: Gradual Meaning-Making, Beauty of Subjectivity, Fuziness of Representation ...
 * Revisit relevant sources from bibliography
 * Continue developing web application -- Display outcomes of workshop in a story
   * Focus:
