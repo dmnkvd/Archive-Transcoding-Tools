@@ -6,7 +6,7 @@ The Subjectivity of Classification
 > in Amsterdam. In doing so, the project touches down on the problems of taxonomy and representation,
 > and wishes to explore visually what constitutes an artefact's "thisness". 
 
-The starting point is a collection of well-classified artefacts, Badges. 
+__________________________________________
 
 The establishing research framework can be found at:
 * https://www.notion.so/700ml/Archival-Resilience-2-0-1e8810953f164242aaaeb1c5fe92ad95.
@@ -15,7 +15,7 @@ The master document for the interpretative steps/backbone of transcodings can be
 * https://www.notion.so/700ml/BADGES-Master-Document-65955832ffd74de0927b75a91b648047.
 
 ##### KEYWORDS
-Haeccity, Relativism, Designed Objectivity, Meaning-Making, Semiotic Studies
+| Haeccity, Relativism, Designed Objectivity, Meaning-Making, Semiotic Studies |
 
 __________________________________________
 
@@ -26,27 +26,28 @@ __________________________________________
 * Discuss the (my) Problem of Classification, my research-framework, through this practical application, via a limited number of artefacts
 * Develop and tinker with playful transcoding tools along the way
 
+__________________________________________
+
 ## 🏁 Input
 The input is a collection of 20 colour-corrected photographs of badges, selected at random. 
 ☞ [Input](https://drive.google.com/open?id=1k7vdxrWdUg5r0helB_yeT7051W1r1Ttc)
 
-In the continuation of the project, I proceeded with one artefact, namely:
-| Tag | Data |  
+In the intermediate steps of the project, I decided to proceeded with a distinctive, exemplary badge. In the final implementation, a selection of 3 - 5 will be implemented in the final narrative.
+
+| Info | Data |  
 |--|--|
-**IISG Call Number** | [CSD BG V2/410 ](https://search.iisg.amsterdam/Record/1046576)
-| **Physical Description** | VHS. 60 min. 
-| **Type** | Visual Document
-| **Medium** | Video
-| **Materials** | Plastic, magnetic tape, paper.
-| **Date** | 1987
-|![VHS cover](Transcoding%20Industrial%20Music/extremeart6.jpg)| The washed out pink, purple, blue, white and black shaded cover image shows a video still closeup of a man's face. From the camera's perspective, the man is looking down on the viewer with half-closed eyelids. His mouth is relaxed. The strong contrast, half washed out face and pixels that remind one of an 80's television screen make the image of him appear dreamlike, ecstatic and intentionally grunfy and careless. The title "Extreme Art Industrial Compilation" is spread through the top part with a black type, whose serifs are sharp like knives. The number "1" stands isolated in a bigger size on the lower left corner. The dimensions of the VHS tape inside are 18.7 × 10.2 × 2.5 cm. <br>
+|![Badge](https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright)| 
+**IISG Link** | [CSD BG V2/410 ](https://search.iisg.amsterdam/Record/1046576)
+| **Physical Description** | Button, Badge.
+| **Category** | Visual Document.
+| **Meeting** | Campaign on Yugoslavia.
 
-<img src="Transcoding%20Industrial%20Music/tracklist1.png" width=auto><br>
-
+###### Final Input
 The badges were cleaned up, with the scanned background removed.
 ☞ [Input-cleanup](https://drive.google.com/open?id=16yaqBnfxsEB8Vx6aOMcAG-fH5-W0PCgq)
 
-## W12 ▶︎ Tool 0 ◽️ IISG Image Scraper
+## ▶︎ Tool 0 ◽️ IISG Image Scraper
+###### W12
 This first tool scrapes IISG's collection (of photographs) of Badges, and saves the image links, together with the link to the record, in a Python dictionary. 
 
 #### Remarks:
