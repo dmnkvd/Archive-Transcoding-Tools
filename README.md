@@ -17,6 +17,8 @@ The master document for the interpretative steps/backbone of transcodings can be
 ##### KEYWORDS
 Haeccity, Relativism, Designed Objectivity, Meaning-Making, Semiotic Studies
 
+__________________________________________
+
 ### Personal learning goals:
 * Improve my JavaScript (et. al.) skills: Data Structures, File Manipulation, client-server communication...
 * Improve my programming ability for creating web-based experiences... websites as workshops, forums, spaces of participation...
