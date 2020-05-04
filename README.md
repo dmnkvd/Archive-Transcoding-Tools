@@ -37,7 +37,7 @@ In the intermediate steps of the project, I decided to proceeded with a distinct
 
 | Info | Data |  
 |--|--|
-|![Badge](https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright)| 
+|![Badge](https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright =250x)| 
 **IISG Link** | [CSD BG V2/410 ](https://search.iisg.amsterdam/Record/1046576)
 | **Physical Description** | Button, Badge.
 | **Category** | Visual Document.
@@ -57,7 +57,7 @@ This first tool scrapes IISG's collection (of photographs) of Badges, and saves 
 
 ## Tool 1 ◽️ Main Colour HEX
 ###### W13
-![Outcomes of Tool 1](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_1/tool-1__1.png)
+![Outcomes of Tool 1](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_1/tool-1__1.png =400x)
 Disclose the artefact by their predominant colour. Analogous to tagging an artefact with one singular tag. Creates a highly simplistic interpretation of the artefact.
 > [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
 
@@ -77,7 +77,7 @@ From tinkering with an image-based approach, I shifted back to the wider metanar
 ###### W16, 17
 This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt. After she has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
 
-![Screenshot of Tool 3](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_3/tool-3__1.png)
+![Screenshot of Tool 3](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_3/tool-3__1.png =400x)
 
 I built a local version with a download button (Tool 3), and a participatory, server-side version (Tool 3.1).
 
