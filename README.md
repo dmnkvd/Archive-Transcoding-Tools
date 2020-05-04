@@ -37,7 +37,7 @@ In the intermediate steps of the project, I decided to proceeded with a distinct
 
 | Info | Data |  
 |--|--|
-|<img src="(https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright" width="250">| --  
+|<img src="https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright" width="250" height="250">| --  
 **IISG Link** | [CSD BG V2/410 ](https://search.iisg.amsterdam/Record/1046576)
 | **Physical Description** | Button, Badge.
 | **Category** | Visual Document.
