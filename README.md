@@ -2,7 +2,7 @@ The Haziness of Classification
 ======
 
 
-> Haziness of Classification is the collective name for a set of algorithmic experiments, united in the goal to find novel
+> Haziness of Classification is the collective name for a set of algorithmic tools, united in the goal to find novel
 > and exciting ways of representing artefacts from the archive of the Institute of Social History
 > in Amsterdam. In doing so, the project touches down on the problems of taxonomy and representation,
 > and wishes to explore visually what constitutes an artefact's "thisness". 
@@ -39,7 +39,7 @@ In the intermediate steps of the project, I decided to proceeded with a distinct
 | Info | Data |  
 |--|--|
 |<img src="https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright" width="250" height="250">| --  
-**IISG Link** | [CSD BG V2/410 ](https://search.iisg.amsterdam/Record/1046576)
+**IISG Link** | [IISG BG AA5/651](https://search.iisg.amsterdam/Record/1189452)
 | **Physical Description** | Button, Badge.
 | **Category** | Visual Document.
 | **Meeting** | Campaign on Yugoslavia.
