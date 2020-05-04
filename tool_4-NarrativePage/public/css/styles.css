@@ -1,0 +1,109 @@
+:root {
+    --font-size-s: 20px;
+    --font-size-m: 40px;
+    --font-size-l: 40px;
+    --line-height: 1.10em;
+    --higlight-clr: #f7e300;
+    --bg-clr: rgb(250, 250, 250);
+    --main-clr: grey;
+    --highlight-clr: #FF00FF; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Serif;
+    font-weight: 400;
+}
+
+/* html, body {
+    height: 100%;
+} */
+
+body {
+    margin: 2em;
+    background-color: var(--bg-clr);
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 92vh;
+    box-sizing: border-box;
+  }
+
+p {
+    font-size: var(--font-size-m);
+    color: var(--main-clr);
+    width: fit-content;
+}
+
+#counter {
+    font-size: var(--font-size-s);
+}
+
+#promptArea {
+    /* flex-basis: 50%; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 80%;
+}
+
+#prompt {
+    margin-bottom: 1em;
+}
+
+#drawingArea {
+    background-color: white;
+    border: 1px solid var(--main-clr);
+    display: block;
+    clear: both;
+    flex: none;
+}
+
+#palette {
+    margin-top: 1em;
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: none;
+}
+
+#palette p {
+    font-size: var(--font-size-s);
+    width: fit-content;
+}
+
+#clear {
+    padding: 6px 10px 6px 10px;
+    font-size: var(--font-size-s);
+    width: fit-content;
+    height: fit-content;
+}
+
+#selColor {
+    font-size: var(--font-size-s);
+    color: var(--main-clr);
+    width: fit-content;
+}
+
+#confirm {
+    font-size: 40px;
+    text-decoration: none;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+#btndownload {
+    margin-top: 10em;
+    padding: 6px 5px 6px 5px;
+}

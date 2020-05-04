@@ -12,7 +12,8 @@ app.use(express.json());
 app.use(session({
     secret: 'picasso',
     resave: true,
-    saveUninitialized: true
+    saveUninitialized: true,
+    cookie: { maxAge: 3600000,secure: false, httpOnly: true }
   }));
 
 app.get('/', (req, res) => {
