@@ -14,8 +14,7 @@ The establishing research framework can be found at:
 The master document for the interpretative steps/backbone of transcodings can be found at:
 * https://www.notion.so/700ml/BADGES-Master-Document-65955832ffd74de0927b75a91b648047.
 
-##### KEYWORDS
-
+###### KEYWORDS
 | Haeccity, Relativism, Designed Objectivity, Meaning-Making, Semiotics |
 |-----------------------------------------------------------------------|
 
@@ -23,9 +22,10 @@ __________________________________________
 
 ### Personal learning goals:
 * Improve my JavaScript (et. al.) skills: Data Structures, File Manipulation, client-server communication...
-* Improve my programming ability for creating web-based experiences... websites as workshops, forums, spaces of participation...
-* Build up a concise, didactic, accessible narrative dealing with the problems of classification / ordering
-* Discuss the (my) Problem of Classification, my research-framework, through this practical application, via a limited number of artefacts
+* Improve my programming ability for creating small, interactive experiences... Websites as workshops, forums, spaces of participation...
+* Write a poetic, didactic, accessible narrative dealing with the problems of classification / ordering
+* Discuss the (my) Problem of Classification, my research-framework through this practical application, via a limited number of artefacts
+* Develop a methodology for producing illustrated stories that are different with every user group
 * Develop and tinker with playful transcoding tools along the way
 
 __________________________________________
@@ -59,7 +59,7 @@ This first tool scrapes IISG's collection (of photographs) of Badges, and saves 
 ## Tool 1 ◽️ Main Colour HEX
 ###### W13
 Disclose the artefact by their predominant colour. Analogous to tagging an artefact with one singular tag. Creates a highly simplistic interpretation of the artefact.
-* [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
+> [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
 
 #### Remarks:
 * The colour average is purely based on histogram - could improve with K-clustering for more natural outcomes.
@@ -72,7 +72,7 @@ Disclose the artefact by their predominant colour. Analogous to tagging an artef
 From tinkering with an image-based approach, I shifted back to the wider metanarrative:
 * I shifted towards a language-based disclosure, using the convenience of JavaScript Object Notation as an environment for semantic analysis of the badge
 
-* [TOOL 2 - outcome](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_2-Semantic-analysis/semanticBadge.js)
+> [TOOL 2 - outcome](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_2-Semantic-analysis/semanticBadge.js)
 
 ## Tool 3 ◽️ Gradual meaning-making
 ###### W16, 17
@@ -81,7 +81,7 @@ This week, I have been busy with drafting a little participatory app to describe
 I built a local version with a download button (Tool 3), and a participatory, server-side version (Tool 3.1).
 
 ![Image of GIF Loop](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/testWrite/GIF/loop.gif)
-- [TOOL 3 - outcomes](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
+> [TOOL 3 - outcomes](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
 
 ## Tool 4 🟩 Participatory Story-Making
 
@@ -93,7 +93,7 @@ The main points of the narrative concern:
   * Reminder to beware of the reductionist, false objectivty of a given taxonomy
 
 ###### W18
-- [ ] Write the narrative: Gradual Meaning-Making, Beauty of Subjectivity, Fuziness of Representation ...
+- [ ] Finalise the narrative: Gradual Meaning-Making, Beauty of Subjectivity, Fuziness of Representation ...
 
 
 ## Subdirectories of project:
@@ -101,6 +101,7 @@ The main points of the narrative concern:
 * [*TOOL 1 - Main Colour HEX*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_1-HexCode)
 * [*TOOL 2 - Semantic Analysis*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_2-Semantic-analysis)
 * [*TOOL 3 - Gradual meaning-making*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3-drawSteps)
+* [*TOOL 3.1 - Participatory Gradual meaning-making*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3.1-drawStepsNodeJS)
 * [*TOOL 3.1 - Participatory Gradual meaning-making*](https://github.com/dmnkvd/Archive-Transcoding-Tools/tree/master/tool_3.1-drawStepsNodeJS)
 
 ## Bibliography
