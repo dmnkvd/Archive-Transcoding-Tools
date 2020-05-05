@@ -60,72 +60,153 @@ The badges were cleaned up, with the scanned background removed.
 # Transcoding
 The general role of transcoding...
 
-## Tool 1 ◽️ Main Colour HEX
-###### W13
-<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_1/tool-1__1.png" width="400" height="400">
+## ⚽️Transcoding No. 1 - Capturing the Input
+### Description
+I attempted to capture the badge in 3d. Due to the limitations imposed by the archhive this proved difficult.
+
+### Methods
+
+### Tools 
+- 3d scanning software
+- Blender
+
+### Results
+
+## 🏀Transcoding No. 2 - Assign one single stereotype to the Artefact
+### Description
 Disclose the artefact by their predominant colour. Analogous to tagging an artefact with one singular tag. Creates a highly simplistic interpretation of the artefact.
 
-> [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
+### Methods
 
-#### Remarks:
-* The colour average is purely based on histogram - could improve with K-clustering for more natural outcomes.
-* I am evenetually creating a server/web interface, as a way to talk about the bigger narrative/story of the richness of classification.
+### Tools 
+- bash
+- Terminal
+- ImageMagick
 
-## Tool 2 ◽️ Research, Semantic Analysis
-###### W14, 15
+### Results
+<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_1/tool-1__1.png" width="400" height="400">
+> [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss
 
+## 🏐Transcoding No. 2 - Exploring Different ways of disclosing a Badge
+### Description
 From tinkering with an image-based approach, I shifted back to the wider metanarrative:
 * Returning to language-based disclosure, I used the convenience of JSON as an environment for semantic analysis of the badge
 
+### Methods
+JSON
+Semantic Interpretation
+
+### Tools 
+- JavaScript
+
+### Results
 > [TOOL 2 - outcome](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_2-Semantic-analysis/semanticBadge.js)
 
-## Tool 3 ◽️ Gradual meaning-making
-###### W16, 17
-This week, I have been busy with drafting a little participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt. After she has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
+## ⚾️Transcoding No. 3 - Gradual Meaning-Making
+### Description
+a little participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt. After she has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
 
-<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_3/tool-3__1.png" width="400" height="400">
+### Methods
 
-I built a local version with a download button (Tool 3), and a participatory, server-side version (Tool 3.1).
 
-![Image of GIF Loop](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_3.1-drawStepsNodeJS/testWrite/GIF/loop.gif)
-> [TOOL 3 - outcomes](https://drive.google.com/open?id=1D3NgR8H-Lq1dKw4yQjneVOM9Vh9uHi0I)
+### Tools 
+-- participatory tool
 
-## Tool 4 ◽️ Participatory Story-Making
+### Results
 
-The final tool shall function as part of a workshop, held at a specific location. After responding to the ten steps of the prompt, the images will be incorporated a final narrative. 
+## 🥎Transcoding No. 4 - Participatory Narrative Workshop
+### Description
+The final transcoding shall happen as part of a workshop, held at a specific location. After responding to the ten steps of the prompt, the images will be incorporated a final narrative.
 
 The main points of the narrative concern:
   * Subjectivity of classification, categorisation
   * Reminder that we all hold extremely different interpretations of "Haecceity / Thisness" 
   * Reminder to beware of the reductionist, false objectivty of a given taxonomy
   * Reminder that it is important to have a precise, deterministic classification system
+
+### Methods
+
+
+### Tools 
+-- participatory tool
+
+### Results
   
 ## Tools
 
 ## Transcoding Tool 1: IISG Image Scraper
 ### Description
-This first tool scrapes IISG's collection (of photographs) of Badges, and saves the image links, together with the link to the record, in a Python dictionary. 
+This first tool scrapes IISG's collection (of photographs) of Badges, and saves the image links, together with the link to the record, in a Python dictionary.
 
 ### Aims
 To simplify and remove selectio bias from my pick of artefacts.
 
 ### Methods
 Dependencies used:
-Python
-Beautiful Soup
+- Python
+- Beautiful Soup
 
 ### Results
-The coding tool will vary a lot between different students. So depending on the use and type, you may include more or less documentation here. 
+Sample of a data collection search.
 
 ### Source Links
 Please include links to the tools, sources etc used during the coding. E.g. the resources used for making your coding tool.  
 
-Questions are marked with `// [QUESTION]`
-> [index.js](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_4-NarrativePage/index.js)
+## Transcoding Tool 2: HEX Color Code Classifier
+### Description
 
-# Conclusion 
+### Aims
+* The colour average is purely based on histogram - could improve with K-clustering for more natural outcomes.
+* I am evenetually creating a server/web interface, as a way to talk about the bigger narrative/story of the richness of classification.
+This first tool scrapes IISG's collection (of photographs) of Badges, and saves the image links, together with the link to the record, in a Python dictionary. 
 
-### Personal learning goals:
+### Methods
+Dependencies used:
+- Python
+- Beautiful Soup
+
+### Results
+PNG images.
+
+### Source Links
+Please include links to the tools, sources etc used during the coding. E.g. the resources used for making your coding tool.  
+
+## Transcoding tool 3: Draw by Instructions and Download your Drawing
+### Description
+
+### Aims
+
+### Methods
+
+### Results
+<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_3/tool-3__1.png" width="400" height="400">
+
+I built a local version with a download button, and a server-side version.
+
+## Transcoding tool 4: Collaborative Drawing-App
+### Description
+
+### Aims
+
+### Methods
+
+### Results
+<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_3/tool-3__1.png" width="400" height="400">
+
+## Transcoding tool 5: Narrative and Gallery of User-Made Drawings
+### Description
+
+### Aims
+
+### Methods
+
+### Results
+
+### Source Links
+
+--------------------
+# Reflection
+My personal learning goals this semester were:
 * Improve my JavaScript (et. al.) skills: Data Structures, File Manipulation, client-server communication...
 * Improve my programming ability for creating small, interactive experiences... Websites as workshops, forums, spaces of participation...
 * Write a poetic, didactic, accessible narrative dealing with the problems of classification / ordering
@@ -133,6 +214,15 @@ Questions are marked with `// [QUESTION]`
 * Develop a methodology for producing illustrated stories that are different with every user group
 * Develop and tinker with playful transcoding tools along the way
 
+# Outcomes
+- code-based outcomes
+- practical outcomes
+- outcomes of the use of the tool
+
+### Outcome Links
+> website
+
+# Conclusion 
 
 ## Bibliography
 To be compiled.
