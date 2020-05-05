@@ -1,6 +1,5 @@
-The Haziness of Classification
-======
-
+[<img src="" width="100%">](#)
+# The Relativity of Classification
 
 > Haziness of Classification is the collective name for a set of algorithmic tools, united in the goal to find novel
 > and exciting ways of representing artefacts from the archive of the Institute of Social History
@@ -16,45 +15,50 @@ The master document for the interpretative steps/backbone of transcodings can be
 * https://www.notion.so/700ml/BADGES-Master-Document-65955832ffd74de0927b75a91b648047.
 
 ###### KEYWORDS
-`Haeccity, Relativism, Designed Objectivity, Meaning-Making, Semiotics`
+Haeccity, Relativism, Classification, Typology, Meaning-Making
+
+### Table of Contents
+1. [Artefact](#Artefact)
+    1. [Metadata](#Metadata)
+2. [Research](#Research-h1)
+3. [Transcoding](#Transcoding)
+    1. [Transcoding No. 1](#Transcoding-no-1)
+    2. [Transcoding Tool](#Transcoding-tool)
+4. [Reflection](#Reflection)
+5. [Outcome](#Outcome)
+6. [Conclusion](#Conclusion)
+7. [Bibliography](#Bibliography)
 
 __________________________________________
 
-### Personal learning goals:
-* Improve my JavaScript (et. al.) skills: Data Structures, File Manipulation, client-server communication...
-* Improve my programming ability for creating small, interactive experiences... Websites as workshops, forums, spaces of participation...
-* Write a poetic, didactic, accessible narrative dealing with the problems of classification / ordering
-* Discuss the (my) Problem of Classification, my research-framework through this practical application, via a limited number of artefacts
-* Develop a methodology for producing illustrated stories that are different with every user group
-* Develop and tinker with playful transcoding tools along the way
-
 __________________________________________
 
-## 🏁 Input
+# Artefact
+
 The input is a collection of 20 colour-corrected photographs of badges, selected at random. 
 > [Input](https://drive.google.com/open?id=1k7vdxrWdUg5r0helB_yeT7051W1r1Ttc)
 
 In the intermediate steps of the project, I decided to proceeded with a distinctive, exemplary badge. In the final implementation, a selection of 3 - 5 will be implemented in the final narrative.
 
-| Info | Data |  
+## Metadata
+| Tag | Data |  
 |--|--|
-|<img src="https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright" width="250" height="250">| --  
-**IISG Link** | [IISG BG AA5/651](https://search.iisg.amsterdam/Record/1189452)
-| **Physical Description** | Button, Badge.
-| **Category** | Visual Document.
-| **Meeting** | Campaign on Yugoslavia.
+**IISG Call Number** | [IISG BG AA5/651](https://search.iisg.amsterdam/Record/1189452)
+| **Physical Description** | Aluminum Pin-Badge 
+| **Type** | Object
+| **Medium** | Badge, Button
+| **Materials** | Metal, Plastic
+| **Date** | ????
+|<img src="https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright" width="250" height="250">| This is literally a description of what you see in the image, make sure its a clear, complete and concise overview of the artefact. It should make sense for someone who doesn't see the image itself.  Our final *Catalogue of Resilience* might make use of one representative image from each student, so important to put your moneyshot here. You can build a gallery of additional artefact images below. 
 
 ###### Final Input
 The badges were cleaned up, with the scanned background removed.
 > [Input-cleanup](https://drive.google.com/open?id=16yaqBnfxsEB8Vx6aOMcAG-fH5-W0PCgq)
 
-## Tool 0 ◽️ IISG Image Scraper
-###### W12
-This first tool scrapes IISG's collection (of photographs) of Badges, and saves the image links, together with the link to the record, in a Python dictionary. 
+# Research (H1)
 
-#### Remarks:
-* Build a download function.
-* Add Pagination support
+# Transcoding
+The general role of transcoding...
 
 ## Tool 1 ◽️ Main Colour HEX
 ###### W13
@@ -96,21 +100,39 @@ The main points of the narrative concern:
   * Reminder to beware of the reductionist, false objectivty of a given taxonomy
   * Reminder that it is important to have a precise, deterministic classification system
   
-#####  Questions
-- I am a bit stuck with understanting cookies, Express-Session, and multiple users...
-- The session ID works OK when declared once in `get('/'...` - however, it does not seem to work for multiple users.
-- The session ID changes every time when declared in `post('/receive'...` - How to save it accross the whole session?
-- The image saving stops after 2 - 3 images have been written.
+## Tools
 
-- The function for reading the folder is declared in the global scope of the server application –– how to package it into a middleware?
+## Transcoding Tool 1: IISG Image Scraper
+### Description
+This first tool scrapes IISG's collection (of photographs) of Badges, and saves the image links, together with the link to the record, in a Python dictionary. 
+
+### Aims
+To simplify and remove selectio bias from my pick of artefacts.
+
+### Methods
+Dependencies used:
+Python
+Beautiful Soup
+
+### Results
+The coding tool will vary a lot between different students. So depending on the use and type, you may include more or less documentation here. 
+
+### Source Links
+Please include links to the tools, sources etc used during the coding. E.g. the resources used for making your coding tool.  
 
 Questions are marked with `// [QUESTION]`
 > [index.js](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_4-NarrativePage/index.js)
 
-##### IN-PROGRESS
-- [ ] Finalise the narrative...
-- [ ] Group the narrative images into folders by step ...
-- [ ] Work further on readme...
+# Conclusion 
+
+### Personal learning goals:
+* Improve my JavaScript (et. al.) skills: Data Structures, File Manipulation, client-server communication...
+* Improve my programming ability for creating small, interactive experiences... Websites as workshops, forums, spaces of participation...
+* Write a poetic, didactic, accessible narrative dealing with the problems of classification / ordering
+* Discuss the (my) Problem of Classification, my research-framework through this practical application, via a limited number of artefacts
+* Develop a methodology for producing illustrated stories that are different with every user group
+* Develop and tinker with playful transcoding tools along the way
+
 
 ## Bibliography
 To be compiled.
