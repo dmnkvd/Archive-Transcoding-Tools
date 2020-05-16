@@ -24,7 +24,7 @@ app.use(session({
 
 // Initialise session ID variable. The variable is global -- I have read against declaring global variables.
 // [QUESTION] How to use variables between two functions, e.g. between `app.get('/'...` and `app.post()...`
-let id = 0
+// let id = 0
 
 // [QUESTION] I tested this with two browsers, and it stops writing files after 2 or 3 steps.
 // [QUESTION] How to enable the server for multiple users at the same time?
@@ -33,11 +33,12 @@ let id = 0
   app.use("/", (req, res, next) => {
   // [QUESTION] I also tried to put it inside app.post (L93). It creates a new session after every received request. 
     if (req.url == "/") {
-        id = req.sessionID.substring(0,4);  
+        // id = req.sessionID.substring(0,4);  
+        console.log(req.sessionID)
     }
     return next()
   
-  }, express.static(path.join(__dirname, "public")))
+  }, express.static(path.join(__dirname, "public")));
 
 app.get('/', (req, res) => {
 // [QUESTION]The message never gets logged to the console -- why is that so?
@@ -45,38 +46,6 @@ app.get('/', (req, res) => {
   console.log("Welcome to the homepage")
   res.sendfile('index.html');
   });
-
-app.get('/a-story-of-an-object', (req, res) => {
-// Adapted from https://arjunphp.com/node-js-auto-generate-photo-gallery-directory/
-  let images = getImagesFromDir(path.join(__dirname, 'public/images'));
-  res.render('a-story-of-an-object', {images: images })
-});
-
-// Adapted from https://arjunphp.com/node-js-auto-generate-photo-gallery-directory/
-
-// dirPath: target image directory
-function getImagesFromDir(dirPath) {
- 
-  // All images holder
-  let allImages = [];
-
-  // Iterator over the directory
-  let files = fs.readdirSync(dirPath);
-
-  // Iterator over the files, push jpeg images to allImages array.
-  for (file of files) {
-      let fileLocation = path.join(dirPath, file);
-      var stat = fs.statSync(fileLocation);
-      if (stat && stat.isDirectory()) {
-          getImagesFromDir(fileLocation); // process sub directories
-      } else if (stat && stat.isFile() && ['.jpeg', '.png'].indexOf(path.extname(fileLocation)) != -1) {
-          allImages.push('images/'+file); // push all .jpg and .png files to all images 
-      }
-  }
-
-  // return all images in array format
-  return allImages;
-}
 
 app.listen(3000, () => {
   console.log("Listening on port 3000!")
@@ -89,10 +58,7 @@ app.post('/receive', (req, res) => {
   const imgData = incomingJSON.img;
   const num = incomingJSON.increment;
 
-// [QUESTION] This defines a new session at every request received.
-  // let id = 0
-  // id = req.sessionID.substring(0,4);  
-  // console.log(id)
+  let id = req.sessionID.substring(0,4);  
 
   // Target file path
   let filePath = path.join(__dirname, `/public/images/${num}-canvas-${id}.jpeg`);
@@ -105,10 +71,43 @@ app.post('/receive', (req, res) => {
   //TODO: If file already exists, do not overwrite it.
   fs.writeFile(filePath, buf, (err) => {
     if (err) throw err
-    // Respond to client that the canvas image is saved.
   });
 
 });
+
+app.get('/a-story-of-an-object', (req, res) => {
+  // Adapted from https://arjunphp.com/node-js-auto-generate-photo-gallery-directory/
+    let images = getImagesFromDir(path.join(__dirname, 'public/images'));
+    res.render('a-story-of-an-object', {images: images })
+  });
+  
+  // Adapted from https://arjunphp.com/node-js-auto-generate-photo-gallery-directory/
+  
+  // dirPath: target image directory
+  function getImagesFromDir(dirPath) {
+   
+    // All images holder
+    let allImages = [];
+  
+    // Iterator over the directory
+    let files = fs.readdirSync(dirPath);
+  
+    // Iterator over the files, push jpeg images to allImages array.
+    for (file of files) {
+        let fileLocation = path.join(dirPath, file);
+        var stat = fs.statSync(fileLocation);
+        if (stat && stat.isDirectory()) {
+            getImagesFromDir(fileLocation); // process sub directories
+  
+        } else if (stat && stat.isFile() && ['.jpeg', '.png'].indexOf(path.extname(fileLocation)) != -1) {
+            allImages.push('images/'+file); // push all .jpg and .png files to all images 
+        }
+    }
+  
+    // return all images in array format
+    return allImages;
+  }
+  
 
 // TODO: 
 // When done looping through the steps, take the user to the finish page, and view the gallery.
