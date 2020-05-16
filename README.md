@@ -1,4 +1,4 @@
-[<img src="" width="100%">](#)
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/Documentation/readme/DVDezman_GitHub-CoverImage.png" width="100%">](#)
 # The Relativity of Classification
 
 > Relativity of Classification is the collective name for a set of algorithmic tools, united in the goal to find novel
