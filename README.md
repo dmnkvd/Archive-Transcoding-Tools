@@ -19,7 +19,8 @@ Haeccity, Relativism, Classification, Typology, Meaning-Making
 
 ### Table of Contents
 1. [Artefact](#Artefact)
-    1. [Metadata](#Metadata)
+    1.1 [Disclaimer](#Disclaimer)
+    1.2 [Metadata](#Metadata)
 2. [Research](#Research-h1)
 3. [Transcoding](#Transcoding)
     1. [Transcoding No. 1](#Transcoding-no-1)
@@ -34,11 +35,15 @@ __________________________________________
 __________________________________________
 
 # Artefact
-My chosen artefact is a badge. More precisely,
+My chosen artefact is an aluminum Pin-Badge. More precisely, a selection of twenty badges, selected at random. Due to the visual similarity of the badges, I found them to be a perfect testing ground for challenging my explorations and researches on the topics of Haecceity, Thisness, etc (read more in the research section).
 
 > [Input](https://drive.google.com/open?id=1k7vdxrWdUg5r0helB_yeT7051W1r1Ttc)
 
+#### Disclaimer
+For testing purposes, I selected one badge to be used as the central part of the transcoding process.
+
 ## Metadata
+
 | Tag | Data |  
 |--|--|
 **IISG Call Number** | [IISG BG AA5/651](https://search.iisg.amsterdam/Record/1189452)
@@ -49,13 +54,12 @@ My chosen artefact is a badge. More precisely,
 | **Date** | 1999
 |<img src="https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright" height="100" width="100">| The badge.
 
-###### Final Input
-The badges were cleaned up, with the scanned background removed.
-> [Input-cleanup](https://drive.google.com/open?id=16yaqBnfxsEB8Vx6aOMcAG-fH5-W0PCgq)
-
 # Research (H1)
 ## What is a Badge?
 In my research, I explore different ways in which a badge could be described...
+
+## Thissness, Haecceity, Taxonomy, Classification, Typology
+Thissness is defined as etc.<a href="#note1" id="note1ref"><sup>1</sup></a>
 
 # Transcoding
 Throughout the duration of this project, I went over several transcoding steps.
@@ -76,13 +80,19 @@ I attempted to capture the badge in various ways, to obtain diverse physical mea
 A badge may be described in numerous different ways - I decided to thoroughly explore some different genealogies and descriptive sequences that would arrive at the answer of: A Badge.
 
 ### Methods
-Transcoding with Bash / Python.
+I looked at the most suitable ways of describing the badge, and arrived at the following categorisations:
+
+A badge is...
+- the outcome of a production process
+- something else
+- 3rd thing
+- 4th thing
 
 ### Tools 
-No self-made tools were used for this.
+This transcoding was achieved without self-made tools.
 
 ### Results
-> [Different ways of looking at a Badge](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss
+[Folder with various text-based descriptions]()
 
 ## Transcoding No. 3 - Disclose the badges by one main colour
 ### Description,
@@ -95,16 +105,15 @@ Transcoding with Bash / Python.
 - Tool 2
 
 ### Results
-<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_1/tool-1__1.png" width="400" height="400">
-> [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss)
 
-## Transcoding No. 4 - Semantic (Structural) Analysis of a Badge
+
+## Transcoding No. 4 - Semantic (Structuralist) Analysis of a Badge
 ### Description
-I discovered that JSON is a great environment for writing-out a thorough semantic analysis of the badge.
+JSON is a great environment for writing-out a thorough semantic analysis of the badge.
 
 ### Methods
 JSON
-Semantic Interpretation
+Structuralist Syntax Analysis
 
 ### Tools 
 - JavaScript
@@ -112,17 +121,15 @@ Semantic Interpretation
 ### Results
 <details><summary>JSON</summary>
 <p>
-```JavaScript
+```javascript
 code = codeHere
 ```
 </p>
 </details>
 
-> [TOOL 2 - outcome](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_2-Semantic-analysis/semanticBadge.js)
-
 ## Transcoding No. 5 - Disclosing the Artefact, one-step-at-a-time
 ### Description
-A simple participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt. After she has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
+A simple participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt.
 
 ### Methods
 
@@ -134,7 +141,9 @@ A simple participatory app to describe a badge collectively, together, in steps.
 
 ## Transcoding No. 6 - Participatory Meaning-Making Workshop
 ### Description
-The final transcoding will happen as part of a workshop. After responding to the prompt, the images will be incorporated into a final narrative, about the fuziness of classification.
+The final transcoding will happen as part of a workshop. The prompt responses are incorporated into a final narrative about the fuziness of classification. 
+
+After the user has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
 
 The main points of the narrative concern:
   * Subjectivity of classification, categorisation
@@ -197,9 +206,6 @@ PNG images.
 ### Methods
 
 ### Results
-<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_3/tool-3__1.png" width="400" height="400">
-
-I built a local version with a download button, and a server-side version.
 
 ## Transcoding tool 4: Collaborative Drawing App
 ### Description
@@ -210,9 +216,8 @@ Continuing from the local version, this version is server-based and allows each 
 ### Methods
 
 ### Results
-<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/x-proccess/Screenshots/tool_3/tool-3__1.png" width="400" height="400">
 
-## Transcoding tool 5: Narrative Page and Gallery of User-Made Drawings
+## Transcoding tool 5: Narrative, featuring dataset of User-Made Drawings
 ### Description
 
 ### Aims
@@ -247,4 +252,4 @@ My personal learning goals this semester were:
 # Conclusion 
 
 ## Bibliography
-To be compiled.
+<a id="note1" href="#note1ref"><sup>1</sup></a> Reference 1. Link. Author. Date.
