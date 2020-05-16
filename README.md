@@ -32,7 +32,6 @@ Haeccity, Relativism, Classification, Typology, Meaning-Making
     3. [Tool 3](#Transcoding-no-1)
     4. [Tool 4](#Transcoding-no-1)
     5. [Tool 5](#Transcoding-no-1)
-    6. [Tool 6](#Transcoding-no-1)
 5. [Reflection](#Reflection)
 6. [Outcomes](#Outcome)
 7. [Conclusion](#Conclusion)
