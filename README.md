@@ -1,12 +1,10 @@
 [<img src="" width="100%">](#)
 # The Relativity of Classification
 
-> Haziness of Classification is the collective name for a set of algorithmic tools, united in the goal to find novel
+> Relativity of Classification is the collective name for a set of algorithmic tools, united in the goal to find novel
 > and exciting ways of representing artefacts from the archive of the Institute of Social History
 > in Amsterdam. In doing so, the project touches down on the problems of taxonomy and representation,
 > and wishes to explore visually what constitutes an artefact's "thisness". 
-
-__________________________________________
 
 The establishing research framework can be found at:
 * https://www.notion.so/700ml/Archival-Resilience-2-0-1e8810953f164242aaaeb1c5fe92ad95.
