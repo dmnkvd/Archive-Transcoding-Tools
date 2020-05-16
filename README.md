@@ -69,7 +69,7 @@ Thissness is defined as etc.<a href="#note1" id="note1ref"><sup>1</sup></a>
 # Transcoding
 Throughout the duration of this project, I went over several transcoding steps.
 
-## Transcoding 1 - Capturing the Input with various Sensors
+## Transcoding 1 - Capturing the Input
 ### Description
 I attempted to capture the badge in various ways, to obtain diverse physical measurements.
 
