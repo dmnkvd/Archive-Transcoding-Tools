@@ -19,16 +19,26 @@ Haeccity, Relativism, Classification, Typology, Meaning-Making
 
 ### Table of Contents
 1. [Artefact](#Artefact)
-    1.1 [Disclaimer](#Disclaimer)
-    1.2 [Metadata](#Metadata)
+    1.1 [Metadata](#Metadata)
 2. [Research](#Research-h1)
-3. [Transcoding](#Transcoding)
-    1. [Transcoding No. 1](#Transcoding-no-1)
-    2. [Transcoding Tool](#Transcoding-tool)
-4. [Reflection](#Reflection)
-5. [Outcome](#Outcome)
-6. [Conclusion](#Conclusion)
-7. [Bibliography](#Bibliography)
+3. [Transcodings](#Transcoding)
+    3.1 [Transcoding 1](#Transcoding-no-1)
+    3.2 [Transcoding 2](#Transcoding-no-1)
+    3.3 [Transcoding 3](#Transcoding-no-1)
+    3.4 [Transcoding 4](#Transcoding-no-1)
+    3.5 [Transcoding 5](#Transcoding-no-1)
+    3.6 [Transcoding 6](#Transcoding-no-1)
+4. [Transcoding Tools](#Transcoding)
+    3.1 [Tool 1](#Transcoding-no-1)
+    3.2 [Tool 2](#Transcoding-no-1)
+    3.3 [Tool 3](#Transcoding-no-1)
+    3.4 [Tool 4](#Transcoding-no-1)
+    3.5 [Tool 5](#Transcoding-no-1)
+    3.6 [Tool 6](#Transcoding-no-1)
+5. [Reflection](#Reflection)
+6. [Outcomes](#Outcome)
+7. [Conclusion](#Conclusion)
+8. [Bibliography](#Bibliography)
 
 __________________________________________
 
@@ -54,17 +64,17 @@ For testing purposes, I selected one badge to be used as the central part of the
 | **Date** | 1999
 |<img src="https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright" height="100" width="100">| The badge.
 
-# Research (H1)
-## What is a Badge?
+# Research
+### What is a Badge?
 In my research, I explore different ways in which a badge could be described...
 
-## Thissness, Haecceity, Taxonomy, Classification, Typology
+### Thissness, Haecceity, Taxonomy, Classification, Typology
 Thissness is defined as etc.<a href="#note1" id="note1ref"><sup>1</sup></a>
 
 # Transcoding
 Throughout the duration of this project, I went over several transcoding steps.
 
-## Transcoding No. 1 - Capturing the Input with various Sensors
+## Transcoding 1 - Capturing the Input with various Sensors
 ### Description
 I attempted to capture the badge in various ways, to obtain diverse physical measurements.
 
@@ -76,7 +86,7 @@ I attempted to capture the badge in various ways, to obtain diverse physical mea
 
 ### Results
 
-## Transcoding No. 2 - A Badge as...
+## Transcoding 2 - A Badge as...
 A badge may be described in numerous different ways - I decided to thoroughly explore some different genealogies and descriptive sequences that would arrive at the answer of: A Badge.
 
 ### Methods
@@ -94,7 +104,7 @@ This transcoding was achieved without self-made tools.
 ### Results
 [Folder with various text-based descriptions]()
 
-## Transcoding No. 3 - Disclose the badges by one main colour
+## Transcoding 3 - Disclose the badges by one main colour
 ### Description,
 The artefacts are disclosed by their predominant colour. Analogous to tagging an object with one singular tag. Creates a highly simplistic, stereotyped interpretation of the artefact.
 
@@ -106,8 +116,7 @@ Transcoding with Bash / Python.
 
 ### Results
 
-
-## Transcoding No. 4 - Semantic (Structuralist) Analysis of a Badge
+## Transcoding 4 - Semantic (Structuralist) Analysis of a Badge
 ### Description
 JSON is a great environment for writing-out a thorough semantic analysis of the badge.
 
@@ -127,19 +136,18 @@ code = codeHere
 </p>
 </details>
 
-## Transcoding No. 5 - Disclosing the Artefact, one-step-at-a-time
+## Transcoding 5 - Disclosing the Artefact, one-step-at-a-time
 ### Description
 A simple participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt.
 
 ### Methods
-
 
 ### Tools 
 -- participatory tool
 
 ### Results
 
-## Transcoding No. 6 - Participatory Meaning-Making Workshop
+## Transcoding 6 - Participatory Meaning-Making Workshop
 ### Description
 The final transcoding will happen as part of a workshop. The prompt responses are incorporated into a final narrative about the fuziness of classification. 
 
@@ -159,9 +167,9 @@ The main points of the narrative concern:
 
 ### Results
   
-## 🛠⚙️🗜Tools
+## 🛠⚙️🗜Transcoding Tools
 
-## Transcoding Tool 1: IISG Image Scraper
+## Tool 1: IISG Image Scraper
 ### Description
 This tool scrapes IISG's online archive of Badges and saves the image links, together with the link to the record, into a Python dictionary. 
 
@@ -179,7 +187,7 @@ Sample of a data collection search.
 ### Source Links
 Please include links to the tools, sources etc used during the coding. E.g. the resources used for making your coding tool.  
 
-## Transcoding Tool 2: Generate HEX Color Tile from Main Color in Image
+## Tool 2: Generate HEX Color Tile from Main Color in Image
 ### Description
 
 ### Aims
@@ -198,7 +206,7 @@ PNG images.
 ### Source Links
 
 
-## Transcoding tool 3: Draw by Instructions and Download your Drawing!
+## Tool 3: Draw by Instructions and Download your Drawing!
 ### Description
 
 ### Aims
@@ -207,7 +215,7 @@ PNG images.
 
 ### Results
 
-## Transcoding tool 4: Collaborative Drawing App
+## Tool 4: Collaborative Drawing App
 ### Description
 Continuing from the local version, this version is server-based and allows each visitor of the website to save their drawing to a directory on the server.
 
@@ -217,7 +225,7 @@ Continuing from the local version, this version is server-based and allows each 
 
 ### Results
 
-## Transcoding tool 5: Narrative, featuring dataset of User-Made Drawings
+## Tool 5: Narrative, featuring dataset of User-Made Drawings
 ### Description
 
 ### Aims
@@ -240,16 +248,13 @@ My personal learning goals this semester were:
 * Develop and tinker with playful transcoding tools along the way
 
 # Outcomes
-- code-based outcomes
-- practical outcomes
-- outcomes of the use of the tool
+The final outcome of this semester is a collaborative web-application, which touches down on various aspects of classification and taxonomy through a participatory workshop.
 
 ### Outcome Links
 > website
-> [TOOL 1 - outcomes](https://drive.google.com/open?id=1sZFAJHxdTo6kFFht144gDHAQaPNzByss
-
 
 # Conclusion 
+Points.
 
 ## Bibliography
 <a id="note1" href="#note1ref"><sup>1</sup></a> Reference 1. Link. Author. Date.
