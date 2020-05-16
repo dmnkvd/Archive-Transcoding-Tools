@@ -15,6 +15,7 @@ The master document for the interpretative steps/backbone of transcodings can be
 ###### KEYWORDS
 Haeccity, Relativism, Classification, Typology, Meaning-Making
 
+__________________________________________
 ### Table of Contents
 1. [Artefact](#Artefact)
     1. [Metadata](#Metadata)
@@ -36,9 +37,6 @@ Haeccity, Relativism, Classification, Typology, Meaning-Making
 6. [Outcomes](#Outcome)
 7. [Conclusion](#Conclusion)
 8. [Bibliography](#Bibliography)
-
-__________________________________________
-
 __________________________________________
 
 # Artefact
