@@ -1,12 +1,10 @@
 // Array with promopts / steps of the drawing game.
 const steps = [
     "a circle",
-    "a circle with a rounded edge",
+    "a metallic circular object with a curved/rounded edge",
     "a badge",
     "a pink badge",
-    "a pink badge with black shapes",
     "a pink badge with black shapes, of which some are repeated",
-    "a pink badge with black shapes, of which some are repeated. The shapes are grouped into four clusters",
     "a pink badge with black text of four words. The words are in English",
     'a pink badge with black text saying "PEACE", "IN THE", "BALKANS"',
 ];

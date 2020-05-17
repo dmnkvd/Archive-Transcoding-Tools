@@ -100,7 +100,7 @@ app.get('/a-story-of-an-object', (req, res) => {
             getImagesFromDir(fileLocation); // process sub directories
   
         } else if (stat && stat.isFile() && ['.jpeg', '.png'].indexOf(path.extname(fileLocation)) != -1) {
-            allImages.push('images/'+file); // push all .jpg and .png files to all images 
+            allImages.push('images/'+ file); // push all .jpg and .png files to all images 
         }
     }
   

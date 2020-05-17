@@ -1,6 +1,142 @@
+:root {
+    --font-size-s: 24px;
+    --font-size-m: 40px;
+    --font-size-l: 40px;
+    --line-height: 1.2;
+    --higlight-clr: #f7e300;
+    --bg-clr: rgb(250, 250, 250);
+    --main-clr: grey;
+    --highlight-clr: #FF00FF; 
+    --flow-space: 1em;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Serif;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  margin: 2rem;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: var(--line-height);
+  background-color: var(--bg-clr);
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 h1 {
+    --flow-space: 3em;
     font-size: 40px;
 }
+
+.story-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+article {
+    border: 1px solid black;
+    max-width: 70ch;
+    font-size: var(--font-size-s);
+}
+
+article > * + * {
+  margin-top: var(--flow-space);
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+    grid-auto-rows: 1fr;
+  }
+  
+  .image-grid::before {
+    content: '';
+    width: 0;
+    padding-bottom: 100%;
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+  }
+  
+  .image-grid > *:first-child {
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+  }
+    
+  .image-grid > * {
+    background: rgba(0,0,0,0.1);
+    border: 1px white solid;
+  }
 
 .image-gallery {
     display: grid;
