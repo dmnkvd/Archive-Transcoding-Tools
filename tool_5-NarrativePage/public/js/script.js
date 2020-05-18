@@ -1,7 +1,7 @@
 // Array with promopts / steps of the drawing game.
 const steps = [
     "a circle",
-    "a metallic circular object with a curved/rounded edge",
+    "a metallic circle with a curved/rounded edge",
     "a badge",
     "a pink badge",
     "a pink badge with black shapes, of which some are repeated",
@@ -140,7 +140,7 @@ document.getElementById('confirm').onclick = () => {
         document.getElementById("counter").innerHTML = step + 1 + ".";
         step++
     } else if (step == steps.length) {
-// This does not redirect as expected
+//[QUESTION] This does not redirect as expected
         window.location.href = "/a-story-of-an-object", true;
     }
 

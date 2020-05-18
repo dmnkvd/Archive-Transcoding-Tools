@@ -1,3 +1,4 @@
+
 const http = require('http');
 const express = require('express');
 const fs = require('fs');
@@ -24,6 +25,7 @@ app.use(session({
 
 // Initialise session ID variable. The variable is global -- I have read against declaring global variables.
 let id = 0
+const port = 3000
 
 // [QUESTION] I tested this with two browsers, and it stops writing files after 2 or 3 steps.
 // [QUESTION] How to enable the server for multiple users at the same time?
@@ -46,7 +48,7 @@ app.get('/', (req, res) => {
   res.sendfile('index.html');
   });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("Listening on port 3000!")
 });
 
@@ -71,7 +73,8 @@ app.post('/receive', (req, res) => {
   fs.writeFile(filePath, buf, (err) => {
     if (err) throw err
   });
-
+  
+  res.end();
 });
 
 app.get('/a-story-of-an-object', (req, res) => {

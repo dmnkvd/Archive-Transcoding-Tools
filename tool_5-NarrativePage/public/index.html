@@ -16,13 +16,13 @@
 <body>
     <div class="center-screen">
         <section id="promptArea">
-            <p id="counter">1.</p>
+            <p class="small">1.</p>
             <p id="prompt">Draw <span id="draw-text">a circle</span>.</p>
         </section>
         <canvas id="drawingArea" width=300 height=300></canvas>
         <div id="palette">
             <button onclick="clearArea()" id="clear">Clear Area</button>
-            <p>Color: <select id="selColor" onchange="drawColor()">
+            <p>Color:  <select id="selColor" onchange="drawColor()">
             <option value="#000000">black</option>
             <option value="#FF0000">red</option>
             <option value="#DA9BB0">pink</option>
@@ -32,6 +32,9 @@
             </select></p>
         </div>
         <p id="confirm">⏩</p>
+        <p class="small footer">This drawing room is part of a <a href="https://github.com/dmnkvd/Archive-Transcoding-Tools" target="_blank" rel="noopener noreferrer">bigger project</a>.</p>
+        <hr>
+
     </div>
     <script src="js/script.js"></script>
 </body>

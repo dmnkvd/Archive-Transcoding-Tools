@@ -1,19 +1,37 @@
 :root {
-    --font-size-s: 20px;
+    --font-size-s: 14px;
     --font-size-m: 40px;
     --font-size-l: 40px;
     --line-height: 1.10em;
     --higlight-clr: #f7e300;
     --bg-clr: rgb(250, 250, 250);
-    --main-clr: grey;
+    --main-clr: #9c9c9c;
     --highlight-clr: #FF00FF; 
 }
+
+@font-face {
+    font-family: 'SourceSerifPro-Bold';
+    src: url(fonts/SourceSerifPro-Bold.ttf);
+    }
+
+    @font-face {
+        font-family: 'SourceSerifPro-Regular';
+        src: url(fonts/SourceSerifPro-Regular.ttf);
+        }
 
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Times New Roman', Serif;
+    font-family: 'SourceSerifPro-Regular', Serif;
     font-weight: 400;
+    box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
 }
 
 /* html, body {
@@ -41,8 +59,13 @@ p {
     width: fit-content;
 }
 
-#counter {
+a {
+    color: darkslategrey;
+}
+
+.small {
     font-size: var(--font-size-s);
+    font-family: sans-serif;
 }
 
 #promptArea {
@@ -56,21 +79,27 @@ p {
 }
 
 #prompt {
-    margin-bottom: 1em;
+    line-height: 0.98em;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 #drawingArea {
     background-color: white;
-    border: 1px solid var(--main-clr);
+    border: 2px solid lightgray;
     display: block;
     clear: both;
-    flex: none;
+}
+
+#drawingArea:focus,
+#drawingArea:active {
+    border: 2px solid var(--main-clr);
 }
 
 #palette {
-    margin-top: 1em;
+    margin-top: 1rem;
     width: 300px;
-    height: fit-content;
+    height: 1.8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -84,26 +113,39 @@ p {
 }
 
 #clear {
-    padding: 6px 10px 6px 10px;
+    height: 100%;
+    padding: 3px 10px 3px 10px;
     font-size: var(--font-size-s);
+    font-family: sans-serif;
     width: fit-content;
-    height: fit-content;
+    border-radius: 8px;
+    background: #f0efef;
+    color: #969696;
+    border: none;
+}
+
+#clear:hover {
+    background: #969696;
 }
 
 #selColor {
+    height: 100%;
+    width: 5rem;
     font-size: var(--font-size-s);
     color: var(--main-clr);
-    width: fit-content;
+    border-radius: 8px;
+    font-family: sans-serif;
 }
 
 #confirm {
-    font-size: 40px;
+    font-size: 3rem;
     text-decoration: none;
-    margin-top: 1em;
+    margin-top: 5rem;
+    margin-bottom: 1em;
     cursor: pointer;
 }
 
-#btndownload {
-    margin-top: 10em;
-    padding: 6px 5px 6px 5px;
+.footer {
+    position: absolute;
+    bottom: 2rem;
 }
