@@ -161,7 +161,7 @@ I wrote a small Bash script to automate the process.
 - Tool 2
 
 ### Results
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_1.png)
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_1.png)
 [<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png)
 
 ## Transcoding 4 - Semantic (Structuralist) Analysis of a Badge
