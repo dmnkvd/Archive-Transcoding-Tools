@@ -131,16 +131,18 @@ window.onLoad = init;
 let step = 1;
 
 document.getElementById('confirm').onclick = () => {
+
     sendImgToServer();
+    clearArea();
 
     if (step < steps.length) {
         document.getElementById("draw-text").innerHTML = steps[step];
         document.getElementById("counter").innerHTML = step + 1 + ".";
-        ++step
+        step++
     } else if (step == steps.length) {
-        location.href = "/a-story-of-an-object";
+// This does not redirect as expected
+        window.location.href = "/a-story-of-an-object", true;
     }
-    clearArea();
 
 }
 
