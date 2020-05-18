@@ -51,7 +51,7 @@ For testing purposes, I selected one badge to be used as the central part of the
 | **Medium** | Badge, Button
 | **Materials** | Metal, Plastic
 | **Date** | 1999
-|<img src="https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright" width="30%">| The badge.
+|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg" width="30%">| The badge.
 
 # Research
 ### What is a Badge?
@@ -68,7 +68,7 @@ Transcoding within the scope of this project refers to a selection of tools and 
 I attempted to capture the badge in various ways, to obtain diverse physical measurements.
 
 ### Methods
-Photography, 3d Scanning.
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png)
 
 ### Tools 
 - Trnio (app)
