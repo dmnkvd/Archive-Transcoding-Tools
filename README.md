@@ -22,7 +22,7 @@ __________________________________________
     5. [Transcoding 5 - Disclosing the Artefact, one-step-at-a-time](#Transcoding-5)
     6. [Transcoding 6 - Participatory Meaning-Making Workshop](#Transcoding-6)
 4. [Transcoding Tools](#Transcoding)
-    1. [Tool 1: IISG Image Scraper](#Tool-1:-IISG-Image-Scraper)
+    1. [Tool 1: IISG Image Scraper](#Tool-1-IISG-Image-Scraper)
     2. [Tool 2](#Transcoding-no-1)
     3. [Tool 3](#Transcoding-no-1)
     4. [Tool 4](#Transcoding-no-1)
