@@ -6,12 +6,6 @@
 > in Amsterdam. In doing so, the project touches down on the problems of taxonomy and representation,
 > and wishes to explore visually what constitutes an artefact's "thisness". 
 
-The establishing research framework can be found at:
-* https://www.notion.so/700ml/Archival-Resilience-2-0-1e8810953f164242aaaeb1c5fe92ad95.
-
-The master document for the interpretative steps/backbone of transcodings can be found at:
-* https://www.notion.so/700ml/BADGES-Master-Document-65955832ffd74de0927b75a91b648047.
-
 ###### KEYWORDS
 Haeccity, Relativism, Classification, Typology, Meaning-Making
 
@@ -67,34 +61,37 @@ In my research, I explore different ways in which a badge could be described...
 Thissness is defined as etc.<a href="#note1" id="note1ref"><sup>1</sup></a>
 
 # Transcoding
-Throughout the duration of this project, I went over several transcoding steps.
+Transcoding within the scope of this project refers to a selection of tools and programs I wrote to activate my research, and contextualise the subsequent steps.
 
 ## Transcoding 1 - Capturing the Input
 ### Description
 I attempted to capture the badge in various ways, to obtain diverse physical measurements.
 
 ### Methods
+Photography, 3d Scanning.
 
 ### Tools 
-- Trnio
+- Trnio (app)
 - Blender
 
 ### Results
 
 ## Transcoding 2 - A Badge as...
-A badge may be described in numerous different ways - I decided to thoroughly explore some different genealogies and descriptive sequences that would arrive at the answer of: A Badge.
+A badge may be described in an infinite number of different ways - I decided to thoroughly explore some different genealogies and descriptive sequences that would arrive at the answer of: A Badge.
 
 ### Methods
 I looked at the most suitable ways of describing the badge, and arrived at the following categorisations:
 
-A badge is...
-- the outcome of a production process
-- something else
-- 3rd thing
-- 4th thing
+The badge is...
+- the final step of a production process
+- a combination of natural resources
+- a physical object
+- an extension of the wearer's identity
+- a cultural artefact
+- an entry in a classification system
 
 ### Tools 
-This transcoding was achieved without self-made tools.
+This transcoding did not require the use of self-made tools.
 
 ### Results
 [Folder with various text-based descriptions]()
@@ -117,11 +114,10 @@ JSON is a great environment for writing-out a thorough semantic analysis of the 
 
 ### Methods
 JSON
-Structuralist Syntax Analysis
+Syntax Analysis
 
 ### Tools 
 - JavaScript
-
 ### Results
 <details><summary>JSON</summary>
 <p>
@@ -144,16 +140,13 @@ A simple participatory app to describe a badge collectively, together, in steps.
 
 ## Transcoding 6 - Participatory Meaning-Making Workshop
 ### Description
-The final transcoding will happen as part of a workshop. The prompt responses are incorporated into a final narrative about the fuziness of classification. 
-
-After the user has drawn all the steps, she proceeds to a webpage "gallery" of all drawings from all visitors. Showing a beautiful subjectivity of interpretation.
+The final transcoding is a participatory workshop, expanded from the local "drawing room". The participants' responses are incorporated and displayed in a final narrative, discussing the relativity of classification. 
 
 The main points of the narrative concern:
   * Subjectivity of classification, categorisation
   * Reminder that we all hold extremely different interpretations of "Haecceity / Thisness" 
-  * Reminder to beware of the reductionist, false objectivty of a given taxonomy
-  * Reminder that it is important to have a precise, deterministic classification system
-
+  * Reminder to beware of the reductionist, designed objectivty of archival administration
+  
 ### Methods
 
 
@@ -162,7 +155,7 @@ The main points of the narrative concern:
 
 ### Results
   
-## 🛠⚙️🗜Transcoding Tools
+# 🛠⚙️🗜Transcoding Tools
 
 ## Tool 1: IISG Image Scraper
 ### Description
@@ -205,10 +198,13 @@ PNG images.
 ### Description
 
 ### Aims
+To create an instruction-based drawing app with a download function.
 
 ### Methods
+- HTML, CSS, JavaScript.
 
 ### Results
+<pictures>
 
 ## Tool 4: Collaborative Drawing App
 ### Description
@@ -219,6 +215,7 @@ Continuing from the local version, this version is server-based and allows each 
 ### Methods
 
 ### Results
+<pictures>
 
 ## Tool 5: Narrative, featuring dataset of User-Made Drawings
 ### Description
@@ -236,20 +233,25 @@ The final tool aims to bring together aspects of my personal research, a selecti
 # Reflection
 My personal learning goals this semester were:
 * Improve my JavaScript (et. al.) skills: Data Structures, File Manipulation, client-server communication...
-* Improve my programming ability for creating small, interactive experiences... Websites as workshops, forums, spaces of participation...
+* Work towards creating small, interactive experiences... Websites as workshops, forums, spaces of participation...
 * Write a poetic, didactic, accessible narrative dealing with the problems of classification / ordering
-* Discuss the (my) Problem of Classification, my research-framework through this practical application, via a limited number of artefacts
+* Discuss the (my) Problem of Classification through this practical application, via a limited number of artefacts
 * Develop a methodology for producing illustrated stories that are different with every user group
 * Develop and tinker with playful transcoding tools along the way
+
+I am quite satisfied with the areas of knowledge that I opened up within this project. I am also very satisfied with the fact that I was able to resolve most coding difficulties on my own.
 
 # Outcomes
 The final outcome of this semester is a collaborative web-application, which touches down on various aspects of classification and taxonomy through a participatory workshop.
 
+# Going Forward
+I would be curious to expand this project to include all twenty badges, or a whole different class of objects from the Archive -- how would the UI of the drawing process look in that case? How would the story change? I believe focusing on typology, and what that means, would be an interesting next step for this project.
+
 ### Outcome Links
 > website
 
-# Conclusion 
-Points.
+# Conclusion
+The narrative produced within the scopes of this assignment aims to open various discussion points, rather than give conclusive judgement. It is a distillation of several research directories. 
 
 ## Bibliography
 <a id="note1" href="#note1ref"><sup>1</sup></a> Reference 1. Link. Author. Date.
