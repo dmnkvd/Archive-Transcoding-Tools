@@ -99,7 +99,7 @@ This transcoding did not require the use of self-made tools.
 
 ### Results
 <details>
-    <summary><em>Badge as Industrial Product</em></summary>
+    <summary><b>Badge as Industrial Product</b></summary>
   
 ```
 Aluminum, magnesium 0.25 to 0.6%, copper 0.25 to 0.6%, iron 0.5 to 1.5%, silicon 11 to 13.5%, chromium 0.25 to 0.4%, a maximum of 3% zinc, a maximum of 0.5% manganese and a maximum of 0.2% of each of titanium, nickel, tin and lead.
@@ -173,7 +173,7 @@ Syntax Analysis
 - JavaScript
 ### Results
 <details>
-  <summary>**JSON Semantic Analysis**</summary>
+    <summary><b>JSON Semantic Analysis</b></summary>
   
 ```javascript
 badgeSemantics = {
