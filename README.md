@@ -51,7 +51,7 @@ For testing purposes, I selected one badge to be used as the central part of the
 | **Medium** | Badge, Button
 | **Materials** | Metal, Plastic
 | **Date** | 1999
-|<img src="https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright" height="100" width="100">| The badge.
+|<img src="https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright" width="30%">| The badge.
 
 # Research
 ### What is a Badge?
@@ -94,7 +94,55 @@ The badge is...
 This transcoding did not require the use of self-made tools.
 
 ### Results
-[Folder with various text-based descriptions]()
+<details>
+  <summary>Badge as Industrial Product</summary>
+  
+```
+Aluminum, magnesium 0.25 to 0.6%, copper 0.25 to 0.6%, iron 0.5 to 1.5%, silicon 11 to 13.5%, chromium 0.25 to 0.4%, a maximum of 3% zinc, a maximum of 0.5% manganese and a maximum of 0.2% of each of titanium, nickel, tin and lead.
+
+**Aluminum Alloy.**
+
+Balsam Fir.
+
+Wood Fibers.
+
+Cellulose ((C6H10O5)n.).
+
++
+
+Clay (aluminum silicate).
+
+T[itanium dioxide](https://www.britannica.com/science/titanium-dioxide) (TiO2).
+
+[Calcium carbonate](https://www.britannica.com/science/calcium-carbonate) (CaCO3) [carbon dioxide](https://www.britannica.com/science/carbon-dioxide) (CO2), sodium carbonate,( Na2CO3).
+
+Cationic starch.
+
+**Paper.**
+
+Vinyl chloride-vinyl acetate copolymer, a polymeric amide, 2-methoxy-1-methylethyl acetate, N-butyl acetate, butan-2-OL, petroleum distillate, disperse and/or solvent dyes, propylene glycol and one or more acetates.
+
+**Sublimation Ink.**
+
+Polyvinyl chloride ( PVC ).
+
+**Plastic.** 
+
+Disc made of Aluminium Alloy. 
+
+Bearing with pin, made of Aluminum Alloy.
+
+Paper, cut into a 3.8mm circular disc.
+
+Plastic sheet, cut into a 4.0mm circular disc.
+
+**Sublimation Ink.**
+
+**[Plastic sheet]**, heat-formed over **[paper with dye applied to it]**, impressed over **[stamped disc, made of aluminium alloy]**.
+
+**A badge.**
+```
+</details>
 
 ## Transcoding 3 - Disclose the badges by one main colour
 ### Description,
@@ -119,12 +167,162 @@ Syntax Analysis
 ### Tools 
 - JavaScript
 ### Results
-<details><summary>JSON</summary>
-<p>
+<details>
+  <summary>JSON Semantic Analysis</summary>
+  
 ```javascript
-code = codeHere
+badgeSemantics = {
+    'A',
+    'pink': {
+        'denotation': {
+            '#DA9BB0'
+        }
+        'connotation': {
+            'gentle',
+            'flesh',
+            'skin',
+            'personal'
+        }
+    },
+    'metallic badge': {
+        'metallic'; {
+            'denotation': {
+                'made of metal'
+            }
+            'connotation': {
+                'sturdy'
+                'permanent'
+            }
+        }
+        'badge' {
+            'circular object': {
+                'circle'
+                'round'
+            },
+            'accessory': {
+                'worn',
+                'identity',
+                'identification',
+                'social cause',
+                'subculture',
+                'belonging'
+            }
+        }
+    },
+    'with'
+    'capitalised black English text:': {
+        'capitalised': {
+            'important',
+            'loud',
+            'significant',
+            'public'
+        }
+        
+        'black': {
+            'denotation': {
+                '#0D0D0D'
+            }
+            'connotation': {
+                'serious'
+            }
+        },
+        'English text': {
+            'English' : {
+                'Language'
+            }
+            'text': {
+                'typeface': 
+                    'DIN': {
+                        'denotation': {
+                        }
+                        'connotation': {
+                            'official',
+                            'serious',
+                            'rigid',
+                            'commanding',
+                            'imperative'
+                        }
+                    }
+                'line': {
+                    'word': {
+                        'letter': 'P',
+                        'letter': 'E',
+                        'letter': 'A',
+                        'letter': 'C',
+                        'letter': 'E'
+                    }
+                },
+                'line': {
+                    'word': {
+                        'letter': 'I',
+                        'letter': 'N'
+                    }
+                    'word': {
+                        'letter': 'T',
+                        'letter': 'H',
+                        'letter': 'E'
+                    }
+                },
+                'line': {
+                    'word': {
+                        'letter':'B',
+                        'letter':'A',
+                        'letter':'L',
+                        'letter':'K',
+                        'letter':'A',
+                        'letter':'N',
+                        'letter':'S'
+                    }
+                }
+            }
+        };
+    }
+    '"PEACE IN THE BALKANS".': {
+        'denotation': {
+            'Sentence': {
+                'Noun Phrase': {
+                    'PEACE': {
+                        'connotation' : {
+                            'ceasefire',
+                            'stop of violence'
+                        }
+                    }
+                }
+                'Preposition Phrase': {
+                    'Preposition': {
+                        'IN'
+                    }
+                    'Noun Phrase': {
+                        'Determiner': {
+                            'THE'
+                        }
+                        'Noun': {
+                            'BALKANS': {
+                                'denotation': {
+                                    'Geographic Area in the south of Europe.'
+                                }
+                                'connotation': {
+                                    'the South',
+                                    'conflicted area'
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        'connotation': {
+            '1990s independence conflicts',
+            'dissolution of Yugoslavia',
+            'civil wars',
+            'UN interventions',
+            'massacre',
+            'genocide'
+            },
+        }
+    }
+}
 ```
-</p>
 </details>
 
 ## Transcoding 5 - Disclosing the Artefact, one-step-at-a-time
