@@ -17,8 +17,8 @@ __________________________________________
 3. [Transcodings](#Transcoding)
     1. [Transcoding 1 - Capturing the Input](#Transcoding-1)
     2. [Transcoding 2 - A Badge as...](#Transcoding-2)
-    3. [Transcoding 3 - Disclose the Badges by one Main Colour](#Transcoding-3)
-    4. [Transcoding 4 - Semantic (Structuralist) Analysis of a Badge](#Transcoding-4)
+    3. [Transcoding 3 - Disclose the Badges by one Main Colour](#transcoding-3---disclose-the-badges-by-one-main-colour)
+    4. [Transcoding 4 - Semantic (Structuralist) Analysis of a Badge](#transcoding-4---semantic-structuralist-analysis-of-a-badge)
     5. [Transcoding 5 - Disclosing the Artefact, one-step-at-a-time](#Transcoding-5)
     6. [Transcoding 6 - Participatory Meaning-Making Workshop](#Transcoding-6)
 4. [Transcoding Tools](#Transcoding)
@@ -151,7 +151,7 @@ Plastic sheet, cut into a 4.0mm circular disc.
 ```
 </details>
 
-## Transcoding 3
+## Transcoding 3 - Disclosing the artefacts by One Main Colour
 ### Description
 The artefacts are disclosed by their predominant colour. Analogous to tagging an object with one singular tag. Creates a highly simplistic, stereotyped interpretation of the artefact.
 
@@ -360,9 +360,10 @@ The main points of the narrative concern:
 
 
 ### Tools 
--- participatory web application
+- [Tool 5: Narrative, featuring dataset of User-Made Drawings](#tool-5-narrative-featuring-dataset-of-user-made-drawings)
 
 ### Results
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png)
   
 # 🛠⚙️🗜Transcoding Tools
 
