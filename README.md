@@ -71,6 +71,7 @@ Transcoding within the scope of this project refers to a selection of tools and 
 I attempted to capture the badge in various ways, to obtain diverse physical measurements.
 
 ### Methods
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png)
 [<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png)
 
 ### Tools 
