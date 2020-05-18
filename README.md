@@ -51,10 +51,12 @@ For testing purposes, I selected one badge to be used as the central part of the
 | **Type** | Object
 | **Medium** | Badge, Button
 | **Materials** | Metal, Plastic
-| **Date** | 1999
-|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg" width="30%">| The badge.
+| **Date** | 1975 - 1999
+|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg" width="30%">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia.
 
 # Research
+Out of my initial selection of twenty badges, I decided to proceed with this one. Coming from the Balkan region myself, I am familiar with the historicised discourse surrounding peace in the Balkans. Moreover, the rather specific message, gave, in my opinion, a great starting ground for discussing its meaning, connotations, and the socio-historical context of its signification.
+
 ### What is a Badge?
 In my research, I explore different ways in which a badge could be described...
 
@@ -97,7 +99,7 @@ This transcoding did not require the use of self-made tools.
 
 ### Results
 <details>
-  <summary>Badge as Industrial Product</summary>
+  <summary>**Badge as Industrial Product**</summary>
   
 ```
 Aluminum, magnesium 0.25 to 0.6%, copper 0.25 to 0.6%, iron 0.5 to 1.5%, silicon 11 to 13.5%, chromium 0.25 to 0.4%, a maximum of 3% zinc, a maximum of 0.5% manganese and a maximum of 0.2% of each of titanium, nickel, tin and lead.
@@ -171,7 +173,7 @@ Syntax Analysis
 - JavaScript
 ### Results
 <details>
-  <summary>JSON Semantic Analysis</summary>
+  <summary>**JSON Semantic Analysis**</summary>
   
 ```javascript
 badgeSemantics = {
