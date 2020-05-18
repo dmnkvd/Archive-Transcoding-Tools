@@ -157,6 +157,7 @@ Transcoding with Bash / Python.
 - Tool 2
 
 ### Results
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png)
 
 ## Transcoding 4 - Semantic (Structuralist) Analysis of a Badge
 ### Description
@@ -334,9 +335,10 @@ A simple participatory app to describe a badge collectively, together, in steps.
 ### Methods
 
 ### Tools 
--- participatory tool
+- [Tool 3: Draw by Instructions and Download your Drawing!](#tool-3-draw-by-instructions-and-download-your-drawing)
 
 ### Results
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png)
 
 ## Transcoding 6 - Participatory Meaning-Making Workshop
 ### Description
