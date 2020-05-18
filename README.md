@@ -15,21 +15,22 @@ __________________________________________
     1. [Metadata](#Metadata)
 2. [Research](#Research-h1)
 3. [Transcodings](#Transcoding)
-    1. [Transcoding 1](#Transcoding-no-1)
-    2. [Transcoding 2](#Transcoding-no-1)
-    3. [Transcoding 3](#Transcoding-no-1)
-    4. [Transcoding 4](#Transcoding-no-1)
-    5. [Transcoding 5](#Transcoding-no-1)
-    6. [Transcoding 6](#Transcoding-no-1)
+    1. [Transcoding 1 - Capturing the Input](#Transcoding-1)
+    2. [Transcoding 2 - A Badge as...](#Transcoding-2)
+    3. [Transcoding 3 - Disclose the Badges by one Main Colour](#Transcoding-3)
+    4. [Transcoding 4 - Semantic (Structuralist) Analysis of a Badge](#Transcoding-4)
+    5. [Transcoding 5 - Disclosing the Artefact, one-step-at-a-time](#Transcoding-5)
+    6. [Transcoding 6 - Participatory Meaning-Making Workshop](#Transcoding-6)
 4. [Transcoding Tools](#Transcoding)
-    1. [Tool 1](#Transcoding-no-1)
-    2. [Tool 2](#Transcoding-no-1)
-    3. [Tool 3](#Transcoding-no-1)
-    4. [Tool 4](#Transcoding-no-1)
-    5. [Tool 5](#Transcoding-no-1)
+    1. [Tool 1: IISG Image Scraper](#tool-1-IISG-Image-Scraper)
+    2. [Tool 2: Generate HEX Color Tile from Main Color in Image](#tool-2-generate-hex-color-tile-from-main-color-in-image)
+    3. [Tool 3: Draw by Instructions and Download your Drawing!](#tool-3-draw-by-instructions-and-download-your-drawing)
+    4. [Tool 4: Collaborative Drawing App](#tool-4-collaborative-drawing-app)
+    5. [Tool 5: Narrative, featuring dataset of User-Made Drawings](#tool-5-narrative-featuring-dataset-of-user-made-drawings)
 5. [Reflection](#Reflection)
 6. [Outcomes](#Outcome)
 7. [Conclusion](#Conclusion)
+    1. [Going Forward](#Going-Forward)
 8. [Bibliography](#Bibliography)
 __________________________________________
 
@@ -51,7 +52,7 @@ For testing purposes, I selected one badge to be used as the central part of the
 | **Medium** | Badge, Button
 | **Materials** | Metal, Plastic
 | **Date** | 1999
-|<img src="https://search.iisg.amsterdam/Cover/Show?author=&callnumber=BG+AA5%2F651&size=small&title=%5BButton.%5D&pid=30051002121819&publication=pictoright" width="30%">| The badge.
+|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg" width="30%">| The badge.
 
 # Research
 ### What is a Badge?
@@ -63,20 +64,21 @@ Thissness is defined as etc.<a href="#note1" id="note1ref"><sup>1</sup></a>
 # Transcoding
 Transcoding within the scope of this project refers to a selection of tools and programs I wrote to activate my research, and contextualise the subsequent steps.
 
-## Transcoding 1 - Capturing the Input
+## Transcoding 1
 ### Description
 I attempted to capture the badge in various ways, to obtain diverse physical measurements.
 
 ### Methods
-Photography, 3d Scanning.
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png)
 
 ### Tools 
 - Trnio (app)
 - Blender
 
 ### Results
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png)
 
-## Transcoding 2 - A Badge as...
+## Transcoding 2
 A badge may be described in an infinite number of different ways - I decided to thoroughly explore some different genealogies and descriptive sequences that would arrive at the answer of: A Badge.
 
 ### Methods
@@ -144,8 +146,8 @@ Plastic sheet, cut into a 4.0mm circular disc.
 ```
 </details>
 
-## Transcoding 3 - Disclose the badges by one main colour
-### Description,
+## Transcoding 3
+### Description
 The artefacts are disclosed by their predominant colour. Analogous to tagging an object with one singular tag. Creates a highly simplistic, stereotyped interpretation of the artefact.
 
 ### Methods
