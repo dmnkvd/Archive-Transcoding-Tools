@@ -78,6 +78,7 @@ I attempted to capture the badge in various ways, to obtain diverse physical mea
 - Blender
 
 ### Results
+Cleaned-up 3D model of the badge.
 [<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png)
 
 ## Transcoding 2
@@ -171,6 +172,7 @@ Syntax Analysis
 
 ### Tools 
 - JavaScript
+
 ### Results
 <details>
     <summary><b>JSON Semantic Analysis</b></summary>
@@ -341,6 +343,7 @@ A simple participatory app to describe a badge collectively, together, in steps.
 
 ### Results
 [<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png)
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_2.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_2.png)
 
 ## Transcoding 6 - Participatory Meaning-Making Workshop
 ### Description
@@ -428,10 +431,13 @@ Continuing from the local version, this version is server-based and allows each 
 The final tool aims to bring together aspects of my personal research, a selection of artefacts, and the user-made drawings into a dynamic, evolving narrative page, that tells a story of the subjectivity of classification, and meaning-making.
 
 ### Methods
+Dependencies Used:
+- HTML, CSS, JavaScript
+- NodeJS
+- Express
+- Pug
 
 ### Results
-
-### Source Links
 
 --------------------
 # Reflection
@@ -443,7 +449,7 @@ My personal learning goals this semester were:
 * Develop a methodology for producing illustrated stories that are different with every user group
 * Develop and tinker with playful transcoding tools along the way
 
-I am quite satisfied with the areas of knowledge that I opened up within this project. I am also very satisfied with the fact that I was able to resolve most coding difficulties on my own.
+I am quite satisfied with the areas of knowledge that I opened up within this project. I am also very satisfied with the fact that I was able to resolve most coding difficulties on my own. I wish there would be more time to focus on this project exclusively, to dive deeper into the code, and produce a larger-scale outcome. Hence, I intend to continue to develop this product in the upcoming weeks.
 
 # Outcomes
 The final outcome of this semester is a collaborative web-application, which touches down on various aspects of classification and taxonomy through a participatory workshop.
@@ -452,7 +458,7 @@ The final outcome of this semester is a collaborative web-application, which tou
 I would be curious to expand this project to include all twenty badges, or a whole different class of objects from the Archive -- how would the UI of the drawing process look in that case? How would the story change? I believe focusing on typology, and what that means, would be an interesting next step for this project.
 
 ### Outcome Links
-> website
+- [Final Website -- TBA]()
 
 # Conclusion
 The narrative produced within the scopes of this assignment aims to open various discussion points, rather than give conclusive judgement. It is a distillation of several research directories. 
