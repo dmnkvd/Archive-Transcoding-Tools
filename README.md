@@ -51,10 +51,12 @@ For testing purposes, I selected one badge to be used as the central part of the
 | **Type** | Object
 | **Medium** | Badge, Button
 | **Materials** | Metal, Plastic
-| **Date** | 1999
-|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg" width="30%">| The badge.
+| **Date** | 1975 - 1999
+|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg" width="30%">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia.
 
 # Research
+Out of my initial selection of twenty badges, I decided to proceed with this one. Coming from the Balkan region myself, I am familiar with the historicised discourse surrounding peace in the Balkans. Moreover, the rather specific message, gave, in my opinion, a great starting ground for discussing its meaning, connotations, and the socio-historical context of its signification.
+
 ### What is a Badge?
 In my research, I explore different ways in which a badge could be described...
 
@@ -76,6 +78,7 @@ I attempted to capture the badge in various ways, to obtain diverse physical mea
 - Blender
 
 ### Results
+Cleaned-up 3D model of the badge.
 [<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png)
 
 ## Transcoding 2
@@ -97,7 +100,7 @@ This transcoding did not require the use of self-made tools.
 
 ### Results
 <details>
-  <summary>Badge as Industrial Product</summary>
+    <summary><b>Badge as Industrial Product</b></summary>
   
 ```
 Aluminum, magnesium 0.25 to 0.6%, copper 0.25 to 0.6%, iron 0.5 to 1.5%, silicon 11 to 13.5%, chromium 0.25 to 0.4%, a maximum of 3% zinc, a maximum of 0.5% manganese and a maximum of 0.2% of each of titanium, nickel, tin and lead.
@@ -157,6 +160,7 @@ Transcoding with Bash / Python.
 - Tool 2
 
 ### Results
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png)
 
 ## Transcoding 4 - Semantic (Structuralist) Analysis of a Badge
 ### Description
@@ -168,9 +172,10 @@ Syntax Analysis
 
 ### Tools 
 - JavaScript
+
 ### Results
 <details>
-  <summary>JSON Semantic Analysis</summary>
+    <summary><b>JSON Semantic Analysis</b></summary>
   
 ```javascript
 badgeSemantics = {
@@ -334,9 +339,11 @@ A simple participatory app to describe a badge collectively, together, in steps.
 ### Methods
 
 ### Tools 
--- participatory tool
+- [Tool 3: Draw by Instructions and Download your Drawing!](#tool-3-draw-by-instructions-and-download-your-drawing)
 
 ### Results
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png)
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_2.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_2.png)
 
 ## Transcoding 6 - Participatory Meaning-Making Workshop
 ### Description
@@ -424,10 +431,13 @@ Continuing from the local version, this version is server-based and allows each 
 The final tool aims to bring together aspects of my personal research, a selection of artefacts, and the user-made drawings into a dynamic, evolving narrative page, that tells a story of the subjectivity of classification, and meaning-making.
 
 ### Methods
+Dependencies Used:
+- HTML, CSS, JavaScript
+- NodeJS
+- Express
+- Pug
 
 ### Results
-
-### Source Links
 
 --------------------
 # Reflection
@@ -439,7 +449,7 @@ My personal learning goals this semester were:
 * Develop a methodology for producing illustrated stories that are different with every user group
 * Develop and tinker with playful transcoding tools along the way
 
-I am quite satisfied with the areas of knowledge that I opened up within this project. I am also very satisfied with the fact that I was able to resolve most coding difficulties on my own.
+I am quite satisfied with the areas of knowledge that I opened up within this project. I am also very satisfied with the fact that I was able to resolve most coding difficulties on my own. I wish there would be more time to focus on this project exclusively, to dive deeper into the code, and produce a larger-scale outcome. Hence, I intend to continue to develop this product in the upcoming weeks.
 
 # Outcomes
 The final outcome of this semester is a collaborative web-application, which touches down on various aspects of classification and taxonomy through a participatory workshop.
@@ -448,7 +458,7 @@ The final outcome of this semester is a collaborative web-application, which tou
 I would be curious to expand this project to include all twenty badges, or a whole different class of objects from the Archive -- how would the UI of the drawing process look in that case? How would the story change? I believe focusing on typology, and what that means, would be an interesting next step for this project.
 
 ### Outcome Links
-> website
+- [Final Website -- TBA]()
 
 # Conclusion
 The narrative produced within the scopes of this assignment aims to open various discussion points, rather than give conclusive judgement. It is a distillation of several research directories. 
