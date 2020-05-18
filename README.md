@@ -79,6 +79,7 @@ I attempted to capture the badge in various ways, to obtain diverse physical mea
 
 ### Results
 Cleaned-up 3D model of the badge.
+
 [<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png)
 
 ## Transcoding 2
@@ -154,13 +155,14 @@ Plastic sheet, cut into a 4.0mm circular disc.
 The artefacts are disclosed by their predominant colour. Analogous to tagging an object with one singular tag. Creates a highly simplistic, stereotyped interpretation of the artefact.
 
 ### Methods
-Transcoding with Bash / Python.
+I wrote a small Bash script to automate the process.
 
 ### Tools 
 - Tool 2
 
 ### Results
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png)
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_1.png)
+[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png)
 
 ## Transcoding 4 - Semantic (Structuralist) Analysis of a Badge
 ### Description
@@ -343,7 +345,6 @@ A simple participatory app to describe a badge collectively, together, in steps.
 
 ### Results
 [<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png)
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_2.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_2.png)
 
 ## Transcoding 6 - Participatory Meaning-Making Workshop
 ### Description
