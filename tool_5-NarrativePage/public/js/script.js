@@ -1,11 +1,13 @@
-// Array with promopts / steps of the drawing game.
+// import { text } from "express";
+
+// Array with prompts / steps of the drawing game.
 const steps = [
     "a circle",
     "a metallic circle with a curved/rounded edge",
     "a badge",
     "a pink badge",
     "a pink badge with black shapes, of which some are repeated",
-    "a pink badge with black text of four words. The words are in English",
+    "a pink badge with black text of four words.",
     'a pink badge with black text saying "PEACE", "IN THE", "BALKANS"',
 ];
 
@@ -73,10 +75,13 @@ function bind() {
 
 // Canvas: Set colour from HTML selection
 function drawColor() {
-    ctx.strokeStyle = document.querySelector("#selColor").value;
-    document.querySelector("#selColor").style.color = document.querySelector("#selColor").value;
-    document.querySelector("#selColor").style.borderColor = document.querySelector("#selColor").value;
+    let select = document.querySelector("#selColor");
+    ctx.strokeStyle = select.value;
+    select.style.background = select.value;
 }
+
+// Modify the background of the thing
+// document.querySelector("#draw-text").style.background = "red";
 
 // Canvas: Clear the area
 function clearArea() {
@@ -136,15 +141,31 @@ document.getElementById('confirm').onclick = () => {
     clearArea();
 
     if (step < steps.length) {
-        document.getElementById("draw-text").innerHTML = steps[step];
+        let i = 0
+        let speed = 30
+        document.getElementById("draw-text").innerHTML = "";
+        
+        function typeWriter () {
+        if (i < steps[step-1].length) {
+            document.getElementById("draw-text").innerHTML += steps[step-1].charAt(i)
+            i++
+            setTimeout(typeWriter, speed)
+        }
+        }
+
+        typeWriter();
+        // document.getElementById("draw-text").innerHTML = steps[step];
+
         document.getElementById("counter").innerHTML = step + 1 + ".";
         step++
+
     } else if (step == steps.length) {
-//[QUESTION] This does not redirect as expected
-        window.location.href = "/a-story-of-an-object", true;
+        window.location.href = "/thank-you", true;
     }
 
 }
+
+
 
 // send the image to the server (on click of next button)
 function sendImgToServer(){
