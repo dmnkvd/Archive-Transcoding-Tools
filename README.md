@@ -53,7 +53,7 @@ For testing purposes, I selected one badge to be used as the central part of the
 | **Medium** | Badge, Button
 | **Materials** | Metal, Plastic
 | **Date** | 1975 - 1999
-|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg" width="50%">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia.
+|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia.
 
 # Research
 Out of my initial selection of twenty badges, I decided to proceed with this one. Coming from the Balkan region myself, I am familiar with the historicised discourse surrounding peace in the Balkans. Moreover, the rather specific message, gave, in my opinion, a great starting ground for discussing its meaning, connotations, and the socio-historical context of its signification.
@@ -86,7 +86,7 @@ I attempted to capture the badge in various ways, to obtain diverse physical mea
 </table>
 
 ### Tools 
-- Trnio (app)
+- Trnio
 - Blender
 
 ### Results
@@ -98,7 +98,7 @@ Cleaned-up 3D model of the badge.
 </colgroup>
 <tbody>
   <tr>
-    <td><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png"></a></td>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png" width="75%"></a></td>
   </tr>
 </tbody>
 </table>
@@ -182,8 +182,19 @@ I wrote a small Bash script to automate the process.
 - Tool 2
 
 ### Results
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_1.png)
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png)
+<table>
+<colgroup>
+    <col width="100%">
+</colgroup>
+<tbody>
+  <tr>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png" width="75%"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png" width="75%"></a></td>
+  </tr>
+</tbody>
+</table>
 
 ## Transcoding 4 - Semantic (Structuralist) Analysis of a Badge
 ### Description
