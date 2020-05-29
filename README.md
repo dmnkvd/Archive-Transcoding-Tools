@@ -59,6 +59,17 @@ For deductive testing purposes, I selected one badge as the central artefact of 
 # Research
 Out of my initial selection of twenty badges, I decided to proceed with this one. Coming from the Balkan region myself, I am well-acquainted with the historicised discourse surrounding peace in the Balkans. Moreover, the rather specific message, gave, in my opinion, a great starting ground for discussing its meaning, connotations, and the socio-historical context of its signification.
 
+<table>
+<colgroup>
+    <col width="100%">
+</colgroup>
+<tbody>
+  <tr>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/Documentation/readme/twentyBadges.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/Documentation/readme/twentyBadges.png" width="75%"></a></td>
+  </tr>
+</tbody>
+</table>
+
 ### The Badge - a Thing with Lots of Meanings
 The badge offers several points of interest to examination. First, it is an arbitrary sign, designed with the specific purpose of conveying a message at a given point in time, for a given cause. Secondly, the badge might be considered an ephemeral object, made to support one specific event, to be retired from use or discarded afterwards. The effectiveness of a badge's message is extremely contextual. The understanding of a badge is heavily dependent upon the semantic knowledge / frame of reference of the beholder. The archive collects all badges in a cabinet, decontextualising them completely from their original circumstances. The badge becomes solely a container of meaning, imprinted upon a (most often) circular disc. In a presentation context (for example within an archive), a badge often needs further contextualisation for decreasing the ambiguity of its possible interpretations. It is therefore extremely important what descriptors, tags, classification schemes or grouping methods are chosen when representing such an arbitrary object.
 
