@@ -1,10 +1,12 @@
 [<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/Documentation/readme/CoverImage.png" width="100%">](#)
 # The Relativity of Classification
 
-> Relativity of Classification is the collective name for a set of algorithmic tools, united in the goal to find novel
+> Within a given (public) archive, new artefacts and acquisitions are mostly classified without engaging them with the public in any
+> way. Relativity of Classification is the collective name for a set of algorithmic tools, united in the goal to find novel
 > and exciting ways of representing artefacts from the archive of the Institute of Social History
 > in Amsterdam. In doing so, the project touches down on the problems of taxonomy and representation,
-> and wishes to explore visually what constitutes an artefact's "thisness". 
+> and wishes to explore visually what constitutes an artefact's "thisness". The project hopefully marks a step closer towards the
+> engagement of the public with the diverse, fascinating and complex collection of historical items in the archive collection. 
 
 ###### KEYWORDS
 Haeccity, Relativism, Classification, Typology, Meaning-Making
@@ -464,7 +466,7 @@ See [Transcoding 5](#transcoding-5---disclosing-the-artefact-one-step-at-a-time)
 A generative installation, fed by the visual material created within the Drawing App.
 
 ### Aims
-The final tool seeks to bring together an inclusive narrative, a selection of artefacts, and the user-made drawings into a dynamic, evolving experience, that tells a story of the subjectivity of classification, and meaning-making.
+The final tool seeks to bring together an inclusive narrative, a selection of artefacts, and the user-made drawings into an interpretative, evolving experience, that discusses the subjectivity of classification, and complexity of meaning-making.
 Given the restrictions imposed in light of Covid-19, I developed a first prototype for a web-based experience. The original exhibition proposal is a spatial installation within the Institute of International Social History in Amsterdam, where visitors can contribute their drawings to the dataset and experience the narrative in a physical space via a two-channel generative installation.
 
 ### Methods
@@ -484,24 +486,22 @@ My personal learning goals this semester were:
 * Work towards creating small, interactive experiences... Websites as workshops, forums, spaces of participation...
 * Write a poetic, didactic, accessible narrative dealing with the problems of classification / ordering
 * Discuss the (my) Problem of Classification through this practical application, via a limited number of artefacts
-* Develop a methodology for producing illustrated stories that are different with every user group
 * Develop and tinker with playful transcoding tools along the way
 
 I am quite satisfied with the areas of knowledge that I opened up within this project. I am also very satisfied with the fact that I was able to resolve most coding difficulties on my own. I wish there would be more time to focus on this project exclusively, to dive deeper into the code, and produce a larger-scale outcome. Hence, I intend to continue to develop this product in the upcoming weeks.
 
 # Outcomes
-There are two main results of my research:
+There are two main results of the project:
 1. A participatory Drawing Room, which explores the subjectivity of interpretation.
-2. A dynamic installation, incorporating the drawings from the first stage, which seeks to raise discussion about the objectivity of archiving and classification.
-
-# Going Forward
-I would be curious to expand this project to include all twenty badges, and to deploy it to function with any given typology of artefacts from the Archive -- Focusing on a whole class of similar items might be an interesting next step for this project.
-
-### Outcome Links
-- [Final Website -- TBA]()
+2. A dynamic installation, incorporating the drawings from the prior stage, which seeks to raise discussion about the objectivity of archiving and classification.
 
 # Conclusion
-The narrative produced within the scopes of this assignment aims to open various discussion points, rather than give conclusive judgement. It is a distillation of several research directories. 
+The original goal of this project was to develop diverse tools to encourage the conservation of cultural memory of a given artefact from the IISG. The process has unfolded in several different directions – it is important to note that the realised translation is only one small step in a newly-begun bigger exploration.
+
+I would be curious to expand this project so that it may correspond with any given typology of items from the Archive. In the long-term, a visual folksonomy might arise from this methodology. In the greater scheme, the desired outcome would be the establishment of a public-facing interactiv experience for the collective discovery and reflection on new artefacts and acquisitions of the IISG.
+
+# Notes on Methodology
+The narrative produced within the scopes of this assignment aims to open various discussion points, rather than give conclusive answers. It is an abridged distillation of several tangential research directions. Expanding the narrative into a substantial theoretical framework is the next step in this research.
 
 ## Bibliography
 <a id="note1" href="#note1ref"><sup>1</sup></a> Foucault, Michel. The Order of Things. Routledge, 2005 (orig. 1970).</br>
