@@ -165,8 +165,6 @@ document.getElementById('confirm').onclick = () => {
 
 }
 
-
-
 // send the image to the server (on click of next button)
 function sendImgToServer(){
  // Create a POST request to '/receive'
