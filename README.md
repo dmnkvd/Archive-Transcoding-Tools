@@ -53,7 +53,7 @@ For testing purposes, I selected one badge to be used as the central part of the
 | **Medium** | Badge, Button
 | **Materials** | Metal, Plastic
 | **Date** | 1975 - 1999
-|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg" width="30%">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia.
+|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg" width="50%">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia.
 
 # Research
 Out of my initial selection of twenty badges, I decided to proceed with this one. Coming from the Balkan region myself, I am familiar with the historicised discourse surrounding peace in the Balkans. Moreover, the rather specific message, gave, in my opinion, a great starting ground for discussing its meaning, connotations, and the socio-historical context of its signification.
@@ -79,8 +79,8 @@ I attempted to capture the badge in various ways, to obtain diverse physical mea
 </colgroup>
 <tbody>
   <tr>
-    <td>[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png)</td>
-    <td>[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png)</td>
+    <td><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png"></a></td>
+    <td><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png"></a></td>
   </tr>
 </tbody>
 </table>
@@ -92,7 +92,16 @@ I attempted to capture the badge in various ways, to obtain diverse physical mea
 ### Results
 Cleaned-up 3D model of the badge.
 
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png)
+<table>
+<colgroup>
+    <col width="100%">
+</colgroup>
+<tbody>
+  <tr>
+    <td><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png"></a></td>
+  </tr>
+</tbody>
+</table>
 
 ## Transcoding 2
 A badge may be described in an infinite number of different ways - I decided to thoroughly explore some different genealogies and descriptive sequences that would arrive at the answer of: A Badge.
