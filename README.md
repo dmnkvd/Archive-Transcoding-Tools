@@ -189,8 +189,8 @@ I wrote a small Bash script to automate the process.
 </colgroup>
 <tbody>
   <tr>
-    <td align="center" cellpadding="10px"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png"></a></td>
-    <td align="center" cellpadding="10px"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png"></a></td>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png"></a></td>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png"></a></td>
   </tr>
 </tbody>
 </table>
@@ -375,7 +375,16 @@ A simple participatory app to describe a badge collectively, together, in steps.
 - [Tool 3: Draw by Instructions and Download your Drawing!](#tool-3-draw-by-instructions-and-download-your-drawing)
 
 ### Results
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png)
+<table>
+<colgroup>
+    <col width="100%">
+</colgroup>
+<tbody>
+  <tr>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png" width="50%"></a></td>
+  </tr>
+</tbody>
+</table>
 
 ## Transcoding 6 - Participatory Meaning-Making Workshop
 ### Description
@@ -390,12 +399,12 @@ The main points of the narrative concern:
 
 
 ### Tools 
-- [Tool 5: Narrative, featuring dataset of User-Made Drawings](#tool-5-narrative-featuring-dataset-of-user-made-drawings)
+- [Tool 5: Narrative, featuring collection of User-Made Drawings](#tool-5-narrative-featuring-dataset-of-user-made-drawings)
 
 ### Results
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png)
+<-- STAY TUNED -->
   
-# 🛠⚙️🗜Transcoding Tools
+# ---- Transcoding Tools ----
 
 ## Tool 1: IISG Image Scraper
 ### Description
@@ -410,17 +419,13 @@ Dependencies used:
 - Beautiful Soup
 
 ### Results
-Sample of a data collection search.
-
-### Source Links
-Please include links to the tools, sources etc used during the coding. E.g. the resources used for making your coding tool.  
+Collection of results.
 
 ## Tool 2: Generate HEX Color Tile from Main Color in Image
 ### Description
 
 ### Aims
 * The colour average is purely based on histogram - could improve with K-clustering for more natural outcomes.
-* I am eventually developing a participatory web application, as a way to talk about the bigger narrative/story of the richness of classification.
 
 ### Methods
 Dependencies used:
@@ -433,14 +438,13 @@ Dependencies used:
 
 ## Tool 3: Draw by Instructions and Download your Drawing!
 ### Description
+A HTML Canvas, with colour selection and the option to download your drawing.
 
 ### Aims
 To create an instruction-based drawing app with a download function.
 
 ### Dependencies Used
 - HTML, CSS, JavaScript.
-
-### Results
 
 ## Tool 4: Collaborative Drawing App
 ### Description
@@ -453,13 +457,15 @@ Dependencies used:
 - NodeJS, Express, 
 
 ### Results
-<pictures>
+See [Transcoding 5](#transcoding-5---disclosing-the-artefact-one-step-at-a-time).
 
 ## Tool 5: Narrative, featuring dataset of User-Made Drawings
 ### Description
+A generative installation, fed by the visual material created within the Drawing App.
 
 ### Aims
-The final tool aims to bring together aspects of my personal research, a selection of artefacts, and the user-made drawings into a dynamic, evolving narrative page, that tells a story of the subjectivity of classification, and meaning-making.
+The final tool seeks to bring together an inclusive narrative, a selection of artefacts, and the user-made drawings into a dynamic, evolving experience, that tells a story of the subjectivity of classification, and meaning-making.
+Given the restrictions imposed in light of Covid-19, I developed a first prototype for a web-based experience. The original exhibition proposal is a spatial installation within the Institute of International Social History in Amsterdam, where visitors can contribute their drawings to the dataset and experience the narrative in a physical space via a two-channel generative installation.
 
 ### Methods
 Dependencies Used:
@@ -469,6 +475,7 @@ Dependencies Used:
 - Pug
 
 ### Results
+<-- TBD -->
 
 --------------------
 # Reflection
@@ -483,10 +490,12 @@ My personal learning goals this semester were:
 I am quite satisfied with the areas of knowledge that I opened up within this project. I am also very satisfied with the fact that I was able to resolve most coding difficulties on my own. I wish there would be more time to focus on this project exclusively, to dive deeper into the code, and produce a larger-scale outcome. Hence, I intend to continue to develop this product in the upcoming weeks.
 
 # Outcomes
-The final outcome of this semester is a collaborative web-application, which touches down on various aspects of classification and taxonomy through a participatory workshop.
+There are two main results of my research:
+1. A participatory Drawing Room, which explores the subjectivity of interpretation.
+2. A dynamic installation, incorporating the drawings from the first stage, which seeks to raise discussion about the objectivity of archiving and classification.
 
 # Going Forward
-I would be curious to expand this project to include all twenty badges, or a whole different class of objects from the Archive -- how would the UI of the drawing process look in that case? How would the story change? I believe focusing on typology, and what that means, would be an interesting next step for this project.
+I would be curious to expand this project to include all twenty badges, and to deploy it to function with any given typology of artefacts from the Archive -- Focusing on a whole class of similar items might be an interesting next step for this project.
 
 ### Outcome Links
 - [Final Website -- TBA]()
@@ -495,10 +504,10 @@ I would be curious to expand this project to include all twenty badges, or a who
 The narrative produced within the scopes of this assignment aims to open various discussion points, rather than give conclusive judgement. It is a distillation of several research directories. 
 
 ## Bibliography
-<a id="note1" href="#note1ref"><sup>1</sup></a> Foucault, Michel. The Order of Things. Routledge, 2005 (orig. 1970).
-<a id="note2" href="#note2ref"><sup>2</sup></a> Ham, F. Gerald. The Archival Edge. Society of American Archivists, 1975.
-<a id="note3" href="#note3ref"><sup>3</sup></a> Munari, Bruno. The Discovery of the Circle. G. Wittenborn, 1965.
-<a id="note4" href="#note4ref"><sup>4</sup></a> Derrida, Jacques. Archive Fever: A Freudian Impression. University of Chicago Press, 1998.
-<a id="note5" href="#note5ref"><sup>5</sup></a> Russell, Bertrand. A History of Western Philosophy. A Touchstone Book. New York u.a: Simon and Schuster, 1972.
-<a id="note6" href="#note6ref"><sup>6</sup></a> Bortolini, Eugenio. ‘Typology and Classification’. The Oxford Handbook of Archaeological Ceramic Analysis, 8 December 2016. https://doi.org/10.1093/oxfordhb/9780199681532.013.38.
+<a id="note1" href="#note1ref"><sup>1</sup></a> Foucault, Michel. The Order of Things. Routledge, 2005 (orig. 1970).</br>
+<a id="note2" href="#note2ref"><sup>2</sup></a> Ham, F. Gerald. The Archival Edge. Society of American Archivists, 1975.</br>
+<a id="note3" href="#note3ref"><sup>3</sup></a> Munari, Bruno. The Discovery of the Circle. G. Wittenborn, 1965.</br>
+<a id="note4" href="#note4ref"><sup>4</sup></a> Derrida, Jacques. Archive Fever: A Freudian Impression. University of Chicago Press, 1998.</br>
+<a id="note5" href="#note5ref"><sup>5</sup></a> Russell, Bertrand. A History of Western Philosophy. A Touchstone Book. New York u.a: Simon and Schuster, 1972.</br>
+<a id="note6" href="#note6ref"><sup>6</sup></a> Bortolini, Eugenio. ‘Typology and Classification’. The Oxford Handbook of Archaeological Ceramic Analysis, 8 December 2016. https://doi.org/10.1093/oxfordhb/9780199681532.013.38.</br>
 <a id="note7" href="#note6ref"><sup>7</sup></a> Cagle, Kurt. ‘Taxonomies vs. Ontologies’. Forbes. Accessed 29 May 2020. https://www.forbes.com/sites/cognitiveworld/2019/03/24/taxonomies-vs-ontologies/.
