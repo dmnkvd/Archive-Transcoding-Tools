@@ -1,10 +1,12 @@
 [<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/Documentation/readme/CoverImage.png" width="100%">](#)
 # The Relativity of Classification
 
-> Relativity of Classification is the collective name for a set of algorithmic tools, united in the goal to find novel
+> Within a given (public) archive, new artefacts and acquisitions are mostly classified without engaging them with the public in any
+> way. Relativity of Classification is the collective name for a set of algorithmic tools, united in the goal to find novel
 > and exciting ways of representing artefacts from the archive of the Institute of Social History
 > in Amsterdam. In doing so, the project touches down on the problems of taxonomy and representation,
-> and wishes to explore visually what constitutes an artefact's "thisness". 
+> and wishes to explore visually what constitutes an artefact's "thisness". The project hopefully marks a step closer towards the
+> engagement of the public with the diverse, fascinating and complex collection of historical items in the archive collection. 
 
 ###### KEYWORDS
 Haeccity, Relativism, Classification, Typology, Meaning-Making
@@ -21,6 +23,7 @@ __________________________________________
     4. [Transcoding 4 - Semantic (Structuralist) Analysis of a Badge](#transcoding-4---semantic-structuralist-analysis-of-a-badge)
     5. [Transcoding 5 - Disclosing the Artefact, one-step-at-a-time](#transcoding-5---disclosing-the-artefact-one-step-at-a-time)
     6. [Transcoding 6 - Participatory Meaning-Making Workshop](#transcoding-6---participatory-meaning-making-workshop)
+    6. [Transcoding 7 - Installation Proposal](#transcoding-7---installation-proposal)
 4. [Transcoding Tools](#Transcoding)
     1. [Tool 1: IISG Image Scraper](#tool-1-IISG-Image-Scraper)
     2. [Tool 2: Generate HEX Color Tile from Main Color in Image](#tool-2-generate-hex-color-tile-from-main-color-in-image)
@@ -52,7 +55,7 @@ For testing purposes, I selected one badge to be used as the central part of the
 | **Medium** | Badge, Button
 | **Materials** | Metal, Plastic
 | **Date** | 1975 - 1999
-|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg" width="30%">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia.
+|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia.
 
 # Research
 Out of my initial selection of twenty badges, I decided to proceed with this one. Coming from the Balkan region myself, I am familiar with the historicised discourse surrounding peace in the Balkans. Moreover, the rather specific message, gave, in my opinion, a great starting ground for discussing its meaning, connotations, and the socio-historical context of its signification.
@@ -71,17 +74,36 @@ Transcoding within the scope of this project refers to a selection of tools and 
 I attempted to capture the badge in various ways, to obtain diverse physical measurements.
 
 ### Methods
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png)
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png)
+<table>
+<colgroup>
+    <col width="50%">
+    <col width="50%">
+</colgroup>
+<tbody>
+  <tr>
+    <td><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png"></a></td>
+    <td><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png"></a></td>
+  </tr>
+</tbody>
+</table>
 
 ### Tools 
-- Trnio (app)
+- Trnio
 - Blender
 
 ### Results
 Cleaned-up 3D model of the badge.
 
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png)
+<table>
+<colgroup>
+    <col width="100%">
+</colgroup>
+<tbody>
+  <tr>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-6.png" width="75%"></a></td>
+  </tr>
+</tbody>
+</table>
 
 ## Transcoding 2
 A badge may be described in an infinite number of different ways - I decided to thoroughly explore some different genealogies and descriptive sequences that would arrive at the answer of: A Badge.
@@ -162,8 +184,18 @@ I wrote a small Bash script to automate the process.
 - Tool 2
 
 ### Results
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_1.png)
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png)
+<table>
+<colgroup>
+    <col width="50%">
+    <col width="50%">
+</colgroup>
+<tbody>
+  <tr>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png"></a></td>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png"></a></td>
+  </tr>
+</tbody>
+</table>
 
 ## Transcoding 4 - Semantic (Structuralist) Analysis of a Badge
 ### Description
@@ -345,7 +377,16 @@ A simple participatory app to describe a badge collectively, together, in steps.
 - [Tool 3: Draw by Instructions and Download your Drawing!](#tool-3-draw-by-instructions-and-download-your-drawing)
 
 ### Results
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png)
+<table>
+<colgroup>
+    <col width="100%">
+</colgroup>
+<tbody>
+  <tr>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_5/tool_3_1.png" width="50%"></a></td>
+  </tr>
+</tbody>
+</table>
 
 ## Transcoding 6 - Participatory Meaning-Making Workshop
 ### Description
@@ -360,12 +401,12 @@ The main points of the narrative concern:
 
 
 ### Tools 
-- [Tool 5: Narrative, featuring dataset of User-Made Drawings](#tool-5-narrative-featuring-dataset-of-user-made-drawings)
+- [Tool 5: Narrative, featuring collection of User-Made Drawings](#tool-5-narrative-featuring-dataset-of-user-made-drawings)
 
 ### Results
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png)
+<-- STAY TUNED -->
   
-# 🛠⚙️🗜Transcoding Tools
+# ---- Transcoding Tools ----
 
 ## Tool 1: IISG Image Scraper
 ### Description
@@ -380,17 +421,13 @@ Dependencies used:
 - Beautiful Soup
 
 ### Results
-Sample of a data collection search.
-
-### Source Links
-Please include links to the tools, sources etc used during the coding. E.g. the resources used for making your coding tool.  
+Collection of results.
 
 ## Tool 2: Generate HEX Color Tile from Main Color in Image
 ### Description
 
 ### Aims
 * The colour average is purely based on histogram - could improve with K-clustering for more natural outcomes.
-* I am eventually developing a participatory web application, as a way to talk about the bigger narrative/story of the richness of classification.
 
 ### Methods
 Dependencies used:
@@ -399,22 +436,17 @@ Dependencies used:
 - ImageMagick
 
 ### Results
-PNG images.
-
-### Source Links
-
+100x100 px PNG images, populated with the top Histogram read-out.
 
 ## Tool 3: Draw by Instructions and Download your Drawing!
 ### Description
+A HTML Canvas, with colour selection and the option to download your drawing.
 
 ### Aims
 To create an instruction-based drawing app with a download function.
 
-### Methods
+### Dependencies Used
 - HTML, CSS, JavaScript.
-
-### Results
-<pictures>
 
 ## Tool 4: Collaborative Drawing App
 ### Description
@@ -422,16 +454,20 @@ Continuing from the local version, this version is server-based and allows each 
 
 ### Aims
 
-### Methods
+### Dependencies Used
+Dependencies used:
+- NodeJS, Express, 
 
 ### Results
-<pictures>
+See [Transcoding 5](#transcoding-5---disclosing-the-artefact-one-step-at-a-time).
 
 ## Tool 5: Narrative, featuring dataset of User-Made Drawings
 ### Description
+A generative installation, fed by the visual material created within the Drawing App.
 
 ### Aims
-The final tool aims to bring together aspects of my personal research, a selection of artefacts, and the user-made drawings into a dynamic, evolving narrative page, that tells a story of the subjectivity of classification, and meaning-making.
+The final tool seeks to bring together an inclusive narrative, a selection of artefacts, and the user-made drawings into an interpretative, evolving experience, that discusses the subjectivity of classification, and complexity of meaning-making.
+Given the restrictions imposed in light of Covid-19, I developed a first prototype for a web-based experience. The original exhibition proposal is a spatial installation within the Institute of International Social History in Amsterdam, where visitors can contribute their drawings to the dataset and experience the narrative in a physical space via a two-channel generative installation.
 
 ### Methods
 Dependencies Used:
@@ -441,6 +477,7 @@ Dependencies Used:
 - Pug
 
 ### Results
+<-- TBD -->
 
 --------------------
 # Reflection
@@ -449,22 +486,28 @@ My personal learning goals this semester were:
 * Work towards creating small, interactive experiences... Websites as workshops, forums, spaces of participation...
 * Write a poetic, didactic, accessible narrative dealing with the problems of classification / ordering
 * Discuss the (my) Problem of Classification through this practical application, via a limited number of artefacts
-* Develop a methodology for producing illustrated stories that are different with every user group
 * Develop and tinker with playful transcoding tools along the way
 
 I am quite satisfied with the areas of knowledge that I opened up within this project. I am also very satisfied with the fact that I was able to resolve most coding difficulties on my own. I wish there would be more time to focus on this project exclusively, to dive deeper into the code, and produce a larger-scale outcome. Hence, I intend to continue to develop this product in the upcoming weeks.
 
 # Outcomes
-The final outcome of this semester is a collaborative web-application, which touches down on various aspects of classification and taxonomy through a participatory workshop.
-
-# Going Forward
-I would be curious to expand this project to include all twenty badges, or a whole different class of objects from the Archive -- how would the UI of the drawing process look in that case? How would the story change? I believe focusing on typology, and what that means, would be an interesting next step for this project.
-
-### Outcome Links
-- [Final Website -- TBA]()
+There are two main results of the project:
+1. A participatory Drawing Room, which explores the subjectivity of interpretation.
+2. A dynamic installation, incorporating the drawings from the prior stage, which seeks to raise discussion about the objectivity of archiving and classification.
 
 # Conclusion
-The narrative produced within the scopes of this assignment aims to open various discussion points, rather than give conclusive judgement. It is a distillation of several research directories. 
+The original goal of this project was to develop diverse tools to encourage the conservation of cultural memory of a given artefact from the IISG. The process has unfolded in several different directions – it is important to note that the realised translation is only one small step in a newly-begun bigger exploration.
+
+I would be curious to expand this project so that it may correspond with any given typology of items from the Archive. In the long-term, a visual folksonomy might arise from this methodology. In the greater scheme, the desired outcome would be the establishment of a public-facing interactiv experience for the collective discovery and reflection on new artefacts and acquisitions of the IISG.
+
+# Notes on Methodology
+The narrative produced within the scopes of this assignment aims to open various discussion points, rather than give conclusive answers. It is an abridged distillation of several tangential research directions. Expanding the narrative into a substantial theoretical framework is the next step in this research.
 
 ## Bibliography
-<a id="note1" href="#note1ref"><sup>1</sup></a> Reference 1. Link. Author. Date.
+<a id="note1" href="#note1ref"><sup>1</sup></a> Foucault, Michel. The Order of Things. Routledge, 2005 (orig. 1970).</br>
+<a id="note2" href="#note2ref"><sup>2</sup></a> Ham, F. Gerald. The Archival Edge. Society of American Archivists, 1975.</br>
+<a id="note3" href="#note3ref"><sup>3</sup></a> Munari, Bruno. The Discovery of the Circle. G. Wittenborn, 1965.</br>
+<a id="note4" href="#note4ref"><sup>4</sup></a> Derrida, Jacques. Archive Fever: A Freudian Impression. University of Chicago Press, 1998.</br>
+<a id="note5" href="#note5ref"><sup>5</sup></a> Russell, Bertrand. A History of Western Philosophy. A Touchstone Book. New York u.a: Simon and Schuster, 1972.</br>
+<a id="note6" href="#note6ref"><sup>6</sup></a> Bortolini, Eugenio. ‘Typology and Classification’. The Oxford Handbook of Archaeological Ceramic Analysis, 8 December 2016. https://doi.org/10.1093/oxfordhb/9780199681532.013.38.</br>
+<a id="note7" href="#note6ref"><sup>7</sup></a> Cagle, Kurt. ‘Taxonomies vs. Ontologies’. Forbes. Accessed 29 May 2020. https://www.forbes.com/sites/cognitiveworld/2019/03/24/taxonomies-vs-ontologies/.
