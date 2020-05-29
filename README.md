@@ -184,14 +184,13 @@ I wrote a small Bash script to automate the process.
 ### Results
 <table>
 <colgroup>
-    <col width="100%">
+    <col width="50%">
+    <col width="50%">
 </colgroup>
 <tbody>
   <tr>
-    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png" width="75%"></a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png" width="75%"></a></td>
+    <td align="center" cellpadding="10px"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_11.png"></a></td>
+    <td align="center" cellpadding="10px"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_3/tool_2_2.png"></a></td>
   </tr>
 </tbody>
 </table>
