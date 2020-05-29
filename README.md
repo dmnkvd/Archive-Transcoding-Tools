@@ -21,6 +21,7 @@ __________________________________________
     4. [Transcoding 4 - Semantic (Structuralist) Analysis of a Badge](#transcoding-4---semantic-structuralist-analysis-of-a-badge)
     5. [Transcoding 5 - Disclosing the Artefact, one-step-at-a-time](#transcoding-5---disclosing-the-artefact-one-step-at-a-time)
     6. [Transcoding 6 - Participatory Meaning-Making Workshop](#transcoding-6---participatory-meaning-making-workshop)
+    6. [Transcoding 7 - Installation Proposal](#transcoding-7---installation-proposal)
 4. [Transcoding Tools](#Transcoding)
     1. [Tool 1: IISG Image Scraper](#tool-1-IISG-Image-Scraper)
     2. [Tool 2: Generate HEX Color Tile from Main Color in Image](#tool-2-generate-hex-color-tile-from-main-color-in-image)
@@ -71,8 +72,18 @@ Transcoding within the scope of this project refers to a selection of tools and 
 I attempted to capture the badge in various ways, to obtain diverse physical measurements.
 
 ### Methods
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png)
-[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png" width="50%">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png)
+<table>
+<colgroup>
+    <col width="50%">
+    <col width="50%">
+</colgroup>
+<tbody>
+  <tr>
+    <td>[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-2.png)</td>
+    <td>[<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png">](https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_1/BlenderBadge-1.png)</td>
+  </tr>
+</tbody>
+</table>
 
 ### Tools 
 - Trnio (app)
@@ -399,10 +410,7 @@ Dependencies used:
 - ImageMagick
 
 ### Results
-PNG images.
-
-### Source Links
-
+100x100 px PNG images, populated with the top Histogram read-out.
 
 ## Tool 3: Draw by Instructions and Download your Drawing!
 ### Description
@@ -410,11 +418,10 @@ PNG images.
 ### Aims
 To create an instruction-based drawing app with a download function.
 
-### Methods
+### Dependencies Used
 - HTML, CSS, JavaScript.
 
 ### Results
-<pictures>
 
 ## Tool 4: Collaborative Drawing App
 ### Description
@@ -422,7 +429,9 @@ Continuing from the local version, this version is server-based and allows each 
 
 ### Aims
 
-### Methods
+### Dependencies Used
+Dependencies used:
+- NodeJS, Express, 
 
 ### Results
 <pictures>
@@ -467,4 +476,10 @@ I would be curious to expand this project to include all twenty badges, or a who
 The narrative produced within the scopes of this assignment aims to open various discussion points, rather than give conclusive judgement. It is a distillation of several research directories. 
 
 ## Bibliography
-<a id="note1" href="#note1ref"><sup>1</sup></a> Reference 1. Link. Author. Date.
+<a id="note1" href="#note1ref"><sup>1</sup></a> Foucault, Michel. The Order of Things. Routledge, 2005 (orig. 1970).
+<a id="note2" href="#note2ref"><sup>2</sup></a> Ham, F. Gerald. The Archival Edge. Society of American Archivists, 1975.
+<a id="note3" href="#note3ref"><sup>3</sup></a> Munari, Bruno. The Discovery of the Circle. G. Wittenborn, 1965.
+<a id="note4" href="#note4ref"><sup>4</sup></a> Derrida, Jacques. Archive Fever: A Freudian Impression. University of Chicago Press, 1998.
+<a id="note5" href="#note5ref"><sup>5</sup></a> Russell, Bertrand. A History of Western Philosophy. A Touchstone Book. New York u.a: Simon and Schuster, 1972.
+<a id="note6" href="#note6ref"><sup>6</sup></a> Bortolini, Eugenio. ‘Typology and Classification’. The Oxford Handbook of Archaeological Ceramic Analysis, 8 December 2016. https://doi.org/10.1093/oxfordhb/9780199681532.013.38.
+<a id="note7" href="#note6ref"><sup>7</sup></a> Cagle, Kurt. ‘Taxonomies vs. Ontologies’. Forbes. Accessed 29 May 2020. https://www.forbes.com/sites/cognitiveworld/2019/03/24/taxonomies-vs-ontologies/.
