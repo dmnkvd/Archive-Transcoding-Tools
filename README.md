@@ -1,7 +1,7 @@
 [<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/Documentation/readme/CoverImage.png" width="100%">](#)
 # The Relativity of Classification
 
-> Within a given (public) archive, new artefacts and acquisitions are mostly classified without engaging them with the public in any
+> Within a given (public) archive, new artefacts and acquisitions are generally classified without exposing them to the public eye in any
 > way. Relativity of Classification is the collective name for a set of algorithmic tools, united in the goal to find novel
 > and exciting ways of representing artefacts from the archive of the Institute of Social History
 > in Amsterdam. In doing so, the project touches down on the problems of taxonomy and representation,
@@ -9,7 +9,7 @@
 > engagement of the public with the diverse, fascinating and complex collection of historical items in the archive collection. 
 
 ###### KEYWORDS
-Haeccity, Relativism, Classification, Typology, Meaning-Making
+Haeccity, Relativism, Classification, Collective Memory, Typology, Meaning-Making
 
 __________________________________________
 ### Table of Contents
@@ -38,12 +38,11 @@ __________________________________________
 __________________________________________
 
 # Artefact
-My chosen artefact is an aluminum Pin-Badge. More precisely, a selection of twenty badges, selected at random. Due to the visual similarity of the badges, I found them to be a perfect testing ground for challenging my explorations and researches on the topics of Haecceity, Thisness, etc (read more in the research section).
-
+The central case study is an aluminum Pin-Badge. More precisely, a selection of twenty badges, selected at random. Due to the visual similarity of the badges, I found them to be a perfect testing ground for challenging my explorations and researches on the topics of Thissness (Haecceity) and the Subjectivity of Classification.
 > [Input](https://drive.google.com/open?id=1k7vdxrWdUg5r0helB_yeT7051W1r1Ttc)
 
 #### Disclaimer
-For testing purposes, I selected one badge to be used as the central part of the transcoding process.
+For deductive testing purposes, I selected one badge as the central artefact of the transcoding process.
 
 ## Metadata
 
@@ -55,16 +54,18 @@ For testing purposes, I selected one badge to be used as the central part of the
 | **Medium** | Badge, Button
 | **Materials** | Metal, Plastic
 | **Date** | 1975 - 1999
-|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia.
+|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia. The classificiation of the badge, and its specified historical time, significantly influences the meaning one might deduce from simply looking at the image.
 
 # Research
-Out of my initial selection of twenty badges, I decided to proceed with this one. Coming from the Balkan region myself, I am familiar with the historicised discourse surrounding peace in the Balkans. Moreover, the rather specific message, gave, in my opinion, a great starting ground for discussing its meaning, connotations, and the socio-historical context of its signification.
+Out of my initial selection of twenty badges, I decided to proceed with this one. Coming from the Balkan region myself, I am well-acquainted with the historicised discourse surrounding peace in the Balkans. Moreover, the rather specific message, gave, in my opinion, a great starting ground for discussing its meaning, connotations, and the socio-historical context of its signification.
 
-### What is a Badge?
-In my research, I explore different ways in which a badge could be described...
+### The Badge - a Thing with Lots of Meanings
+The badge offers several points of interest to examination. First, it is an arbitrary sign, designed with the specific purpose of conveying a message at a given point in time, for a given cause. Secondly, the badge might be considered an ephemeral object, made to support one specific event, to be retired from use or discarded afterwards. The effectiveness of a badge's message is extremely contextual. The understanding of a badge is heavily dependent upon the semantic knowledge / frame of reference of the beholder. The archive collects all badges in a cabinet, decontextualising them completely from their original circumstances. The badge becomes solely a container of meaning, imprinted upon a (most often) circular disc. In a presentation context (for example within an archive), a badge often needs further contextualisation for decreasing the ambiguity of its possible interpretations. It is therefore extremely important what descriptors, tags, classification schemes or grouping methods are chosen when representing such an arbitrary object.
+
+Another point of interest in the particular medium of the badge is the fact that it is intend to be worn, and thus communicates the wearer's identity, thoughts, and position on the related issue. It could be considered an extension of the wearer's identity.
 
 ### Thissness, Haecceity, Taxonomy, Classification, Typology
-Thissness is defined as etc.<a href="#note1" id="note1ref"><sup>1</sup></a>
+In medieval philsoophy, the concept of thissness referred to the 
 
 # Transcoding
 Transcoding within the scope of this project refers to a selection of tools and programs I wrote to activate my research, and contextualise the subsequent steps.
