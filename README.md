@@ -516,10 +516,10 @@ I would be curious to expand this project so that it may correspond with any giv
 The narrative produced within the scopes of this assignment aims to open various discussion points, rather than give conclusive answers. It is an abridged distillation of several tangential research directions. Expanding the narrative into a substantial theoretical framework is the next step in this research.
 
 ## Bibliography
-<a id="note1" href="#note1ref"><sup>1</sup></a> Foucault, Michel. The Order of Things. Routledge, 2005 (orig. 1970).</br>
-<a id="note2" href="#note2ref"><sup>2</sup></a> Ham, F. Gerald. The Archival Edge. Society of American Archivists, 1975.</br>
-<a id="note3" href="#note3ref"><sup>3</sup></a> Munari, Bruno. The Discovery of the Circle. G. Wittenborn, 1965.</br>
-<a id="note4" href="#note4ref"><sup>4</sup></a> Derrida, Jacques. Archive Fever: A Freudian Impression. University of Chicago Press, 1998.</br>
-<a id="note5" href="#note5ref"><sup>5</sup></a> Russell, Bertrand. A History of Western Philosophy. A Touchstone Book. New York u.a: Simon and Schuster, 1972.</br>
-<a id="note6" href="#note6ref"><sup>6</sup></a> Bortolini, Eugenio. ‘Typology and Classification’. The Oxford Handbook of Archaeological Ceramic Analysis, 8 December 2016. https://doi.org/10.1093/oxfordhb/9780199681532.013.38.</br>
-<a id="note7" href="#note6ref"><sup>7</sup></a> Cagle, Kurt. ‘Taxonomies vs. Ontologies’. Forbes. Accessed 29 May 2020. https://www.forbes.com/sites/cognitiveworld/2019/03/24/taxonomies-vs-ontologies/.
+<a id="note1" href="#note1ref"><sup>1</sup></a> Foucault, Michel. <i>The Order of Things</i>. Routledge, 2005 (orig. 1970).</br>
+<a id="note2" href="#note2ref"><sup>2</sup></a> Ham, F. Gerald. <i>The Archival Edge</i>. Society of American Archivists, 1975.</br>
+<a id="note3" href="#note3ref"><sup>3</sup></a> Munari, Bruno. <i>The Discovery of the Circle</i>. G. Wittenborn, 1965.</br>
+<a id="note4" href="#note4ref"><sup>4</sup></a> Derrida, Jacques. <i>Archive Fever: A Freudian Impression</i>. University of Chicago Press, 1998.</br>
+<a id="note5" href="#note5ref"><sup>5</sup></a> Russell, Bertrand.<i> A History of Western Philosophy</i>. A Touchstone Book. New York u.a: Simon and Schuster, 1972.</br>
+<a id="note6" href="#note6ref"><sup>6</sup></a> Bortolini, Eugenio. <i>'Typology and Classification'</i>. The Oxford Handbook of Archaeological Ceramic Analysis, 8 December 2016. https://doi.org/10.1093/oxfordhb/9780199681532.013.38.</br>
+<a id="note7" href="#note6ref"><sup>7</sup></a> Cagle, Kurt. <i>‘Taxonomies vs. Ontologies’</i>. Forbes. Accessed 29 May 2020. https://www.forbes.com/sites/cognitiveworld/2019/03/24/taxonomies-vs-ontologies/.
