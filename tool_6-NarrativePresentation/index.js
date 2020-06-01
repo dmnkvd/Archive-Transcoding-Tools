@@ -82,8 +82,7 @@ app.get('/thank-you', (req, res) => {
   res.sendfile("public/thank-you.html");
 })
 
-app.get('/a-story-of-an-object', (req, res) => {
-  // Adapted from https://arjunphp.com/node-js-auto-generate-photo-gallery-directory/
+app.get('/story-pug', (req, res) => {
   let imagesOne = getImagesFromDir(1);
   let imagesTwo = getImagesFromDir(2);
   let imagesThree = getImagesFromDir(3);
@@ -91,7 +90,9 @@ app.get('/a-story-of-an-object', (req, res) => {
   let imagesFive = getImagesFromDir(5);
   let imagesSix = getImagesFromDir(6);
   let imagesSeven = getImagesFromDir(7);
-  res.render('a-story-of-an-object', {
+
+  console.log(imagesTwo);
+  res.render('story', {
     imagesOne: imagesOne,
     imagesTwo: imagesTwo,
     imagesThree: imagesThree,
@@ -100,17 +101,37 @@ app.get('/a-story-of-an-object', (req, res) => {
     imagesSix: imagesSix,
     imagesSeven: imagesSeven
   })
-});
+})
 
 app.get('/story', (req, res) => {
-  res.render('/story')
+  res.sendfile("public/story.html");
 })
+
+app.get('/image', function(req, res){
+  let imagesOne = getImagesFromDir(1);
+  let imagesTwo = getImagesFromDir(2);
+  let imagesThree = getImagesFromDir(3);
+  let imagesFour = getImagesFromDir(4);
+  let imagesFive = getImagesFromDir(5);
+  let imagesSix = getImagesFromDir(6);
+  let imagesSeven = getImagesFromDir(7);
+
+  res.send({
+    imagesOne: imagesOne,
+    imagesTwo: imagesTwo,
+    imagesThree: imagesThree,
+    imagesFour: imagesFour,
+    imagesFive: imagesFive,
+    imagesSix: imagesSix,
+    imagesSeven: imagesSeven
+  });
+ });
 
 // Adapted from https://arjunphp.com/node-js-auto-generate-photo-gallery-directory/
 
 // dirPath: target image directory
-function getImagesFromDir(dirNum) {
-  dirPath = path.join(__dirname, `public/images/${dirNum}`
+function getImagesFromDir(stepNum) {
+  dirPath = path.join(__dirname, `public/images/${stepNum}`);
   // All images holder
   let allImages = [];
 
@@ -126,7 +147,6 @@ function getImagesFromDir(dirNum) {
       allImages.push(relPath + '/' + file); // push all .jpg and .png files to all images 
     }
   }
-
   // return all images in array format
   return allImages;
 }

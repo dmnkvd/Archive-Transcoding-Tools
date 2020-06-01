@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Iterative Drawing Room</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="shortcut icon"
+        href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/237/artist-palette_1f3a8.png"
+        type="image/x-icon" />
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div class="content-container">
+        <section id="promptArea">
+            <p id="prompt"><span id="counter">1.</span> Draw <span id="draw-text">a circle</span>.</p>
+        </section>
+        <canvas id="drawingArea" width=350 height=350></canvas>
+        <div id="palette">
+            <button onclick="clearArea()" id="clear">Clear Area</button>
+
+            <div class="color-select">
+                <p>Color:
+                <select id="selColor" onchange="drawColor()">
+                    <option value="#000000">black</option>
+                    <option value="#FF0000">red</option>
+                    <option value="#DA9BB0">pink</option>
+                    <option value="#ffdf00">yellow</option>
+                    <option value="#0000ff">blue</option>
+                    <option value="#00b300">green</option>
+                </select>
+                </p>
+            </div>
+        </div>
+        <p id="confirm">⏩</p>
+        <p class="small footer">This drawing room is part of a <a
+                href="https://github.com/dmnkvd/Archive-Transcoding-Tools" target="_blank"
+                rel="noopener noreferrer">bigger project</a>.</p>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

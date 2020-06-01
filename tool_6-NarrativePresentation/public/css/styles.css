@@ -1,0 +1,183 @@
+:root {
+    --font-size-s: 20px;
+    --font-size-m: 50px;
+    --font-size-l: 60px;
+    --line-height: 1.10em;
+    --higlight-clr: #f7e300;
+    --bg-clr: #000000;
+    --main-clr: #ffffff;
+    --dark-clr: #858585;
+    --highlight-clr: #FF00FF; 
+}
+
+@font-face {
+    font-family: 'lunchtype22regular';
+    src: url('fonts/lunchtype22-regular-webfont.eot');
+    src: url('fonts/lunchtype22-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lunchtype22-regular-webfont.woff2') format('woff2'),
+         url('fonts/lunchtype22-regular-webfont.woff') format('woff'),
+         url('fonts/lunchtype22-regular-webfont.ttf') format('truetype'),
+         url('fonts/lunchtype22-regular-webfont.svg#lunchtype22regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lunchtype22medium';
+    src: url('fonts/lunchtype22-medium-webfont.eot');
+    src: url('fonts/lunchtype22-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lunchtype22-medium-webfont.woff2') format('woff2'),
+         url('fonts/lunchtype22-medium-webfont.woff') format('woff'),
+         url('fonts/lunchtype22-medium-webfont.ttf') format('truetype'),
+         url('fonts/lunchtype22-medium-webfont.svg#lunchtype22medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+html {
+    font-family: 'lunchtype22regular', 'Helvetica', Sans-Serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 2em;
+    background-color: var(--bg-clr);
+}
+
+.content-container {
+    display: grid;
+    grid-template-rows: 1fr minmax(5em, 8em) 350px auto 2fr 2em;
+    justify-items: center;
+    align-items: center;
+    height: 93vh;
+  }
+
+p {
+    font-size: var(--font-size-m);
+    color: var(--main-clr);
+    width: fit-content;
+}
+
+a {
+    color: lightgray;
+}
+
+.small {
+    font-size: var(--font-size-s);
+}
+
+#promptArea {
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 80%;
+}
+
+#prompt {
+    line-height: 0.98em;
+    margin-top: 1rem;
+    margin-bottom: 8rem;
+    text-align: center;
+}
+
+#draw-text {
+    background-color: lightgrey;
+    color: var(--bg-clr);
+    padding: 0.1vw;
+    padding-left: 1.25vw;
+    padding-right: 1.65vw;
+    border-radius: 10vw;
+    height: 4.7vw;
+    line-height: 1.2em;
+  }
+
+#drawingArea {
+    grid-row: 3;
+    background-color: white;
+    border: 2px solid lightgray;
+    display: block;
+    clear: both;
+}
+
+#drawingArea:focus,
+#drawingArea:active {
+    border: 2px solid var(--dark-clr);
+}
+
+#palette {
+    grid-row: 4;
+    margin-top: 1rem;
+    width: 350px;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: none;
+}
+
+#palette p {
+    font-size: var(--font-size-s);
+    width: fit-content;
+}
+
+#clear {
+    height: 100%;
+    padding: 0.1vw;
+    padding-left: 1.25vw;
+    padding-right: 1.65vw;
+    border-radius: 10vw;
+    font-size: var(--font-size-s);
+    width: fit-content;
+    background: var(--bg-clr);
+    color: var(--main-clr);
+    border: none;
+}
+
+#clear:hover {
+    background: var(--main-clr);
+    color: var(--bg-clr);
+}
+
+#selColor {
+    height: 100%;
+    padding: 0.1vw;
+    width: 6rem;
+    font-size: var(--font-size-s);
+    color: var(--main-clr);
+    border-radius: 8px;
+    font-family: sans-serif;
+    background-color: var(--bg-clr);
+}
+
+#confirm {
+    grid-row: 5;
+    font-size: 4rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer {
+    grid-row: 6;
+    color: var(--dark-clr);
+}
