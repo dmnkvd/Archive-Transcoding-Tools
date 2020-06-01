@@ -73,9 +73,9 @@ app.post('/receive', (req, res) => {
 
   fs.writeFileSync(filePath, buf, (err) => {
     if (err) throw err
-  });
+  })
 
-  res.end();
+  res.end()
 });
 
 app.get('/thank-you', (req, res) => {
@@ -124,8 +124,9 @@ app.get('/image', function(req, res){
     imagesFive: imagesFive,
     imagesSix: imagesSix,
     imagesSeven: imagesSeven
-  });
- });
+  })
+  res.end()
+ })
 
 // Adapted from https://arjunphp.com/node-js-auto-generate-photo-gallery-directory/
 
