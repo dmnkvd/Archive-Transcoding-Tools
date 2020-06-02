@@ -37,15 +37,20 @@
         if (count == stepArray.length-1) {
             count = 0;
         }
+        else if (count == 13) {
+            count = 0;
+        }
     };
 
     let intervalID;
-    function gifInterval (array) {
-        intervalID = setInterval(loopImg, 200, array)
+    function gifInterval (frequency, array) {
+        intervalID = setInterval(loopImg, frequency, array)
     }
 
-// In practice, I see that the image src actually changes between several different arrays... Likely a SetInterval problem
-    
+// Animate first sentence
+    setTimeout(() => document.getElementsByClassName("narrative-text")[0].classList.add("active"), 1000)
+
+// The stages of the Animation keeper
     let counter = 0
     document.querySelector("#shapeNavigation").addEventListener('click', event => {
 
@@ -59,58 +64,58 @@
 
         if (counter == 1){
             currentImg.classList.add("active")
-            gifInterval(imagesOne)
+            gifInterval(100, imagesOne)
         }
 
         if (counter == 2){
-            event.preventDefault;
             currentImg.classList.remove("active")
-            void currentImg.offsetWidth;
-            currentImg.classList.add("active")
-            gifInterval(imagesTwo)
+            setTimeout(() => currentImg.classList.add("active"), 2000)
+            gifInterval(200, imagesTwo)
         }
 
         console.log(counter)
 
 
         if (counter == 3){
-            event.preventDefault;
             currentImg.classList.remove("active")
-            void currentImg.offsetWidth;
-            currentImg.classList.add("active")
-            gifInterval(imagesThree)
+            setTimeout(() => currentImg.classList.add("active"), 2000)
+            gifInterval(250, imagesThree)
         }
 
         if (counter == 4){
-            event.preventDefault;
             currentImg.classList.remove("active")
-            void currentImg.offsetWidth;
-            currentImg.classList.add("active")
-            gifInterval(imagesFour)
+            setTimeout(() => currentImg.classList.add("active"), 2000)
+            gifInterval(250, imagesFour)
         }
 
         if (counter == 5){
-            gifInterval(imagesFive)
+            currentImg.classList.remove("active")
+            setTimeout(() => currentImg.classList.add("active"), 2000)
+            gifInterval(500, imagesFive)
         }
 
         if (counter == 6){
-            gifInterval(imagesSix)
-        }
-
-        if (counter == 7){
             currentImg.classList.remove("active")
         }
 
+        if (counter == 7){
+            setTimeout(() => currentImg.classList.add("active"), 2000)
+            gifInterval(600, imagesSix)
+        }
+
         if (counter == 8){
-            currentImg.classList.add("active")
-            gifInterval(imagesSeven)
+            currentImg.classList.remove("active")
+            setTimeout(() => currentImg.classList.add("active"), 2000)
+            gifInterval(200, imagesSeven)
         }
 
         if (counter == 9){
+            currentImg.classList.remove("active")
+            setTimeout(() => currentImg.classList.add("active"), 2000)
             currentImg.src = "images/page/badge.jpeg"
         }
 
-        if (counter == 11){
+        if (counter == 10){
             window.location.replace("/credits")
         }
         
@@ -122,7 +127,7 @@
             element.classList.remove("active")
         })
 
-        sentences[counter].classList.add("active")
+        setTimeout(() => sentences[counter].classList.add("active"), 1000);
 
         // Set the interval for the image changes
 
