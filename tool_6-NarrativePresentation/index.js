@@ -42,8 +42,7 @@ app.use("/", (req, res, next) => {
 app.get('/', (req, res) => {
   // [QUESTION]The message never gets logged to the console -- why is that so?
   // Apparently it is related to express.static (L42)... 
-  console.log("Welcome to the homepage")
-  res.sendfile('index.html');
+  res.sendFile('index.html');
 });
 
 app.listen(port, () => {
@@ -79,7 +78,11 @@ app.post('/receive', (req, res) => {
 });
 
 app.get('/thank-you', (req, res) => {
-  res.sendfile("public/thank-you.html");
+  res.sendFile("public/thank-you.html");
+})
+
+app.get('/credits', (req, res) => {
+  res.sendFile("public/credits.html");
 })
 
 app.get('/story-pug', (req, res) => {
@@ -104,7 +107,7 @@ app.get('/story-pug', (req, res) => {
 })
 
 app.get('/story', (req, res) => {
-  res.sendfile("public/story.html");
+  res.sendFile("public/story.html");
 })
 
 app.get('/image', function(req, res){
