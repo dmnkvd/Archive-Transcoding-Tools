@@ -76,7 +76,12 @@ p {
 }
 
 a {
-    color: lightgray;
+    color: inherit;
+}
+
+a:hover {
+    background-color: white;
+
 }
 
 .small {
@@ -180,4 +185,5 @@ a {
 .footer {
     grid-row: 6;
     color: var(--dark-clr);
+    opacity: 0.6;
 }

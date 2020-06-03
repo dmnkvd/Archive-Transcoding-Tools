@@ -48,7 +48,7 @@
     }
 
 // Animate first sentence
-    setTimeout(() => document.getElementsByClassName("narrative-text")[0].classList.add("active"), 1000)
+    setTimeout(() => document.getElementsByClassName("narrative-text")[0].classList.add("active"), 500)
 
 // The stages of the Animation keeper
     let counter = 0
@@ -91,7 +91,7 @@
         if (counter == 5){
             currentImg.classList.remove("active")
             setTimeout(() => currentImg.classList.add("active"), 2000)
-            gifInterval(500, imagesFive)
+            gifInterval(250, imagesFive)
         }
 
         if (counter == 6){
@@ -100,7 +100,7 @@
 
         if (counter == 7){
             setTimeout(() => currentImg.classList.add("active"), 2000)
-            gifInterval(600, imagesSix)
+            gifInterval(250, imagesSix)
         }
 
         if (counter == 8){
@@ -133,7 +133,16 @@
 
     }, false)
 
+    // Credits Page
+    const allImages = imagesOne.concat(imagesTwo, imagesThree, imagesFour, imagesFive, imagesSix, imagesSeven)
+    debugger;
+    for (image of allImages) {
+        console.log(image)
+        let img = document.createElement("img");
+        img.src = image;
+        document.getElementById("thumbnail-container").appendChild(img);
+    }
+
 }
 ).catch((err) => {
-
 });
