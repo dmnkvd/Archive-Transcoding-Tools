@@ -53,7 +53,7 @@ For deductive testing purposes, I selected one badge as the central artefact of 
 | **Medium** | Badge, Button
 | **Materials** | Metal, Plastic
 | **Date** | 1975 - 1999
-|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePage/public/images/page/badge.jpeg">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia. The classificiation of the badge, and its specified historical time, significantly influences the meaning one might deduce from simply looking at the image.
+|<img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/tool_5-NarrativePresentation/public/images/page/badge.jpeg">| An alluminum-plastic pin-badge with text "PEACE IN THE BALKANS". The badge is classified in the collection Campaign on Yugoslavia. The classificiation of the badge, and its specified historical time, significantly influences the meaning one might deduce from simply looking at the image.
 
 # Research
 Out of my initial selection of twenty badges, I decided to proceed with this one. Coming from the Balkan region myself, I am well-acquainted with the historicised discourse surrounding peace in the Balkans. Moreover, the rather specific message, gave, in my opinion, a great starting ground for discussing its meaning, connotations, and the socio-historical context of its signification.
@@ -418,11 +418,11 @@ The main points of the narrative concern:
     <col width="100%">
 </colgroup>
 <tbody>
-  <tr>
-    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png" width="75%"></a></td>
+     <tr>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_2.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_2.png" width="75%"></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_2.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_2.png" width="75%"></a></td>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png" width="75%"></a></td>
   </tr>
 </tbody>
 </table>
