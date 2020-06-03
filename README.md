@@ -23,7 +23,6 @@ __________________________________________
     4. [Transcoding 4 - Semantic (Structuralist) Analysis of a Badge](#transcoding-4---semantic-structuralist-analysis-of-a-badge)
     5. [Transcoding 5 - Disclosing the Artefact, one-step-at-a-time](#transcoding-5---disclosing-the-artefact-one-step-at-a-time)
     6. [Transcoding 6 - Participatory Meaning-Making Workshop](#transcoding-6---participatory-meaning-making-workshop)
-    6. [Transcoding 7 - Installation Proposal](#transcoding-7---installation-proposal)
 4. [Transcoding Tools](#Transcoding)
     1. [Tool 1: IISG Image Scraper](#tool-1-IISG-Image-Scraper)
     2. [Tool 2: Generate HEX Color Tile from Main Color in Image](#tool-2-generate-hex-color-tile-from-main-color-in-image)
@@ -31,7 +30,7 @@ __________________________________________
     4. [Tool 4: Collaborative Drawing App](#tool-4-collaborative-drawing-app)
     5. [Tool 5: Narrative, featuring dataset of User-Made Drawings](#tool-5-narrative-featuring-dataset-of-user-made-drawings)
 5. [Reflection](#Reflection)
-6. [Outcomes](#Outcome)
+6. [Outcomes](#Outcomes)
 7. [Conclusion](#Conclusion)
     1. [Going Forward](#Going-Forward)
 8. [Bibliography](#Bibliography)
@@ -214,8 +213,7 @@ I wrote a small Bash script to automate the process.
 JSON is a great environment for writing-out a thorough semantic analysis of the badge.
 
 ### Methods
-JSON
-Syntax Analysis
+Written using JSON, adopting structure (Syntax) Analysis.
 
 ### Tools 
 - JavaScript
@@ -384,6 +382,7 @@ badgeSemantics = {
 A simple participatory app to describe a badge collectively, together, in steps. The idea is that each visitor draws according to the instructions given in the sentence prompt.
 
 ### Methods
+Web-based application (NodeJS, Express, Pug, HTML/CSS/JavaScript).
 
 ### Tools 
 - [Tool 3: Draw by Instructions and Download your Drawing!](#tool-3-draw-by-instructions-and-download-your-drawing)
@@ -413,10 +412,23 @@ The main points of the narrative concern:
 
 
 ### Tools 
+- [Tool 4: Collaborative Drawing App](#tool-4-collaborative-drawing-app)
 - [Tool 5: Narrative, featuring collection of User-Made Drawings](#tool-5-narrative-featuring-dataset-of-user-made-drawings)
 
 ### Results
-<-- STAY TUNED -->
+<table>
+<colgroup>
+    <col width="100%">
+</colgroup>
+<tbody>
+  <tr>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_1.png" width="75%"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_2.png"><img src="https://github.com/dmnkvd/Archive-Transcoding-Tools/blob/master/transcoding_6/tool_5_2.png" width="75%"></a></td>
+  </tr>
+</tbody>
+</table>
   
 # ---- Transcoding Tools ----
 
@@ -489,7 +501,7 @@ Dependencies Used:
 - Pug
 
 ### Results
-<-- TBD -->
+The final results are documented in the [Outcome Section](#outcomes).
 
 --------------------
 # Reflection
@@ -504,8 +516,10 @@ I am quite satisfied with the areas of knowledge that I opened up within this pr
 
 # Outcomes
 There are two main results of the project:
-1. A participatory Drawing Room, which explores the subjectivity of interpretation.
-2. A dynamic installation, incorporating the drawings from the prior stage, which seeks to raise discussion about the objectivity of archiving and classification.
+1. A *participatory Drawing Room*, which explores the subjectivity of interpretation.
+2. An *installation proposal*, incorporating the drawings from the prior stage, which seeks to raise discussion about the objectivity of archiving and classification.
+
+Check out a playthrough of the outcome [here](https://drive.google.com/file/d/1frYxLDNrt8MDwvdfmX6y1JicNBOkDLwc/view?usp=sharing).
 
 # Conclusion
 The original goal of this project was to develop diverse tools to encourage the conservation of cultural memory of a given artefact from the IISG. The process has unfolded in several different directions – it is important to note that the realised translation is only one small step in a newly-begun bigger exploration.
