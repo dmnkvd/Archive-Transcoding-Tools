@@ -74,9 +74,6 @@ The badge offers several points of interest to examination. First, it is an arbi
 
 Another point of interest in the particular medium of the badge is the fact that it is intend to be worn, and thus communicates the wearer's identity, thoughts, and position on the related issue. It could be considered an extension of the wearer's identity.
 
-### Thissness, Haecceity, Taxonomy, Classification, Typology
-In medieval philsoophy, the concept of thissness referred to the 
-
 # Transcoding
 Transcoding within the scope of this project refers to a selection of tools and programs I wrote to activate my research, and contextualise the subsequent steps.
 
